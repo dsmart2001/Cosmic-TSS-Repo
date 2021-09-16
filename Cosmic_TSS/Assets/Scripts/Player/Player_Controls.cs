@@ -25,10 +25,16 @@ public class Player_Controls : MonoBehaviour
     void Update()
     {
         movementVector = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+
+        if (Input.GetAxis("Horizontal") != 0 && Input.GetAxis("Vertical") != 0)
+        {
+            movementVector /= 1.5f;
+        }
     }
 
     private void FixedUpdate()
     {
+
         RB.MovePosition(RB.position + (movementVector * movementSpeed * Time.deltaTime));
     }
 }
