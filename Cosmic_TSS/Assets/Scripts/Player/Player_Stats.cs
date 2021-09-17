@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player_Stats : MonoBehaviour
 {
     public static Transform PlayerCoord;
+    public static float health = 100f;
 
     // Start is called before the first frame update
     void Start()

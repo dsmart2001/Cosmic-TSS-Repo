@@ -53,8 +53,6 @@ public class Player_Controls : MonoBehaviour
 
         float angle = AngleBetweenTwoPoints(Vector2.zero, AimInput);
 
-        Debug.Log(angle);
-
         transform.rotation = Quaternion.Euler(0f, -angle - 90f, 0f);
 
         // Get Attack inputs
