@@ -56,7 +56,7 @@ public class Player_Controls : MonoBehaviour
         transform.rotation = Quaternion.Euler(0f, -angle - 90f, 0f);
 
         // Get Attack inputs
-        if (Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             FireWeapon();
         }
