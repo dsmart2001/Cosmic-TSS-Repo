@@ -19,12 +19,13 @@ public class Enemy_Movement : MonoBehaviour
     void Update()
     {
         transform.LookAt(Player_Stats.PlayerCoord);
-        
+
+        Vector3 movementDirection = Player_Stats.PlayerCoord.position - transform.position;
+
     }
 
     private void FixedUpdate()
     {
-        Vector3 movementDirection = Player_Stats.PlayerCoord.position - transform.position;
-        RB.MovePosition(RB.position + (movementDirection * movementSpeed * Time.deltaTime));
+        RB.MovePosition(RB.position + ((Player_Stats.PlayerCoord.position - transform.position) * movementSpeed * Time.deltaTime));
     }
 }
