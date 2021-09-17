@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy_Collision : MonoBehaviour
+public class Interactable_HealthPickup : MonoBehaviour
 {
-    private Enemy_Stats Stats => GetComponent<Enemy_Stats>();
+    public string pickUpType;
+    public float addHealth = 10f;
 
     // Start is called before the first frame update
     void Start()
@@ -22,9 +23,10 @@ public class Enemy_Collision : MonoBehaviour
     {
         string tag = c.gameObject.tag;
 
-        if(tag == "Bullet")
+        if(tag == "Player")
         {
-            Stats.health -= 50f;
+            Player_Stats.health += 10f;
+            Destroy(gameObject);
         }
     }
 }

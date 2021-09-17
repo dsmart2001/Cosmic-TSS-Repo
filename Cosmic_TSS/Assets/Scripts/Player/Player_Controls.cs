@@ -33,7 +33,7 @@ public class Player_Controls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Get Movement inputs
+        // Get Movement inputs, if using onscreen joysticks allow them to control character, otherwise use keyboard (For playtesting on computer)
         if(!phoneControls)
         {
             movementVector = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
@@ -53,7 +53,17 @@ public class Player_Controls : MonoBehaviour
 
         float angle = AngleBetweenTwoPoints(Vector2.zero, AimInput);
 
-        transform.rotation = Quaternion.Euler(0f, -angle - 90f, 0f);
+        // Check if Movement joystick is being read and not Aim joystick to let movestick control rotation
+        if(PI.actions["Aim"].ReadValue<Vector2>() != Vector2.zero)
+        {
+            transform.rotation = Quaternion.Euler(0f, -angle - 90f, 0f);
+        }
+        else if(PI.actions["Aim"].ReadValue<Vector2>() == Vector2.zero && PI.actions["Aim"].ReadValue<Vector2>() != Vector2.zero)
+        {
+            float angle2 = AngleBetweenTwoPoints(Vector2.zero, PI.actions["Aim"].ReadValue<Vector2>());
+
+            transform.rotation = Quaternion.Euler(0f, -angle2 - 90f, 0f);
+        }
 
         // Get Attack inputs
         if (Input.GetKeyDown(KeyCode.Space))
