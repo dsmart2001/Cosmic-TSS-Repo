@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Interactable_HealthPickup : MonoBehaviour
 {
-    public string pickUpType;
     public float addHealth = 10f;
 
     // Start is called before the first frame update
@@ -25,7 +24,7 @@ public class Interactable_HealthPickup : MonoBehaviour
 
         if(tag == "Player")
         {
-            Player_Stats.health += 10f;
+            Player_Stats.health += addHealth;
             Destroy(gameObject);
         }
     }

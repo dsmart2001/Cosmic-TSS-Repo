@@ -21,5 +21,10 @@ public class Enemy_Collision : MonoBehaviour
         {
             Stats.health -= c.gameObject.GetComponent<Weapon_BulletVelocity>().damage;
         }
+
+        if (tag == "Instadeath")
+        {
+            Destroy(gameObject);
+        }
     }
 }

@@ -33,5 +33,10 @@ public class Player_Collision : MonoBehaviour
             Player_Stats.health -= c.gameObject.GetComponent<Weapon_BulletVelocity>().damage;
             Destroy(c.gameObject);
         }
+
+        if(tag =="Instadeath")
+        {
+            Destroy(gameObject);
+        }
     }
 }
