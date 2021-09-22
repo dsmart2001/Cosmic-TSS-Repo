@@ -8,6 +8,7 @@ TagManager:
   - Structure
   - Enemy
   - Pickup
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX
@@ -15,10 +16,10 @@ TagManager:
   - Player
   - Water
   - UI
-  - Bullet
+  - PlayerAttack
   - PhysicsObjects
-  - 
-  - 
+  - Enemy
+  - EnemyAttack
   - 
   - 
   - 

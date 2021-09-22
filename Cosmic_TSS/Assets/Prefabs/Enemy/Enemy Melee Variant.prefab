@@ -1,42 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &9076726365179585181
+--- !u!1001 &3510826867702404897
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2413921510464958452, guid: bc0b513a648a886478d44d8a0163cd47,
-        type: 3}
-      propertyPath: m_StoppingDistance
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2744129152584059327, guid: bc0b513a648a886478d44d8a0163cd47,
-        type: 3}
-      propertyPath: health
-      value: 150
-      objectReference: {fileID: 0}
     - target: {fileID: 3910927242902018184, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
       propertyPath: attackRange
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3910927242902018184, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
       propertyPath: attackObject
       value: 
-      objectReference: {fileID: 7920622604393055204, guid: ac6404b1b476d5b46a1ac213db47a265,
+      objectReference: {fileID: 945273684561440131, guid: c3cbca5efc237e045920dbf2b63a71f1,
         type: 3}
     - target: {fileID: 3910927242902018184, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
       propertyPath: attackInterval
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4389212048251490883, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
       propertyPath: m_Name
-      value: Enemy Shotgun
+      value: Enemy Melee Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4389212048251490904, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
@@ -46,7 +36,7 @@ PrefabInstance:
     - target: {fileID: 4389212048251490904, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 63.72877
+      value: 8.577063
       objectReference: {fileID: 0}
     - target: {fileID: 4389212048251490904, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
@@ -56,7 +46,7 @@ PrefabInstance:
     - target: {fileID: 4389212048251490904, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.976354
+      value: 14.734055
       objectReference: {fileID: 0}
     - target: {fileID: 4389212048251490904, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
@@ -93,10 +83,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4389212048251490910, guid: bc0b513a648a886478d44d8a0163cd47,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: f1b65537a6e12184b9bc065304a207b7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc0b513a648a886478d44d8a0163cd47, type: 3}

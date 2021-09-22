@@ -9,22 +9,17 @@ public class Enemy_Collision : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     private void OnCollisionEnter(Collision c)
     {
         string tag = c.gameObject.tag;
 
+        // Take damage from player attacks
         if(tag == "Bullet")
         {
-            Stats.health -= 50f;
+            Stats.health -= c.gameObject.GetComponent<Weapon_BulletVelocity>().damage;
         }
     }
 }

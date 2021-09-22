@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy_Stats : MonoBehaviour
 {
     public float health = 100f;
+    public float bodyDamage = 10f;
 
     // Start is called before the first frame update
     void Start()

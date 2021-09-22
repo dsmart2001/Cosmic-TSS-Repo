@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7640250916875725362}
   - component: {fileID: 1891781312}
   - component: {fileID: 7640250916875725365}
+  - component: {fileID: 7640250917693464819}
   - component: {fileID: 7640250916875725363}
   - component: {fileID: 7640250916875725360}
   - component: {fileID: 7640250916875725361}
@@ -64,7 +65,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bullet: {fileID: 2579046439800213834, guid: c04156efdc826634f96702eb6770873f, type: 3}
   movementSpeed: 7
-  aimSpeed: 0
+  aimSpeed: 5
+--- !u!114 &7640250917693464819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7640250916875725390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2caef804f49b90541b757cb2695bb70d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!33 &7640250916875725363
 MeshFilter:
   m_ObjectHideFlags: 0

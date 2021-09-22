@@ -25,7 +25,13 @@ public class Player_Collision : MonoBehaviour
         
         if(tag == "Enemy")
         {
-            Player_Stats.health -= 10f;
+            Player_Stats.health -= c.gameObject.GetComponent<Enemy_Stats>().bodyDamage;
+        }
+
+        if(tag == "EnemyBullet")
+        {
+            Player_Stats.health -= c.gameObject.GetComponent<Weapon_BulletVelocity>().damage;
+            Destroy(c.gameObject);
         }
     }
 }
