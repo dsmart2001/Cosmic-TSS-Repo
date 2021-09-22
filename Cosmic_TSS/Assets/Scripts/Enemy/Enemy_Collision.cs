@@ -26,5 +26,13 @@ public class Enemy_Collision : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        if(tag == "Moveable")
+        {
+            if(c.gameObject.GetComponent<Rigidbody>().velocity.magnitude >= 8f)
+            {
+                Stats.health -= 10f;
+            }
+        }
     }
 }
