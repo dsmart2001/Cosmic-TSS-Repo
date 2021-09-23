@@ -16,7 +16,7 @@ public class Enemy_Collision : MonoBehaviour
     {
         string tag = c.gameObject.tag;
 
-        // Take damage from player attacks
+        // Take damage from player attacks or kill barrier
         if(tag == "Bullet")
         {
             Stats.health -= c.gameObject.GetComponent<Weapon_BulletVelocity>().damage;
@@ -27,6 +27,7 @@ public class Enemy_Collision : MonoBehaviour
             Destroy(gameObject);
         }
 
+        // Take damage from fast moving object
         if(tag == "Moveable")
         {
             if(c.gameObject.GetComponent<Rigidbody>().velocity.magnitude >= 8f)

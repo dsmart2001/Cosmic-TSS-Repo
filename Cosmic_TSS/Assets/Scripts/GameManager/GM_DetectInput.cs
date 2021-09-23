@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class DetectInput : MonoBehaviour
+public class GM_DetectInput : MonoBehaviour
 {
     private PlayerInput PI => FindObjectOfType<Player_Controls>().GetComponent<PlayerInput>();
 
