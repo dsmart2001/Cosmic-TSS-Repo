@@ -6918,7 +6918,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 501858908}
-  m_LocalRotation: {x: -0, y: -0.000000007450581, z: 0.0000000037252903, w: 1}
+  m_LocalRotation: {x: -0, y: -0.000000022351742, z: 0.000000022351742, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -11659,7 +11659,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &891933406
 Transform:
   m_ObjectHideFlags: 0
@@ -13498,7 +13498,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.34352502, y: -0.09248023, z: 0.034015667, w: 0.9339598}
+  m_LocalRotation: {x: 0.34352502, y: -0.09248026, z: 0.034015678, w: 0.9339598}
   m_LocalPosition: {x: 7.92, y: 12.082, z: -4.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -19133,16 +19133,21 @@ MonoBehaviour:
   - {fileID: 211503658}
   - {fileID: 1532743731}
   - {fileID: 243878014}
-  enemyMelee: {fileID: 887608752070034786, guid: 0238242ab83dfb248a3da7d89d60955c,
-    type: 3}
-  enemySniper: {fileID: 7818412662315764166, guid: 7acf70de0938fcf4fbd40b2a826d5327,
-    type: 3}
-  enemyHeavy: {fileID: 4165912298246815206, guid: b5db7ae88f58ca044905874b6b254d24,
-    type: 3}
-  enemyShotgun: {fileID: 4692363317825941726, guid: 6eb345adb5d99ae4fb32c2e00d128b98,
-    type: 3}
+  enemyMeleePrefab: {fileID: 0}
+  enemyPistolPrefab: {fileID: 0}
+  enemySniperPrefab: {fileID: 0}
+  enemyHeavyPrefab: {fileID: 0}
+  enemyShotgunPrefab: {fileID: 0}
   waveNumber: 0
   waveEnemyNumber: 5
+  waveStartPistol: 0
+  wavePistolAdd: 0
+  waveStartSniper: 0
+  waveSniperAdd: 0
+  waveStartShotgun: 0
+  waveShotgunAdd: 0
+  waveStartHeavy: 0
+  waveHeavyAdd: 0
 --- !u!4 &1346570912 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4692363317825941701, guid: 6eb345adb5d99ae4fb32c2e00d128b98,
