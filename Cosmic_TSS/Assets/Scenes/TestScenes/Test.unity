@@ -19132,6 +19132,7 @@ MonoBehaviour:
   - {fileID: 1712646459}
   - {fileID: 211503658}
   - {fileID: 1532743731}
+  - {fileID: 243878014}
   enemyMelee: {fileID: 887608752070034786, guid: 0238242ab83dfb248a3da7d89d60955c,
     type: 3}
   enemySniper: {fileID: 7818412662315764166, guid: 7acf70de0938fcf4fbd40b2a826d5327,

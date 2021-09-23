@@ -5,10 +5,15 @@ using UnityEngine;
 public class GM_WaveSystem : MonoBehaviour
 {
     public Transform[] spawnPoints;
-    public GameObject enemyMelee;
-    public GameObject enemySniper;
-    public GameObject enemyHeavy;
-    public GameObject enemyShotgun;
+    public  GameObject enemyMeleePrefab;
+    public  GameObject enemyPistolPrefab;
+    public  GameObject enemySniperPrefab;
+    public  GameObject enemyHeavyPrefab;
+    public  GameObject enemyShotgunPrefab;
+
+    //public GM_WaveSystem_Enemy enemyWaves_Melee = new GM_WaveSystem_Enemy(enemyMeleePrefab, 5, 3, 0);
+
+    [Space]
 
     private GameObject[] currentEnemies;
 
@@ -16,12 +21,26 @@ public class GM_WaveSystem : MonoBehaviour
     public int waveEnemyNumber;
     private int _waveEnemyAdd;
 
+    [Space]
+
+    public int waveStartPistol;
+    public int wavePistolAdd;
+
+    public int waveStartSniper;
+    public int waveSniperAdd;
+
+    public int waveStartShotgun;
+    public int waveShotgunAdd;
+
+    public int waveStartHeavy;
+    public int waveHeavyAdd;
+
+
     // Start is called before the first frame update
     void Start()
     {
         SetEnemyVariety();
         NextWave();
-
         _waveEnemyAdd = waveEnemyNumber;
     }
 
@@ -43,13 +62,14 @@ public class GM_WaveSystem : MonoBehaviour
         {
             int spawn = Random.Range(0, spawnPoints.Length);
 
-            currentEnemies[i] = Instantiate(enemyMelee, spawnPoints[spawn].position, spawnPoints[spawn].rotation, spawnPoints[spawn]);
+            currentEnemies[i] = Instantiate(enemyMeleePrefab, spawnPoints[spawn].position, spawnPoints[spawn].rotation, spawnPoints[spawn]);
         }
+
+        SetEnemyVariety();
     }
 
     public void SetEnemyVariety()
     {
-        currentEnemies = null;
         currentEnemies = new GameObject[waveEnemyNumber];
     }
 
