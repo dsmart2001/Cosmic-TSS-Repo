@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy_Collision : MonoBehaviour
 {
     private Enemy_Stats Stats => GetComponent<Enemy_Stats>();
+    private Enemy_NavMeshMovement Movement => GetComponent<Enemy_NavMeshMovement>();
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class Enemy_Collision : MonoBehaviour
         if(tag == "Bullet")
         {
             Stats.health -= c.gameObject.GetComponent<Weapon_BulletVelocity>().damage;
+            Movement.ResetStunVelocity(1f);
         }
 
         if (tag == "Instadeath")

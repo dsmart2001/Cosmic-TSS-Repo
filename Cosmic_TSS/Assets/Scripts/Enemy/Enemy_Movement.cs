@@ -8,12 +8,14 @@ public class Enemy_Movement : MonoBehaviour
     private Collider CLDR => GetComponent<Collider>();
     private Enemy_Attack Attack => GetComponent<Enemy_Attack>();
 
+    private Camera cameraBounds;
+
     public float movementSpeed;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        cameraBounds = GameManager._playerCamera;
     }
 
     // Update is called once per frame

@@ -5,13 +5,24 @@ using UnityEngine.AI;
 
 public class Enemy_NavMeshMovement : MonoBehaviour
 {
+    // Get Components
     private NavMeshAgent agent => GetComponent<NavMeshAgent>();
     private Enemy_Attack Attack => GetComponent<Enemy_Attack>();
+    private Rigidbody rigidBody => GetComponent<Rigidbody>();
+
+    // Camera bounds
+    private Camera cameraBounds;
+    private float setSpeed;
+
+    // Stun variables
+    private bool stunned = false;
+    public float stunTimer = 1f;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        cameraBounds = GameManager._playerCamera;
+        setSpeed = agent.speed;
     }
 
     // Update is called once per frame
@@ -24,6 +35,24 @@ public class Enemy_NavMeshMovement : MonoBehaviour
         {
             RotateTowards(Player_Stats.PlayerCoord);
         }
+
+        // Detect if enemy is off camera
+        Vector3 viewPos = cameraBounds.WorldToViewportPoint(transform.position);
+
+        if (viewPos.x > 1f || viewPos.x < 0f || viewPos.y > 1f || viewPos.y <0f)
+        {
+            agent.speed = 10f;
+        }
+        else
+        {
+            agent.speed = setSpeed;
+        }
+
+        // Reset velocity after stun
+        if(stunned && Time.time >= stunTimer)
+        {
+            rigidBody.velocity = Vector3.zero;
+        }
     }
 
     // Override Nav Agent stopping distance stopping character rotation
@@ -32,5 +61,11 @@ public class Enemy_NavMeshMovement : MonoBehaviour
         Vector3 direction = (target.position - transform.position).normalized;
         Quaternion lookRotation = Quaternion.LookRotation(direction);
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 10f);
+    }
+
+    public void ResetStunVelocity(float timeToReset)
+    {
+        stunned = true;
+        stunTimer = Time.time + timeToReset;
     }
 }

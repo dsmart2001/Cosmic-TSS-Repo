@@ -9,11 +9,12 @@ public class GM_WaveSystem : MonoBehaviour
     [Space]
     [Header("Wave values and variables")]
 
-    private GameObject[] enemiesInWave;
-
     [SerializeField] private int waveNumber = 0;
     [SerializeField] private int waveEnemyCounter;
-    private int _waveEnemyAdd;
+    [SerializeField] private GameObject[] enemiesInWave;
+
+    public float spawnWaitTimer = 1f;
+    private float spawnWaitCurrent;
 
     [Space]
     [Header("Spawnable Objects Prefabs")]
@@ -61,7 +62,7 @@ public class GM_WaveSystem : MonoBehaviour
             if(waveNumber >= enemy.IntroWave)
             {
                 // Instantiate based on current number of expected enemies of each type
-                for(int i = 0; i < enemy.CurrentQuantity + enemy.AddQuanitity - 1; i++)
+                for(int i = 0; i <= enemy.CurrentQuantity + enemy.AddQuanitity - 1; i++)
                 {
                     int spawnNum = Random.Range(0, spawnPoints.Length);
 

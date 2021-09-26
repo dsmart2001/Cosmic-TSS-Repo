@@ -23,7 +23,7 @@ TagManager:
   - PhysicsObjects
   - Enemy
   - EnemyAttack
-  - 
+  - EnemyPassthrough
   - 
   - 
   - 
