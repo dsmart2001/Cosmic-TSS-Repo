@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class GM_WaveSystem_Enemy : MonoBehaviour
 {
-    public GameObject prefab { get; set; }
-    public int Quanitity { get; set; }
-    public int AddQuanitity { get; set; }
-    public int IntroWave { get; set; }
+    public GameObject prefab;
+    public int CurrentQuantity;
+    public int AddQuanitity;
+    public int IntroWave;
 
-    public GM_WaveSystem_Enemy(GameObject _prefab, int _Quantity, int _AddQuantity, int _IntroWave)
+    public GM_WaveSystem_Enemy(GameObject _prefab, int _CurrentQuantity, int _AddQuantity, int _IntroWave)
     {
         prefab = _prefab;
-        Quanitity = _Quantity;
+        CurrentQuantity = _CurrentQuantity;
         AddQuanitity = _AddQuantity;
         IntroWave = _IntroWave;
     }

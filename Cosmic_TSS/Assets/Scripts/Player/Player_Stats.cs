@@ -28,4 +28,9 @@ public class Player_Stats : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+    public static void TakeDamage(float damage)
+    {
+        health -= damage;
+    }
 }

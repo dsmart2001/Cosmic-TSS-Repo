@@ -7,6 +7,8 @@ public class Player_Collision : MonoBehaviour
     private Rigidbody RB => GetComponent<Rigidbody>();
     private Collider CLDR => GetComponent<Collider>();
 
+    private float damageTimer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,18 +27,38 @@ public class Player_Collision : MonoBehaviour
         
         if(tag == "Enemy")
         {
-            Player_Stats.health -= c.gameObject.GetComponent<Enemy_Stats>().bodyDamage;
+            Player_Stats.TakeDamage(c.gameObject.GetComponent<Enemy_Stats>().bodyDamage);
         }
 
         if(tag == "EnemyBullet")
         {
-            Player_Stats.health -= c.gameObject.GetComponent<Weapon_BulletVelocity>().damage;
+            Player_Stats.TakeDamage(c.gameObject.GetComponent<Weapon_BulletVelocity>().damage);
             Destroy(c.gameObject);
         }
 
-        if(tag =="Instadeath")
+        if (tag == "EnemyAcid")
+        {
+            damageTimer = Time.time + c.gameObject.GetComponent<Weapon_Acid>().damageTimer;
+        }
+
+        if (tag =="Instadeath")
         {
             Destroy(gameObject);
+        }
+    }
+
+    private void OnTriggerStay(Collider c)
+    {
+        string tag = c.gameObject.tag;
+
+        if (tag == "EnemyAcid")
+        {
+            if(Time.time >= damageTimer)
+            {
+                Player_Stats.TakeDamage(c.gameObject.GetComponent<Weapon_Acid>().damage);
+
+                damageTimer = Time.time + c.gameObject.GetComponent<Weapon_Acid>().damageTimer;
+            }
         }
     }
 }

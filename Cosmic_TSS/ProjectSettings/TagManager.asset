@@ -11,6 +11,7 @@ TagManager:
   - EnemyBullet
   - Instadeath
   - Moveable
+  - EnemyAcid
   layers:
   - Default
   - TransparentFX

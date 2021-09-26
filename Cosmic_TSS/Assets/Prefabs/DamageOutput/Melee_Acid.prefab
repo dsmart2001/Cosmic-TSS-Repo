@@ -8,12 +8,27 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 945273684561440131}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 4.5529146
   m_Direction: 1
   m_Center: {x: 0, y: 1.0170468, z: 0}
+--- !u!114 &5222950719516767447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945273684561440131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b4b2187d2db0bc448159fd59324421e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 5
+  damageTimer: 1
+  despawnTimer: 5
 --- !u!1001 &3374555645289708745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39,7 +54,7 @@ PrefabInstance:
     - target: {fileID: 2579046439800213834, guid: c04156efdc826634f96702eb6770873f,
         type: 3}
       propertyPath: m_TagString
-      value: EnemyBullet
+      value: EnemyAcid
       objectReference: {fileID: 0}
     - target: {fileID: 2579046439800213837, guid: c04156efdc826634f96702eb6770873f,
         type: 3}
@@ -130,6 +145,7 @@ PrefabInstance:
     - {fileID: 1065198881310544502, guid: c04156efdc826634f96702eb6770873f, type: 3}
     - {fileID: 2579046439800213833, guid: c04156efdc826634f96702eb6770873f, type: 3}
     - {fileID: 2579046439800213836, guid: c04156efdc826634f96702eb6770873f, type: 3}
+    - {fileID: 2579046439800213837, guid: c04156efdc826634f96702eb6770873f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c04156efdc826634f96702eb6770873f, type: 3}
 --- !u!1 &945273684561440131 stripped
 GameObject:

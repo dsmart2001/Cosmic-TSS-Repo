@@ -5,84 +5,93 @@ using UnityEngine;
 public class GM_WaveSystem : MonoBehaviour
 {
     public Transform[] spawnPoints;
-    public  GameObject enemyMeleePrefab;
-    public  GameObject enemyPistolPrefab;
-    public  GameObject enemySniperPrefab;
-    public  GameObject enemyHeavyPrefab;
-    public  GameObject enemyShotgunPrefab;
-
-    //public GM_WaveSystem_Enemy enemyWaves_Melee = new GM_WaveSystem_Enemy(enemyMeleePrefab, 5, 3, 0);
 
     [Space]
+    [Header("Wave values and variables")]
 
-    private GameObject[] currentEnemies;
+    private GameObject[] enemiesInWave;
 
     [SerializeField] private int waveNumber = 0;
-    public int waveEnemyNumber;
+    [SerializeField] private int waveEnemyCounter;
     private int _waveEnemyAdd;
 
     [Space]
+    [Header("Spawnable Objects Prefabs")]
 
-    public int waveStartPistol;
-    public int wavePistolAdd;
-
-    public int waveStartSniper;
-    public int waveSniperAdd;
-
-    public int waveStartShotgun;
-    public int waveShotgunAdd;
-
-    public int waveStartHeavy;
-    public int waveHeavyAdd;
-
+    public GM_WaveSystem_Enemy[] EnemyObjects;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        SetEnemyVariety();
+        // Instantiate first round of enemies
         NextWave();
-        _waveEnemyAdd = waveEnemyNumber;
     }
 
     // Update is called once per frame
     void Update()
     {
+        // Trigger event once no enemies are present
         if(EnemiesDefeated())
         {
             NextWave();
         }
     }
 
+    // Setup next wave and instantiate
     public void NextWave()
     {
+        // Update wave numbers
         waveNumber++;
-        waveEnemyNumber += _waveEnemyAdd;
+        waveEnemyCounter = 0;
 
-        for (int i = 0; i <= waveEnemyNumber - 1; i++)
+        // Update total number of enemies in round
+        foreach (GM_WaveSystem_Enemy enemy in EnemyObjects)
         {
-            int spawn = Random.Range(0, spawnPoints.Length);
-
-            currentEnemies[i] = Instantiate(enemyMeleePrefab, spawnPoints[spawn].position, spawnPoints[spawn].rotation, spawnPoints[spawn]);
+            waveEnemyCounter += enemy.CurrentQuantity + enemy.AddQuanitity;
         }
 
+        // Store enemies total num
         SetEnemyVariety();
+
+        int counter = 0;
+
+        // Spawn from each WSE object
+        foreach (GM_WaveSystem_Enemy enemy in EnemyObjects)
+        {
+            if(waveNumber >= enemy.IntroWave)
+            {
+                // Instantiate based on current number of expected enemies of each type
+                for(int i = 0; i < enemy.CurrentQuantity + enemy.AddQuanitity - 1; i++)
+                {
+                    int spawnNum = Random.Range(0, spawnPoints.Length);
+
+                    enemiesInWave[counter] = Instantiate(enemy.prefab, spawnPoints[spawnNum].position, spawnPoints[spawnNum].rotation, spawnPoints[spawnNum]);
+                    counter++;
+                }
+
+                // Update expected enemy types counter for next wave
+                enemy.CurrentQuantity += enemy.AddQuanitity;
+            }
+        }
     }
 
+    // Store current enemies in wave to array
     public void SetEnemyVariety()
     {
-        currentEnemies = new GameObject[waveEnemyNumber];
+        enemiesInWave = new GameObject[waveEnemyCounter];
     }
 
+    // Check if enemies still present
     private bool EnemiesDefeated()
     {
-        if (currentEnemies == null || currentEnemies.Length == 0)
+        if (enemiesInWave == null || enemiesInWave.Length == 0)
         {
             return true;
         }
 
-        for (int i = 0; i < currentEnemies.Length; i++)
+        for (int i = 0; i < enemiesInWave.Length; i++)
         {
-            if (currentEnemies[i] != null)
+            if (enemiesInWave[i] != null)
             {
                 return false;
             }
