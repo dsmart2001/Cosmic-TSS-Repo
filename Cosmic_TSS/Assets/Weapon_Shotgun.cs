@@ -18,7 +18,7 @@ public class Weapon_Shotgun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       scale = Vector3.Lerp(scaleStart, scaleEnd, scaleSpeed);
+        scale = Vector3.Lerp(scaleStart, scaleEnd, scaleSpeed);
 
         transform.localScale = scale;
     }

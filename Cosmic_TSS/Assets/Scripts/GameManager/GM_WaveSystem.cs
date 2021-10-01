@@ -9,7 +9,7 @@ public class GM_WaveSystem : MonoBehaviour
     [Space]
     [Header("Wave values and variables")]
 
-    [SerializeField] private int waveNumber = 0;
+    [SerializeField] public static int waveNumber = 0;
     [SerializeField] private int waveEnemyCounter;
     [SerializeField] private GameObject[] enemiesInWave;
 

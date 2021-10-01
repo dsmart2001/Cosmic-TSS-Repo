@@ -14,6 +14,9 @@ public class Enemy_NavMeshMovement : MonoBehaviour
     private Camera cameraBounds;
     private float setSpeed;
 
+    public float distanceToSpeedUp = 30f;
+    public float speedUpSpeed = 20f;
+
     // Stun variables
     private bool paused = false;
     private float pauseTimer;
@@ -38,32 +41,27 @@ public class Enemy_NavMeshMovement : MonoBehaviour
             RotateTowards(Player_Stats.PlayerCoord);
         }
 
-        // Detect if enemy is off camera
-        Vector3 viewPos = cameraBounds.WorldToViewportPoint(transform.position);
-
-        if (viewPos.x > 1f || viewPos.x < 0f || viewPos.y > 1f || viewPos.y <0f)
+        // Modify speed based on conditions
+        // If far away from player or offscreen
+        if (Vector3.Distance(transform.position, Player_Stats.PlayerCoord.position) > distanceToSpeedUp)
         {
-            agent.speed = 10f;
+            agent.speed = speedUpSpeed;
         }
+        // If attacking
+        else if (paused && Time.time! >= pauseTimer)
+        {
+            agent.speed = 1f;
+        }
+        // Reset to standard speed
         else
         {
             agent.speed = setSpeed;
         }
 
         // Reset velocity after stun
-        if(stunned && Time.time >= stunTimer)
+        if (stunned && Time.time >= stunTimer)
         {
             rigidBody.velocity = Vector3.zero;
-        }
-
-        // Pause movement before attacking
-        if(paused && Time.time !>= pauseTimer)
-        {
-            agent.speed = 1f;
-        }
-        else
-        {
-            agent.speed = setSpeed;
         }
     }
 
