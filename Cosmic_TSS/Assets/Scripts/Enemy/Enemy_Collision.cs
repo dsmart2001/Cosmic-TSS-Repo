@@ -36,6 +36,8 @@ public class Enemy_Collision : MonoBehaviour
             {
                 Stats.health -= 10f;
             }
+
+            Movement.ResetStunVelocity(1f);
         }
     }
 }

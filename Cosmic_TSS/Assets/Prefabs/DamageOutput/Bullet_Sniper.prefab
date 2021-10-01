@@ -24,6 +24,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2579046439800213837, guid: c04156efdc826634f96702eb6770873f,
         type: 3}
+      propertyPath: stunTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579046439800213837, guid: c04156efdc826634f96702eb6770873f,
+        type: 3}
       propertyPath: despawnDropoff
       value: 50
       objectReference: {fileID: 0}
