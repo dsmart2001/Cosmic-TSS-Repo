@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e023fafbd98047d408b977b5abd62523, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stunTimer: 1
 --- !u!114 &4389212048251490907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,3 +194,4 @@ MonoBehaviour:
   attackObject: {fileID: 0}
   attackRange: 0
   attackInterval: 0
+  pauseForAttack: 0.5

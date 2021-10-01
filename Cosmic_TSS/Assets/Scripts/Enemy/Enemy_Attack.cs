@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class Enemy_Attack : MonoBehaviour
 {
+    private Enemy_NavMeshMovement movement => GetComponent<Enemy_NavMeshMovement>();
+
     public GameObject attackObject;
     public float attackRange;
     public float attackInterval;
+    public float pauseForAttack;
 
     private float attackTimer;
     private float attackTimerAdd;
@@ -25,6 +28,7 @@ public class Enemy_Attack : MonoBehaviour
         // Attack: Check if within attackRange and surpassed attackTimer to attack player
         if(InAttackRange(Player_Stats.PlayerCoord) && Time.time > attackTimer)
         {
+            
             Attack();
             attackTimer = Time.time + attackTimerAdd;
         }
@@ -32,6 +36,7 @@ public class Enemy_Attack : MonoBehaviour
 
     public void Attack()
     {
+        movement.PauseMovement(pauseForAttack);
         Instantiate(attackObject, transform.position, transform.rotation);
     }
 

@@ -23,6 +23,11 @@ PrefabInstance:
       propertyPath: attackInterval
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3910927242902018184, guid: bc0b513a648a886478d44d8a0163cd47,
+        type: 3}
+      propertyPath: pauseForAttack
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4389212048251490883, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
       propertyPath: m_Name

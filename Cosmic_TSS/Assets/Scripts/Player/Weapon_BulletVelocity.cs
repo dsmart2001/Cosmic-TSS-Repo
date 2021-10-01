@@ -9,6 +9,7 @@ public class Weapon_BulletVelocity : MonoBehaviour
     public float bulletVelocity = 10f;
     public float damage = 50f;
     public float despawnDropoff = 20f;
+    public float stunTime = 1f;
 
     private Vector3 spawnPos;
 

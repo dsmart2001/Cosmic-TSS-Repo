@@ -15,6 +15,8 @@ public class Enemy_NavMeshMovement : MonoBehaviour
     private float setSpeed;
 
     // Stun variables
+    private bool paused = false;
+    private float pauseTimer;
     private bool stunned = false;
     public float stunTimer = 1f;
 
@@ -53,6 +55,16 @@ public class Enemy_NavMeshMovement : MonoBehaviour
         {
             rigidBody.velocity = Vector3.zero;
         }
+
+        // Pause movement before attacking
+        if(paused && Time.time !>= pauseTimer)
+        {
+            agent.speed = 1f;
+        }
+        else
+        {
+            agent.speed = setSpeed;
+        }
     }
 
     // Override Nav Agent stopping distance stopping character rotation
@@ -63,9 +75,16 @@ public class Enemy_NavMeshMovement : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 10f);
     }
 
+    // Call from collision script to reset velocity after colliding with a player attack. Fixes continuous velocity the attack causes.
     public void ResetStunVelocity(float timeToReset)
     {
         stunned = true;
         stunTimer = Time.time + timeToReset;
+    }
+
+    // Call from attack script to pause movement before attacking
+    public void PauseMovement(float pauseTime)
+    {
+        pauseTimer = Time.time + pauseTime;
     }
 }

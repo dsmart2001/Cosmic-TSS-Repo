@@ -21,7 +21,7 @@ public class Enemy_Collision : MonoBehaviour
         if(tag == "Bullet")
         {
             Stats.health -= c.gameObject.GetComponent<Weapon_BulletVelocity>().damage;
-            Movement.ResetStunVelocity(1f);
+            Movement.ResetStunVelocity(c.gameObject.GetComponent<Weapon_BulletVelocity>().stunTime);
         }
 
         if (tag == "Instadeath")

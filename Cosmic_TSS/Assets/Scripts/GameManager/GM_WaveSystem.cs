@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GM_WaveSystem : MonoBehaviour
 {
-    public Transform[] spawnPoints;
+    public GameObject[] spawnPoints;
 
     [Space]
     [Header("Wave values and variables")]
@@ -24,6 +24,8 @@ public class GM_WaveSystem : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        spawnPoints = GameObject.FindGameObjectsWithTag("SpawnPoint");
+        
         // Instantiate first round of enemies
         NextWave();
     }
@@ -66,7 +68,7 @@ public class GM_WaveSystem : MonoBehaviour
                 {
                     int spawnNum = Random.Range(0, spawnPoints.Length);
 
-                    enemiesInWave[counter] = Instantiate(enemy.prefab, spawnPoints[spawnNum].position, spawnPoints[spawnNum].rotation, spawnPoints[spawnNum]);
+                    enemiesInWave[counter] = Instantiate(enemy.prefab, spawnPoints[spawnNum].transform.position, spawnPoints[spawnNum].transform.rotation, spawnPoints[spawnNum].transform);
                     counter++;
                 }
 

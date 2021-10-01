@@ -12,6 +12,7 @@ TagManager:
   - Instadeath
   - Moveable
   - EnemyAcid
+  - SpawnPoint
   layers:
   - Default
   - TransparentFX

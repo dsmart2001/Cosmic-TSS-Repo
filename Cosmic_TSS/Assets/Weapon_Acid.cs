@@ -13,18 +13,20 @@ public class Weapon_Acid : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        transform.position = new Vector3(transform.position.x, transform.position.y - 1f, transform.position.z);
         spawnPos = transform.position;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Destroy(gameObject, despawnTimer);
     }
 
     private void OnCollisionEnter(Collision c)
     {
         string tag = c.gameObject.tag;
-    
+        
     }
 }
