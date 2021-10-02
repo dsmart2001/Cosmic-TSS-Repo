@@ -18,6 +18,11 @@ public class Player_Controls : MonoBehaviour
 
     public static bool phoneControls = true;
 
+    // Player Weapons
+    public Weapon_PlayerGuns[] weapons;
+    private Weapon_PlayerGuns equippedWeapon;
+    private int weaponNum = 0;
+
     // Player movement values
     private Vector2 AimInput;
     private Vector3 movementVector;
@@ -27,7 +32,14 @@ public class Player_Controls : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        // Assign weapons at start
+        foreach(Weapon_PlayerGuns gun in weapons)
+        {
+            gun.gameObject.SetActive(false);
+        }
+
+        equippedWeapon = weapons[weaponNum];
+        equippedWeapon.gameObject.SetActive(true);
     }
 
     // Update is called once per frame
@@ -68,7 +80,13 @@ public class Player_Controls : MonoBehaviour
         // Get Attack inputs
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            FireWeapon();
+            equippedWeapon.FireWeapon();
+        }
+
+        // Swap weapon
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            SwapWeapon();
         }
     }
 
@@ -77,13 +95,26 @@ public class Player_Controls : MonoBehaviour
         RB.MovePosition(RB.position + (movementVector * movementSpeed * Time.deltaTime));
     }
 
-    public void FireWeapon()
-    {
-        Instantiate(Bullet, transform.position, transform.rotation);
-    }
-
     float AngleBetweenTwoPoints(Vector3 a, Vector3 b)
     {
         return Mathf.Atan2(a.y - b.y, a.x - b.x) * Mathf.Rad2Deg;
+    }
+
+    public void SwapWeapon()
+    {
+        if(weaponNum != weapons.Length)
+        {
+            equippedWeapon.gameObject.SetActive(false);
+            weaponNum++;
+            equippedWeapon = weapons[weaponNum];
+            equippedWeapon.gameObject.SetActive(true);
+        }
+        else
+        {
+            equippedWeapon.gameObject.SetActive(false);
+            weaponNum = 0;
+            equippedWeapon = weapons[weaponNum];
+            equippedWeapon.gameObject.SetActive(true);
+        }
     }
 }

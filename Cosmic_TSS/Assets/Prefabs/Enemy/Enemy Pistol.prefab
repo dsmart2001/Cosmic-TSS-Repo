@@ -107,6 +107,11 @@ PrefabInstance:
       propertyPath: m_StoppingDistance
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2744129152584059327, guid: bc0b513a648a886478d44d8a0163cd47,
+        type: 3}
+      propertyPath: bodyDamage
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3910927242902018184, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
       propertyPath: attackRange
