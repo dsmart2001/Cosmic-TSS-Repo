@@ -14,20 +14,21 @@ public class Player_Controls : MonoBehaviour
     private Collider CLDR => GetComponent<Collider>();
     private PlayerInput PI => GetComponent<PlayerInput>();
 
-    public GameObject Bullet;
-
     public static bool phoneControls = true;
 
     // Player Weapons
+    [Header("Player Weapons")]
+
     public Weapon_PlayerGuns[] weapons;
     private Weapon_PlayerGuns equippedWeapon;
     private int weaponNum = 0;
 
     // Player movement values
+    [Header("Player Movement values")]
+
     private Vector2 AimInput;
     private Vector3 movementVector;
     public float movementSpeed;
-    public float aimSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -80,7 +81,7 @@ public class Player_Controls : MonoBehaviour
         // Get Attack inputs
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            equippedWeapon.FireWeapon();
+            FireWeapon();
         }
 
         // Swap weapon
@@ -100,9 +101,14 @@ public class Player_Controls : MonoBehaviour
         return Mathf.Atan2(a.y - b.y, a.x - b.x) * Mathf.Rad2Deg;
     }
 
+    public void FireWeapon()
+    {
+        equippedWeapon.FireWeapon();
+    }
+
     public void SwapWeapon()
     {
-        if(weaponNum != weapons.Length)
+        if(weaponNum != weapons.Length - 1)
         {
             equippedWeapon.gameObject.SetActive(false);
             weaponNum++;

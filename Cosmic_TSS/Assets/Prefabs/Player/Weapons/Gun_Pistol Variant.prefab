@@ -1,5 +1,20 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &224619652905947430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848337813059161164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac96c9011fdf674fa30d0a493114bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 6767802179945942718, guid: c1dacca91bb54d740ac08325ce99c9f8,
+    type: 3}
+  fireRate: 0.25
 --- !u!1001 &8244109467890197997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11,6 +26,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gun_Pistol Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 622457436309809569, guid: fa5ae404d02d59a4997129c6edfd043c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 622457436309809570, guid: fa5ae404d02d59a4997129c6edfd043c,
         type: 3}
@@ -45,7 +65,7 @@ PrefabInstance:
     - target: {fileID: 622457436309809570, guid: fa5ae404d02d59a4997129c6edfd043c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6100006
+      value: 0.558
       objectReference: {fileID: 0}
     - target: {fileID: 622457436309809570, guid: fa5ae404d02d59a4997129c6edfd043c,
         type: 3}
@@ -89,3 +109,9 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 2dfe5d545a1815c40a2d68f130804eaf, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa5ae404d02d59a4997129c6edfd043c, type: 3}
+--- !u!1 &8848337813059161164 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 622457436309809569, guid: fa5ae404d02d59a4997129c6edfd043c,
+    type: 3}
+  m_PrefabInstance: {fileID: 8244109467890197997}
+  m_PrefabAsset: {fileID: 0}
