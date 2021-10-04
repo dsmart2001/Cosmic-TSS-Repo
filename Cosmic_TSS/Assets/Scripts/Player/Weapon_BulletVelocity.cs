@@ -11,6 +11,7 @@ public class Weapon_BulletVelocity : MonoBehaviour
     public float despawnDropoff = 20f;
     public float stunTime = 1f;
 
+    public bool piercesEnemies = false;
     private Vector3 spawnPos;
 
     // Start is called before the first frame update
@@ -42,7 +43,7 @@ public class Weapon_BulletVelocity : MonoBehaviour
         }
 
         // Enemy hit: despawn and enemy hit effect
-        if(tag == "Enemy")
+        if(tag == "Enemy" && !piercesEnemies)
         {
             Destroy(gameObject);
         }

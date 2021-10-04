@@ -15,7 +15,7 @@ public class Enemy_NavMeshMovement : MonoBehaviour
     private float setSpeed;
 
     public float distanceToSpeedUp = 30f;
-    public float speedUpSpeed = 20f;
+    [SerializeField] private float speedUpSpeed;
 
     // Stun variables
     private bool paused = false;
@@ -28,6 +28,8 @@ public class Enemy_NavMeshMovement : MonoBehaviour
     {
         cameraBounds = GameManager._playerCamera;
         setSpeed = agent.speed;
+
+        speedUpSpeed = agent.speed * 1.5f;
     }
 
     // Update is called once per frame

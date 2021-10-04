@@ -25,7 +25,9 @@ public class GM_WaveSystem : MonoBehaviour
     void Awake()
     {
         spawnPoints = GameObject.FindGameObjectsWithTag("SpawnPoint");
-        
+
+        spawnWaitCurrent = Time.time + spawnWaitTimer;
+
         // Instantiate first round of enemies
         NextWave();
     }
@@ -99,7 +101,6 @@ public class GM_WaveSystem : MonoBehaviour
                 return false;
             }
         }
-
         return true;
     }
 }

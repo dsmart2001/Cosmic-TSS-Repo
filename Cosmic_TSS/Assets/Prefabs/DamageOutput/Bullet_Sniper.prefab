@@ -37,6 +37,11 @@ PrefabInstance:
       propertyPath: despawnDropoff
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 2579046439800213837, guid: c04156efdc826634f96702eb6770873f,
+        type: 3}
+      propertyPath: piercesEnemies
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2579046439800213838, guid: c04156efdc826634f96702eb6770873f,
         type: 3}
       propertyPath: m_RootOrder
