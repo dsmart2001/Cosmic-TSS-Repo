@@ -10,7 +10,7 @@ public class GM_WaveSystem : MonoBehaviour
     [Header("Wave values and variables")]
 
     [SerializeField] public static int waveNumber = 0;
-    [SerializeField] private int waveEnemyCounter;
+    [SerializeField] public static int waveEnemyCounter;
     [SerializeField] private GameObject[] enemiesInWave;
 
     public float spawnWaitTimer = 1f;
@@ -52,7 +52,10 @@ public class GM_WaveSystem : MonoBehaviour
         // Update total number of enemies in round
         foreach (GM_WaveSystem_Enemy enemy in EnemyObjects)
         {
-            waveEnemyCounter += enemy.CurrentQuantity + enemy.AddQuanitity;
+            if (waveNumber >= enemy.IntroWave)
+            {
+                waveEnemyCounter += enemy.CurrentQuantity + enemy.AddQuanitity;
+            }
         }
 
         // Store enemies total num

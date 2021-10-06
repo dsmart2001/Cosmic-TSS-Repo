@@ -13,6 +13,8 @@ TagManager:
   - Moveable
   - EnemyAcid
   - SpawnPoint
+  - DefendZone
+  - ObjectiveButton
   layers:
   - Default
   - TransparentFX
