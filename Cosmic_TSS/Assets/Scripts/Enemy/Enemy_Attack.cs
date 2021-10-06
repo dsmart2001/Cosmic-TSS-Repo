@@ -34,12 +34,14 @@ public class Enemy_Attack : MonoBehaviour
         }
     }
 
+    // Commit the attack event from this objects location
     public void Attack()
     {
         movement.PauseMovement(pauseForAttack);
         Instantiate(attackObject, transform.position, transform.rotation);
     }
 
+    // Detect if player is within attack rande
     public bool InAttackRange(Transform target)
     {
         float distance = Vector3.Distance(transform.position, target.position);

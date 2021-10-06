@@ -101,11 +101,13 @@ public class Player_Controls : MonoBehaviour
         return Mathf.Atan2(a.y - b.y, a.x - b.x) * Mathf.Rad2Deg;
     }
 
+    // Function to fire the current equipped weapon
     public void FireWeapon()
     {
         equippedWeapon.FireWeapon();
     }
 
+    // Swap from the given weapons of player
     public void SwapWeapon()
     {
         if(weaponNum != weapons.Length - 1)

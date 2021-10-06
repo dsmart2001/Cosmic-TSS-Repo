@@ -27,6 +27,7 @@ public class GUI_HUD : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Continuously update relevant UI elements
         playerHealth.text = "Health > " + Player_Stats.health.ToString();
         waveCounter.text = "Wave > " + GM_WaveSystem.waveNumber.ToString();
         objectiveText.text = GM_Objectives.objectiveText;

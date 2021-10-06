@@ -24,6 +24,7 @@ public class Weapon_PlayerGuns : MonoBehaviour
         }
     }
 
+    // Allow firing of weapon if adhering to fire rate
     public void FireWeapon()
     {
         if(canFire)

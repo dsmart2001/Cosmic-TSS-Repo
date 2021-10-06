@@ -24,6 +24,7 @@ public class GM_Objectives : MonoBehaviour
         }
     }
 
+    // Prepare next objective and relevant conditions
     public void NextObjective() 
     {
         randomObjectiveInt = Random.Range(1, 2);
@@ -42,21 +43,25 @@ public class GM_Objectives : MonoBehaviour
         }
     }
 
+    // Choose one of the defend zones as point for player to defend
     public void SetObjective_Defend()
     {
 
     }
 
+    // Spawn a random selection of the buttons to be activated
     public void SetObjective_ButtonRun()
     {
 
     }
 
+    // Despawn some walls that need to be repaired
     public void SetObjective_AirLeak()
     {
 
     }
 
+    // Detect the end of a wave
     public bool EndOfWave()
     {
         return false;
