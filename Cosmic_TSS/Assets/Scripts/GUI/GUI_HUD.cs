@@ -16,6 +16,9 @@ public class GUI_HUD : MonoBehaviour
     public TMP_Text waveCounter;
     public int enemiesToRevealCounter = 10;
     public TMP_Text enemyCounter;
+
+    [Space]
+    [Header("Objective UI elements")]
     public TMP_Text objectiveText;
 
     // Start is called before the first frame update
@@ -32,10 +35,16 @@ public class GUI_HUD : MonoBehaviour
         waveCounter.text = "Wave > " + GM_WaveSystem.waveNumber.ToString();
         objectiveText.text = GM_Objectives.objectiveText;
 
+        // Update wave UI info
         if(GM_WaveSystem.waveEnemyCounter <= enemiesToRevealCounter)
         {
             enemyCounter.gameObject.SetActive(true);
             enemyCounter.text = "ENEMIES REMAINING: " + GM_WaveSystem.waveEnemyCounter.ToString();
+        }
+
+        else
+        {
+            enemyCounter.gameObject.SetActive(false);
         }
     }
 }
