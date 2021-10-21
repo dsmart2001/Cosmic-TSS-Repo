@@ -18,6 +18,7 @@ TagManager:
   - Ammo_Pistol
   - Ammo_Shotgun
   - Ammo_Sniper
+  - Explosion
   layers:
   - Default
   - TransparentFX

@@ -40,4 +40,14 @@ public class Enemy_Collision : MonoBehaviour
             Movement.ResetStunVelocity(1f);
         }
     }
+
+    private void OnTriggerEnter(Collider c)
+    {
+        string tag = c.gameObject.tag;
+
+        if (tag == "Explosion")
+        {
+            Stats.TakeDamage(c.gameObject.GetComponent<Explosion>().damage);
+        }
+    }
 }

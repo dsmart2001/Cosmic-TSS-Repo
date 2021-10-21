@@ -7,12 +7,6 @@ public class Enemy_Stats : MonoBehaviour
     public float health = 100f;
     public float bodyDamage = 10f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -26,5 +20,10 @@ public class Enemy_Stats : MonoBehaviour
     {
         GM_WaveSystem.remainingEnemies--;
         Destroy(gameObject);
+    }
+
+    public void TakeDamage(float damage)
+    {
+        health -= damage;
     }
 }

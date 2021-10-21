@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Interactable_Ammo : MonoBehaviour
+public class Explosion : MonoBehaviour
 {
-    public bool active = true;
+    public float damage = 70f;
 }

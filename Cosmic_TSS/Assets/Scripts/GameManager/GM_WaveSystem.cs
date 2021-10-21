@@ -6,6 +6,7 @@ public class GM_WaveSystem : MonoBehaviour
 {
     public GameObject[] spawnPoints;
     public GM_Objectives Objectives => GetComponent<GM_Objectives>();
+    public static Interactable_Ammo[] ammoPickups => FindObjectsOfType<Interactable_Ammo>();
 
     [Space]
     [Header("Wave values and variables")]
@@ -85,6 +86,11 @@ public class GM_WaveSystem : MonoBehaviour
                 // Update expected enemy types counter for next wave
                 enemy.CurrentQuantity += enemy.AddQuanitity;
             }
+        }
+
+        foreach(Interactable_Ammo i in ammoPickups)
+        {
+            i.gameObject.SetActive(true);
         }
     }
 

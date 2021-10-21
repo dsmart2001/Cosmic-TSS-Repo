@@ -50,19 +50,24 @@ public class Player_Collision : MonoBehaviour
         {
             player.weapons[1].ammo = player.weapons[1].ammoLimit;
             c.gameObject.SetActive(false);
+
         }
 
         if (tag == "Ammo_Sniper" && player.weapons[2].ammo != player.weapons[2].ammoLimit)
         {
             player.weapons[2].ammo = player.weapons[2].ammoLimit;
             c.gameObject.SetActive(false);
+
         }
 
-        if(tag == "ObjectiveButton")
+        if (tag == "ObjectiveButton")
         {
-            c.gameObject.GetComponent<GM_Objectives_ButtonRun>().active = false;
             GM_Objectives.remainingButtons--;
-            c.gameObject.SetActive(false);
+        }
+
+        if(tag == "Explosion")
+        {
+            Player_Stats.TakeDamage(c.gameObject.GetComponent<Explosion>().damage);
         }
     }
 
