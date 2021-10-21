@@ -6,20 +6,9 @@ public class Player_Collision : MonoBehaviour
 {
     private Rigidbody RB => GetComponent<Rigidbody>();
     private Collider CLDR => GetComponent<Collider>();
+    private Player_Controls player => GetComponent<Player_Controls>();
 
     private float damageTimer;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnCollisionEnter(Collision c)
     {
@@ -47,6 +36,36 @@ public class Player_Collision : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider c)
+    {
+        string tag = c.gameObject.tag;
+
+        if(tag =="Ammo_Pistol" && player.weapons[0].ammo != player.weapons[0].ammoLimit)
+        {
+            player.weapons[0].ammo = player.weapons[0].ammoLimit;
+            c.gameObject.SetActive(false);
+        }
+
+        if (tag == "Ammo_Shotgun" && player.weapons[1].ammo != player.weapons[1].ammoLimit)
+        {
+            player.weapons[1].ammo = player.weapons[1].ammoLimit;
+            c.gameObject.SetActive(false);
+        }
+
+        if (tag == "Ammo_Sniper" && player.weapons[2].ammo != player.weapons[2].ammoLimit)
+        {
+            player.weapons[1].ammo = player.weapons[2].ammoLimit;
+            c.gameObject.SetActive(false);
+        }
+
+        if(tag == "ObjectiveButton")
+        {
+            c.gameObject.GetComponent<GM_Objectives_ButtonRun>().active = false;
+            GM_Objectives.remainingButtons--;
+            c.gameObject.SetActive(false);
+        }
+    }
+
     private void OnTriggerStay(Collider c)
     {
         string tag = c.gameObject.tag;
@@ -59,6 +78,11 @@ public class Player_Collision : MonoBehaviour
 
                 damageTimer = Time.time + c.gameObject.GetComponent<Weapon_Acid>().damageTimer;
             }
+        }
+
+        if (c.gameObject.tag == "DefendZone")
+        {
+            c.gameObject.GetComponent<GM_Objectives_Defend>().timePlayerDefending -= Time.deltaTime;
         }
     }
 }

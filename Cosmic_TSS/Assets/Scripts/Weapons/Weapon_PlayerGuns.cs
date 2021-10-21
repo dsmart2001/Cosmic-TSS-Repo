@@ -1,24 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Weapon_PlayerGuns : MonoBehaviour
 {
     public GameObject projectile;
+    public int ammoLimit = 5;
+    public int ammo;
+
     public float fireRate;
     private float timer_fireRate;
     private bool canFire = true;
+
 
     // Start is called before the first frame update
     void Start()
     {
         timer_fireRate = fireRate;
+        ammo = ammoLimit;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Time.time >= timer_fireRate)
+        if(Time.time >= timer_fireRate && ammo > 0)
         {
             canFire = true;
         }
@@ -32,6 +38,7 @@ public class Weapon_PlayerGuns : MonoBehaviour
             Instantiate(projectile, transform.position, transform.rotation);
             canFire = false;
             timer_fireRate = Time.time + fireRate;
+            ammo--;
         }
     }
 }

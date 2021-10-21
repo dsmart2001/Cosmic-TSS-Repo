@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class Player_Controls : MonoBehaviour
 {
@@ -21,6 +22,7 @@ public class Player_Controls : MonoBehaviour
 
     public Weapon_PlayerGuns[] weapons;
     private Weapon_PlayerGuns equippedWeapon;
+    public TMP_Text ammoUI;
     private int weaponNum = 0;
 
     // Player movement values
@@ -89,6 +91,8 @@ public class Player_Controls : MonoBehaviour
         {
             SwapWeapon();
         }
+
+        ammoUI.text = equippedWeapon.ammo.ToString();
     }
 
     private void FixedUpdate()

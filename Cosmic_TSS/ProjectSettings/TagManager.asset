@@ -15,6 +15,9 @@ TagManager:
   - SpawnPoint
   - DefendZone
   - ObjectiveButton
+  - Ammo_Pistol
+  - Ammo_Shotgun
+  - Ammo_Sniper
   layers:
   - Default
   - TransparentFX

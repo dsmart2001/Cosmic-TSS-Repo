@@ -26,12 +26,12 @@ public class GM_Objectives_Defend : MonoBehaviour
         }
     }
 
-    private void OnCollisionStay(Collision c)
+    private void OnCTriggerStay(Collision c)
     {
-        if(c.gameObject.tag == "Player")
+        /*if(c.gameObject.tag == "Player")
         {
             timePlayerDefending -= Time.deltaTime;
-        }
+        }*/
     }
 
     public void CompleteObjective()

@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 3841506731169638177, guid: e878b8c5f7c5a264f80e210acd9a9d9d,
     type: 3}
+  ammoLimit: 8
+  ammo: 0
   fireRate: 0.75
 --- !u!1001 &1540150362969902667
 PrefabInstance:

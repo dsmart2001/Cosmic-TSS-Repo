@@ -5,6 +5,7 @@ using UnityEngine;
 public class GM_WaveSystem : MonoBehaviour
 {
     public GameObject[] spawnPoints;
+    public GM_Objectives Objectives => GetComponent<GM_Objectives>();
 
     [Space]
     [Header("Wave values and variables")]
@@ -39,6 +40,7 @@ public class GM_WaveSystem : MonoBehaviour
         if(EnemiesDefeated())
         {
             NextWave();
+            Objectives.EndOfWave();
         }
     }
 
