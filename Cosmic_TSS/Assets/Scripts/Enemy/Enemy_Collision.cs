@@ -26,13 +26,13 @@ public class Enemy_Collision : MonoBehaviour
 
         if (tag == "Instadeath")
         {
-            Destroy(gameObject);
+            Stats.Death();
         }
 
         // Take damage from fast moving object
         if(tag == "Moveable")
         {
-            if(c.gameObject.GetComponent<Rigidbody>().velocity.magnitude >= 8f)
+            if(c.gameObject.GetComponent<Rigidbody>().velocity.magnitude >= 5f)
             {
                 Stats.health -= 10f;
             }

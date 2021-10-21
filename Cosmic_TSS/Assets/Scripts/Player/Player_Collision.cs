@@ -54,7 +54,7 @@ public class Player_Collision : MonoBehaviour
 
         if (tag == "Ammo_Sniper" && player.weapons[2].ammo != player.weapons[2].ammoLimit)
         {
-            player.weapons[1].ammo = player.weapons[2].ammoLimit;
+            player.weapons[2].ammo = player.weapons[2].ammoLimit;
             c.gameObject.SetActive(false);
         }
 

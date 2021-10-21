@@ -13,6 +13,7 @@ public class GM_WaveSystem : MonoBehaviour
     [SerializeField] public static int waveNumber = 0;
     [SerializeField] public static int waveEnemyCounter;
     [SerializeField] private GameObject[] enemiesInWave;
+    public static int remainingEnemies;
 
     public float spawnWaitTimer = 1f;
     private float spawnWaitCurrent;
@@ -59,6 +60,8 @@ public class GM_WaveSystem : MonoBehaviour
                 waveEnemyCounter += enemy.CurrentQuantity + enemy.AddQuanitity;
             }
         }
+
+        remainingEnemies = waveEnemyCounter;
 
         // Store enemies total num
         SetEnemyVariety();

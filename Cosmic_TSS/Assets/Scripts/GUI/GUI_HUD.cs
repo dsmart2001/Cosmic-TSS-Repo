@@ -36,12 +36,11 @@ public class GUI_HUD : MonoBehaviour
         objectiveText.text = GM_Objectives.objectiveText;
 
         // Update wave UI info
-        if(GM_WaveSystem.waveEnemyCounter <= enemiesToRevealCounter)
+        if(GM_WaveSystem.remainingEnemies <= enemiesToRevealCounter)
         {
             enemyCounter.gameObject.SetActive(true);
-            enemyCounter.text = "ENEMIES REMAINING: " + GM_WaveSystem.waveEnemyCounter.ToString();
+            enemyCounter.text = "ENEMIES REMAINING: " + GM_WaveSystem.remainingEnemies.ToString();
         }
-
         else
         {
             enemyCounter.gameObject.SetActive(false);

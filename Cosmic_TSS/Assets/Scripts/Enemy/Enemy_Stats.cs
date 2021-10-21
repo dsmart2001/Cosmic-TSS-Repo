@@ -22,8 +22,9 @@ public class Enemy_Stats : MonoBehaviour
         }
     }
 
-    private void Death()
+    public void Death()
     {
+        GM_WaveSystem.remainingEnemies--;
         Destroy(gameObject);
     }
 }
