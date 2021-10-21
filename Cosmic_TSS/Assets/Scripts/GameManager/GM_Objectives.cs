@@ -38,9 +38,9 @@ public class GM_Objectives : MonoBehaviour
         // TESTING DEFEND
         //randomObjectiveInt = 1;
         //SetObjective_Defend();
-        randomObjectiveInt = 2;
-        SetObjective_ButtonRun();
-        //NextObjective();
+        //randomObjectiveInt = 2;
+        //SetObjective_ButtonRun();
+        NextObjective();
     }
 
     // Update is called once per frame
@@ -70,10 +70,6 @@ public class GM_Objectives : MonoBehaviour
                     objectiveText = "Buttons Remaining: " + remainingButtons;
                 }
                 break;
-            // Air leak
-            //case 3:
-            //    objectiveText = "";
-            //    break;
         }
     }
 
@@ -82,7 +78,7 @@ public class GM_Objectives : MonoBehaviour
     {
         DisableCurrentObjective();
 
-        randomObjectiveInt = Random.Range(1, 3);
+        randomObjectiveInt = Random.Range(1, 2);
 
         switch(randomObjectiveInt) 
         {

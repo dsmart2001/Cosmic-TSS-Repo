@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class GUI_HUD : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class GUI_HUD : MonoBehaviour
     [Space]
     [Header("Player UI elements")]
     public TMP_Text playerHealth;
+    public Slider playerHealthSlider;
     public TMP_Text playerAmmo;
 
     [Space]
@@ -25,6 +27,8 @@ public class GUI_HUD : MonoBehaviour
     void Start()
     {
         enemyCounter.gameObject.SetActive(false);
+        playerHealthSlider.value = Player_Stats.health;
+        playerHealthSlider.maxValue = Player_Stats.health;
     }
 
     // Update is called once per frame
@@ -32,6 +36,13 @@ public class GUI_HUD : MonoBehaviour
     {
         // Continuously update relevant UI elements
         playerHealth.text = "Health > " + Player_Stats.health.ToString();
+        playerHealthSlider.value = Player_Stats.health;
+
+        if(playerHealthSlider.maxValue < Player_Stats.health)
+        {
+            playerHealthSlider.maxValue = Player_Stats.health;
+        }
+
         waveCounter.text = "Wave > " + GM_WaveSystem.waveNumber.ToString();
         objectiveText.text = GM_Objectives.objectiveText;
 
