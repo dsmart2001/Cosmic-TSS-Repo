@@ -78,7 +78,7 @@ public class GM_Objectives : MonoBehaviour
     {
         DisableCurrentObjective();
 
-        randomObjectiveInt = Random.Range(1, 2);
+        randomObjectiveInt = Random.Range(1, 3);
 
         switch(randomObjectiveInt) 
         {

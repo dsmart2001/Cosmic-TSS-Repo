@@ -63,6 +63,7 @@ public class Player_Collision : MonoBehaviour
         if (tag == "ObjectiveButton")
         {
             GM_Objectives.remainingButtons--;
+            c.gameObject.SetActive(false);
         }
 
         if(tag == "Explosion")
