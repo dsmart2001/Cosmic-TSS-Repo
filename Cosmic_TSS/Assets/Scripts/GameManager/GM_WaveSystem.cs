@@ -19,6 +19,8 @@ public class GM_WaveSystem : MonoBehaviour
     public float spawnWaitTimer = 1f;
     private float spawnWaitCurrent;
 
+    private bool spawningEnemies = true;
+
     [Space]
     [Header("Spawnable Objects Prefabs")]
 
@@ -28,8 +30,6 @@ public class GM_WaveSystem : MonoBehaviour
     void Awake()
     {
         spawnPoints = GameObject.FindGameObjectsWithTag("SpawnPoint");
-
-        spawnWaitCurrent = Time.time + spawnWaitTimer;
 
         // Instantiate first round of enemies
         NextWave();
@@ -49,6 +49,8 @@ public class GM_WaveSystem : MonoBehaviour
     // Setup next wave and instantiate
     public void NextWave()
     {
+        spawningEnemies = true;
+
         // Update wave numbers
         waveNumber++;
         waveEnemyCounter = 0;
@@ -81,6 +83,7 @@ public class GM_WaveSystem : MonoBehaviour
 
                     enemiesInWave[counter] = Instantiate(enemy.prefab, spawnPoints[spawnNum].transform.position, spawnPoints[spawnNum].transform.rotation, spawnPoints[spawnNum].transform);
                     counter++;
+                    //StartCoroutine(SpawnNextEnemy(counter, spawnNum, enemy));
                 }
 
                 // Update expected enemy types counter for next wave
@@ -92,6 +95,8 @@ public class GM_WaveSystem : MonoBehaviour
         {
             i.gameObject.SetActive(true);
         }
+
+        spawningEnemies = false;
     }
 
     // Store current enemies in wave to array
@@ -103,6 +108,11 @@ public class GM_WaveSystem : MonoBehaviour
     // Check if enemies still present
     private bool EnemiesDefeated()
     {
+        if(spawningEnemies) 
+        {
+            return false;
+        }
+
         if (enemiesInWave == null || enemiesInWave.Length == 0)
         {
             return true;
@@ -116,5 +126,12 @@ public class GM_WaveSystem : MonoBehaviour
             }
         }
         return true;
+    }
+
+    IEnumerator SpawnNextEnemy(int counter, int spawnNum, GM_WaveSystem_Enemy enemyPrefab)
+    {
+        yield return new WaitForSeconds(spawnWaitTimer);
+        enemiesInWave[counter] = Instantiate(enemyPrefab.prefab, spawnPoints[spawnNum].transform.position, spawnPoints[spawnNum].transform.rotation, spawnPoints[spawnNum].transform);
+        counter++;
     }
 }
