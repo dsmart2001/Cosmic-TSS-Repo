@@ -15,11 +15,11 @@ D:/_Desktop Extra/Unity Project Storage/Cosmic-TSS-Repo/Cosmic_TSS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51444
+59515
 Successfully changed project path to: D:/_Desktop Extra/Unity Project Storage/Cosmic-TSS-Repo/Cosmic_TSS
 D:/_Desktop Extra/Unity Project Storage/Cosmic-TSS-Repo/Cosmic_TSS
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 99.62 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 82.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -36,164 +36,252 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004113 seconds.
+Registered in 0.003209 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 94.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 97.76 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.562 seconds
+- Completed reload, in  1.306 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004467 seconds.
+Registered in 0.004302 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 101.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 109.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.444 seconds
+- Completed reload, in  1.558 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3703 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.1 MB.
-System memory in use after: 182.4 MB.
+System memory in use before: 182.3 MB.
+System memory in use after: 182.5 MB.
 
 Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4155.
-Total: 2.837200 ms (FindLiveObjects: 0.340200 ms CreateObjectMapping: 0.204600 ms MarkObjects: 2.265400 ms  DeleteObjects: 0.025700 ms)
+Total: 2.693100 ms (FindLiveObjects: 0.338800 ms CreateObjectMapping: 0.196400 ms MarkObjects: 2.120700 ms  DeleteObjects: 0.035000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/GUI/Sprites/Sniper_Crosshair.png
-  artifactKey: Guid(946be56a4c538ee4889211391744f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI/Sprites/Sniper_Crosshair.png using Guid(946be56a4c538ee4889211391744f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc3f2e30dabf74449640309ac46ee67') in 0.219093 seconds
-  Import took 0.248399 seconds .
+  path: Assets/Scenes/TestScenes/Test/NavMesh-NavMesh.asset
+  artifactKey: Guid(b27510439a3115146a22ae2982247ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestScenes/Test/NavMesh-NavMesh.asset using Guid(b27510439a3115146a22ae2982247ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078a61eacb382ab237c83f87856833d0') in 0.083108 seconds
+  Import took 0.109463 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/GUI/Sprites/Shotgun_Crosshair.png
-  artifactKey: Guid(9ce4a10d58abdb542a5b4d7e35c6981d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI/Sprites/Shotgun_Crosshair.png using Guid(9ce4a10d58abdb542a5b4d7e35c6981d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86b3f90168acf78677b3f5a70b63faf') in 0.126471 seconds
-  Import took 0.174476 seconds .
+  Time since last request: 0.000481 seconds.
+  path: Assets/Scenes/TestScenes/Test
+  artifactKey: Guid(d762fc916ddb9aa42a5f2d60b8ace3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestScenes/Test using Guid(d762fc916ddb9aa42a5f2d60b8ace3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9be2b2f8c3e63b7c580ef8a98737390') in 0.003009 seconds
+  Import took 0.014372 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000477 seconds.
-  path: Assets/GUI/Sprites/Pistol_Crosshair.png
-  artifactKey: Guid(5814ae7eb7c6a38498a81a4b76412d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI/Sprites/Pistol_Crosshair.png using Guid(5814ae7eb7c6a38498a81a4b76412d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bffe2c2214dc2e3dbc60c27948e13e4') in 0.107703 seconds
-  Import took 0.160475 seconds .
+  Time since last request: 0.000493 seconds.
+  path: Assets/Scenes/TestScenes/Test/NavMesh.asset
+  artifactKey: Guid(a85a0c4ca498f4b449cfbd2554e78084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestScenes/Test/NavMesh.asset using Guid(a85a0c4ca498f4b449cfbd2554e78084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0529b02140931dd099fac6d539a289e1') in 0.003802 seconds
+  Import took 0.009405 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.237534 seconds.
-  path: Assets/GUI/Sprites/Pistol_Crosshair.png
-  artifactKey: Guid(5814ae7eb7c6a38498a81a4b76412d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI/Sprites/Pistol_Crosshair.png using Guid(5814ae7eb7c6a38498a81a4b76412d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bffe2c2214dc2e3dbc60c27948e13e4') in 0.098566 seconds
-  Import took 0.105297 seconds .
+  Time since last request: 0.000451 seconds.
+  path: Assets/Scenes/TestScenes/Test.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestScenes/Test.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2288ea9f302b4b7b34441889caefb19') in 0.003638 seconds
+  Import took 0.008618 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.251409 seconds.
-  path: Assets/GUI/Sprites/Pistol_Crosshair.png
-  artifactKey: Guid(5814ae7eb7c6a38498a81a4b76412d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI/Sprites/Pistol_Crosshair.png using Guid(5814ae7eb7c6a38498a81a4b76412d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda8ca4600e48af51cb2b376fb434af6') in 0.067248 seconds
-  Import took 0.252733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.801030 seconds.
-  path: Assets/GUI/Sprites/Sniper_Crosshair.png
-  artifactKey: Guid(946be56a4c538ee4889211391744f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI/Sprites/Sniper_Crosshair.png using Guid(946be56a4c538ee4889211391744f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd750da0fab4d25df8b33b26042233719') in 0.014410 seconds
-  Import took 0.021606 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004735 seconds.
-  path: Assets/GUI/Sprites/Shotgun_Crosshair.png
-  artifactKey: Guid(9ce4a10d58abdb542a5b4d7e35c6981d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI/Sprites/Shotgun_Crosshair.png using Guid(9ce4a10d58abdb542a5b4d7e35c6981d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414bfcde625e7e9930c1b139f6180ef5') in 0.017385 seconds
-  Import took 0.045913 seconds .
+  Time since last request: 3.974071 seconds.
+  path: Assets/Scenes/TestScenes/MainMenu.unity
+  artifactKey: Guid(53ce4d35abf44f947b77bcb73a6609e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestScenes/MainMenu.unity using Guid(53ce4d35abf44f947b77bcb73a6609e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8971a526233e046ef49fd424d7e16fdd') in 0.003430 seconds
+  Import took 0.009449 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005471 seconds.
+Registered in 0.003756 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.472 seconds
+- Completed reload, in  1.338 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.5 MB.
-System memory in use after: 172.7 MB.
+System memory in use before: 169.6 MB.
+System memory in use after: 169.8 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4165.
-Total: 3.946100 ms (FindLiveObjects: 0.516800 ms CreateObjectMapping: 0.301100 ms MarkObjects: 3.103000 ms  DeleteObjects: 0.023800 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4158.
+Total: 3.626900 ms (FindLiveObjects: 0.373500 ms CreateObjectMapping: 0.200200 ms MarkObjects: 3.027600 ms  DeleteObjects: 0.024000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
-Received Import Request.
-  Time since last request: 536.420206 seconds.
-  path: Assets/Materials/ShipEnvironment/ShipFloor2.mat
-  artifactKey: Guid(3fe011d8f86f58e4bbe589018775a97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/ShipEnvironment/ShipFloor2.mat using Guid(3fe011d8f86f58e4bbe589018775a97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e8a6720c9ac85383753099c9b0ae5f') in 0.717778 seconds
-  Import took 0.783799 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005622 seconds.
+Registered in 0.005183 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.214 seconds
+- Completed reload, in  1.118 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.8 MB.
-System memory in use after: 173.0 MB.
+System memory in use before: 169.7 MB.
+System memory in use after: 169.9 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4206.
-Total: 2.546700 ms (FindLiveObjects: 0.367000 ms CreateObjectMapping: 0.161900 ms MarkObjects: 1.997800 ms  DeleteObjects: 0.018800 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4161.
+Total: 3.431300 ms (FindLiveObjects: 0.368200 ms CreateObjectMapping: 0.233000 ms MarkObjects: 2.805200 ms  DeleteObjects: 0.023900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004576 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.333 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.7 MB.
+System memory in use after: 169.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4164.
+Total: 3.407000 ms (FindLiveObjects: 0.452800 ms CreateObjectMapping: 0.324300 ms MarkObjects: 2.605300 ms  DeleteObjects: 0.023000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.342 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.7 MB.
+System memory in use after: 170.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4167.
+Total: 3.347700 ms (FindLiveObjects: 0.550400 ms CreateObjectMapping: 0.251700 ms MarkObjects: 2.514700 ms  DeleteObjects: 0.029400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004432 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.293 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.7 MB.
+System memory in use after: 170.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4170.
+Total: 4.228900 ms (FindLiveObjects: 0.758000 ms CreateObjectMapping: 0.312300 ms MarkObjects: 3.131000 ms  DeleteObjects: 0.025300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006352 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.557 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.7 MB.
+System memory in use after: 170.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4173.
+Total: 5.469200 ms (FindLiveObjects: 0.742900 ms CreateObjectMapping: 0.347600 ms MarkObjects: 4.347000 ms  DeleteObjects: 0.028800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
@@ -204,255 +292,267 @@ Registered in 0.004121 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.400 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.8 MB.
-System memory in use after: 173.1 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4209.
-Total: 3.302400 ms (FindLiveObjects: 0.874300 ms CreateObjectMapping: 0.334400 ms MarkObjects: 2.069300 ms  DeleteObjects: 0.021600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005495 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.529 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.9 MB.
-System memory in use after: 173.1 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4212.
-Total: 3.885100 ms (FindLiveObjects: 0.435800 ms CreateObjectMapping: 0.231500 ms MarkObjects: 3.174100 ms  DeleteObjects: 0.041700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004285 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.259 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.9 MB.
-System memory in use after: 173.1 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4215.
-Total: 3.434100 ms (FindLiveObjects: 0.416300 ms CreateObjectMapping: 0.187600 ms MarkObjects: 2.798300 ms  DeleteObjects: 0.030400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003915 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.193 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.9 MB.
-System memory in use after: 173.1 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4218.
-Total: 3.041600 ms (FindLiveObjects: 0.557400 ms CreateObjectMapping: 0.287000 ms MarkObjects: 2.176000 ms  DeleteObjects: 0.019900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004544 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.340 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.9 MB.
-System memory in use after: 173.1 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4221.
-Total: 4.312300 ms (FindLiveObjects: 0.865900 ms CreateObjectMapping: 0.400300 ms MarkObjects: 3.014800 ms  DeleteObjects: 0.029100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004082 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.247 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.9 MB.
-System memory in use after: 173.1 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4224.
-Total: 3.309000 ms (FindLiveObjects: 0.465900 ms CreateObjectMapping: 0.263500 ms MarkObjects: 2.555400 ms  DeleteObjects: 0.023200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003939 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.159 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.9 MB.
-System memory in use after: 173.2 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4227.
-Total: 3.470800 ms (FindLiveObjects: 0.637300 ms CreateObjectMapping: 0.251500 ms MarkObjects: 2.547400 ms  DeleteObjects: 0.030600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003862 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.426 seconds
+- Completed reload, in  1.418 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.9 MB.
-System memory in use after: 173.2 MB.
+System memory in use before: 169.8 MB.
+System memory in use after: 170.0 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4230.
-Total: 4.138200 ms (FindLiveObjects: 0.619500 ms CreateObjectMapping: 0.397600 ms MarkObjects: 3.088800 ms  DeleteObjects: 0.031100 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4176.
+Total: 2.846500 ms (FindLiveObjects: 0.497600 ms CreateObjectMapping: 0.200400 ms MarkObjects: 2.124700 ms  DeleteObjects: 0.022800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004496 seconds.
+Registered in 0.005289 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.389 seconds
+- Completed reload, in  1.346 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.9 MB.
-System memory in use after: 173.2 MB.
+System memory in use before: 169.8 MB.
+System memory in use after: 170.0 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4233.
-Total: 3.616000 ms (FindLiveObjects: 0.600700 ms CreateObjectMapping: 0.278400 ms MarkObjects: 2.712100 ms  DeleteObjects: 0.023500 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4179.
+Total: 3.230300 ms (FindLiveObjects: 0.619000 ms CreateObjectMapping: 0.240800 ms MarkObjects: 2.347100 ms  DeleteObjects: 0.021300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
+Received Import Request.
+  Time since last request: 882.342995 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bird_med_songbird_magpie_crow_call_chirp_04.wav
+  artifactKey: Guid(f8a05f77cc2179347b95a98079f1c499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bird_med_songbird_magpie_crow_call_chirp_04.wav using Guid(f8a05f77cc2179347b95a98079f1c499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e7b3b902bf259c0bf94cf071b624a5') in 0.319851 seconds
+  Import took 0.356399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_flyby_fast_09.wav
+  artifactKey: Guid(3cd7202cc748fff4da6b6733eeac33bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_flyby_fast_09.wav using Guid(3cd7202cc748fff4da6b6733eeac33bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f86390d258f129cbd7884faf21250cc') in 0.090752 seconds
+  Import took 0.117336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/cinematic_buildup_reverse_whoosh_01.wav
+  artifactKey: Guid(6aeb9e2c5d04ac34b9bda5cd98af0666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/cinematic_buildup_reverse_whoosh_01.wav using Guid(6aeb9e2c5d04ac34b9bda5cd98af0666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f95a489712bc37778c62fe2a01e246') in 0.046787 seconds
+  Import took 0.064394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000597 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/bone_break_neck_snap_crack_03.wav
+  artifactKey: Guid(faf489fefa28a5a48a34682b035a3655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/bone_break_neck_snap_crack_03.wav using Guid(faf489fefa28a5a48a34682b035a3655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd228ab472242752d8c4bed60a6241fc7') in 0.100759 seconds
+  Import took 0.109949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/bone_break_neck_snap_crack_01.wav
+  artifactKey: Guid(7ef5f6ef2186ff943aae651e04a308f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/bone_break_neck_snap_crack_01.wav using Guid(7ef5f6ef2186ff943aae651e04a308f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ae072fb91612682efa6a999af94f0a') in 0.063419 seconds
+  Import took 0.090009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/bone_break_neck_snap_crack_04.wav
+  artifactKey: Guid(04e21022e4b9d884c92c34233b492258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/bone_break_neck_snap_crack_04.wav using Guid(04e21022e4b9d884c92c34233b492258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49189759b542744662d30e63d607ef70') in 0.050219 seconds
+  Import took 0.072477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_flyby_fast_08.wav
+  artifactKey: Guid(310775b79316a33459ffc29843fa22f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_flyby_fast_08.wav using Guid(310775b79316a33459ffc29843fa22f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8536a58aba0ebabcd67af74f0e1fc441') in 0.026767 seconds
+  Import took 0.034167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bird_small_song_call_chirp_04.wav
+  artifactKey: Guid(4289b88eafb118e43a0f2965c7bf689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bird_small_song_call_chirp_04.wav using Guid(4289b88eafb118e43a0f2965c7bf689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2aaf0f6b1f7de6ff673a33af83f3ad') in 0.114260 seconds
+  Import took 0.124653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_impact_body_flesh_07.wav
+  artifactKey: Guid(f5387c66e868de546ab73d949faa1cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_impact_body_flesh_07.wav using Guid(f5387c66e868de546ab73d949faa1cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345ce321de19ae3a09997e15c3b280fb') in 0.075862 seconds
+  Import took 0.083368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/cicadas_day_loop_03.wav
+  artifactKey: Guid(76c9b8f956879df47ab45604f22b6850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/cicadas_day_loop_03.wav using Guid(76c9b8f956879df47ab45604f22b6850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3729c0c50abf979214ce35607385a42a') in 0.049083 seconds
+  Import took 0.309979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_impact_ice_02.wav
+  artifactKey: Guid(ca8bb79669851c54ca6d8d6bf9590837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_impact_ice_02.wav using Guid(ca8bb79669851c54ca6d8d6bf9590837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab196345578e5fed0b55bb9c2249ca01') in 0.040987 seconds
+  Import took 0.048689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/bone_break_neck_snap_crack_03.wav
+  artifactKey: Guid(1b03c0a7d912d4445ad3f497821124d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/bone_break_neck_snap_crack_03.wav using Guid(1b03c0a7d912d4445ad3f497821124d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c47485f0c3d5c606dd9f8b8350372d4') in 0.061405 seconds
+  Import took 0.067609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_flyby_fast_05.wav
+  artifactKey: Guid(0d660660ae8ceda41bc1092bdf644925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_flyby_fast_05.wav using Guid(0d660660ae8ceda41bc1092bdf644925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828bc88fd1eb88a0cb0be4e66a640b65') in 0.068438 seconds
+  Import took 0.096079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_impact_body_flesh_02.wav
+  artifactKey: Guid(b47922d1e32931c43988fbaa0267a273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_impact_body_flesh_02.wav using Guid(b47922d1e32931c43988fbaa0267a273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f585e6c8e25889b554819250e5bb8f70') in 0.299479 seconds
+  Import took 0.307840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_impact_ice_02.wav
+  artifactKey: Guid(fa91a57cabf00b14895a8689ce0635c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_impact_ice_02.wav using Guid(fa91a57cabf00b14895a8689ce0635c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6352d5e1deca3fed631a3b47acda92df') in 0.073184 seconds
+  Import took 0.079433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/bone_break_neck_snap_crack_02.wav
+  artifactKey: Guid(704c5d8d92769c4479b9097f1dc4a432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/bone_break_neck_snap_crack_02.wav using Guid(704c5d8d92769c4479b9097f1dc4a432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c89e044d313ff7e7b49a3059b74e69a') in 0.046515 seconds
+  Import took 0.071236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/bone_break_neck_snap_crack_02.wav
+  artifactKey: Guid(b478e70763eb9d84c948866de57df1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/bone_break_neck_snap_crack_02.wav using Guid(b478e70763eb9d84c948866de57df1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d17879e547a291275225937905cb70') in 0.097137 seconds
+  Import took 0.113936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/birds_small_calling_chirping_loop_03.wav
+  artifactKey: Guid(5982045fff5c68942990f1f96a2d1bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/birds_small_calling_chirping_loop_03.wav using Guid(5982045fff5c68942990f1f96a2d1bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c64a85f6397da9d4289e3c5a8246b8d') in 0.035859 seconds
+  Import took 0.043236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/bone_break_neck_snap_crack_01.wav
+  artifactKey: Guid(4060849b85408e64cacefb88a8df48c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/bone_break_neck_snap_crack_01.wav using Guid(4060849b85408e64cacefb88a8df48c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feafc4ed584dd9d5c77b2b6302ad149f') in 0.074696 seconds
+  Import took 0.184242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_flyby_fast_09.wav
+  artifactKey: Guid(3834bb543c6966d4aa50a02d11a55487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_flyby_fast_09.wav using Guid(3834bb543c6966d4aa50a02d11a55487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb939c58190256b1b6b3d41e52cef7b0') in 0.060597 seconds
+  Import took 0.082245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_impact_body_flesh_02.wav
+  artifactKey: Guid(3277b0a2754c77649a8725423b9720ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_impact_body_flesh_02.wav using Guid(3277b0a2754c77649a8725423b9720ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12eba191ec0416b1e998981fac8910ec') in 0.117902 seconds
+  Import took 0.136564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Prefabs/Environment/Box_Moveable.prefab
+  artifactKey: Guid(aa7dc5a5505b59948ad716c2c7ace864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Box_Moveable.prefab using Guid(aa7dc5a5505b59948ad716c2c7ace864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5615ee632b716aafc1eb462b04f3c4') in 0.026141 seconds
+  Import took 0.033901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000616 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_flyby_fast_05.wav
+  artifactKey: Guid(f3043bb3e1291a74e89f57d66ea3184f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_flyby_fast_05.wav using Guid(f3043bb3e1291a74e89f57d66ea3184f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f0d95db70e74323998b024f1a9f454') in 0.547898 seconds
+  Import took 0.563019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_flyby_fast_08.wav
+  artifactKey: Guid(75beccc0dafbf3c4e9f2822aa12c47de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_flyby_fast_08.wav using Guid(75beccc0dafbf3c4e9f2822aa12c47de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668fb25dbc7c497bedb63aeb9eec4124') in 0.065702 seconds
+  Import took 0.074798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_impact_body_flesh_07.wav
+  artifactKey: Guid(019b1cad8d20c6748abcaeabd40d6746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_impact_body_flesh_07.wav using Guid(019b1cad8d20c6748abcaeabd40d6746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daac80854b622dcbc48e7ee36e501da2') in 0.078503 seconds
+  Import took 0.149142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/bone_break_neck_snap_crack_04.wav
+  artifactKey: Guid(5411a5dbe4b6486489e1efe7d29ffa6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/bone_break_neck_snap_crack_04.wav using Guid(5411a5dbe4b6486489e1efe7d29ffa6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a418267576c0629fe95f643ac52fbf2') in 0.421474 seconds
+  Import took 0.427422 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003716 seconds.
+Registered in 0.004451 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -462,74 +562,90 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.381 seconds
+- Completed reload, in  1.434 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.8 MB.
+System memory in use after: 173.1 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4191.
+Total: 3.411100 ms (FindLiveObjects: 0.472700 ms CreateObjectMapping: 0.275000 ms MarkObjects: 2.637800 ms  DeleteObjects: 0.023300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 31.367234 seconds.
+  path: Assets/Prefabs/DamageOutput/Melee_Acid.prefab
+  artifactKey: Guid(c3cbca5efc237e045920dbf2b63a71f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Melee_Acid.prefab using Guid(c3cbca5efc237e045920dbf2b63a71f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e552b6b7867b26e9c35cade4c7c160') in 1.340970 seconds
+  Import took 1.427976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.065990 seconds.
+  path: Assets/Prefabs/DamageOutput/Melee_Acid.prefab
+  artifactKey: Guid(c3cbca5efc237e045920dbf2b63a71f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Melee_Acid.prefab using Guid(c3cbca5efc237e045920dbf2b63a71f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e552b6b7867b26e9c35cade4c7c160') in 1.155087 seconds
+  Import took 1.162254 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003731 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.480 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 172.9 MB.
-System memory in use after: 173.2 MB.
+System memory in use after: 173.1 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4236.
-Total: 3.809400 ms (FindLiveObjects: 0.365000 ms CreateObjectMapping: 0.212400 ms MarkObjects: 3.209400 ms  DeleteObjects: 0.021500 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4196.
+Total: 3.502100 ms (FindLiveObjects: 0.649300 ms CreateObjectMapping: 0.311900 ms MarkObjects: 2.516500 ms  DeleteObjects: 0.022900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004272 seconds.
+Registered in 0.004462 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.357 seconds
+- Completed reload, in  1.362 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 172.9 MB.
-System memory in use after: 173.2 MB.
+System memory in use after: 173.1 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4239.
-Total: 3.789500 ms (FindLiveObjects: 0.755400 ms CreateObjectMapping: 0.337400 ms MarkObjects: 2.672400 ms  DeleteObjects: 0.022300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004164 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.416 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.0 MB.
-System memory in use after: 173.2 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4242.
-Total: 4.576600 ms (FindLiveObjects: 0.444100 ms CreateObjectMapping: 0.212100 ms MarkObjects: 3.895300 ms  DeleteObjects: 0.024000 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4199.
+Total: 2.854200 ms (FindLiveObjects: 0.374100 ms CreateObjectMapping: 0.244300 ms MarkObjects: 2.212300 ms  DeleteObjects: 0.022400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
@@ -540,633 +656,81 @@ Registered in 0.004808 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.461 seconds
+- Completed reload, in  1.489 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.0 MB.
-System memory in use after: 173.2 MB.
+System memory in use before: 172.9 MB.
+System memory in use after: 173.1 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4245.
-Total: 3.625800 ms (FindLiveObjects: 0.553800 ms CreateObjectMapping: 0.327200 ms MarkObjects: 2.719800 ms  DeleteObjects: 0.023700 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4202.
+Total: 6.418300 ms (FindLiveObjects: 0.860000 ms CreateObjectMapping: 0.450400 ms MarkObjects: 5.052100 ms  DeleteObjects: 0.052600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005258 seconds.
+Registered in 0.004472 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.501 seconds
+- Completed reload, in  1.398 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.0 MB.
-System memory in use after: 173.2 MB.
+System memory in use before: 172.9 MB.
+System memory in use after: 173.1 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4248.
-Total: 3.438300 ms (FindLiveObjects: 0.605600 ms CreateObjectMapping: 0.242400 ms MarkObjects: 2.566100 ms  DeleteObjects: 0.022300 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4205.
+Total: 3.952400 ms (FindLiveObjects: 0.648400 ms CreateObjectMapping: 0.321600 ms MarkObjects: 2.951600 ms  DeleteObjects: 0.028500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005389 seconds.
+Registered in 0.004860 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 2.39 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.868 seconds
+- Completed reload, in  1.705 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.0 MB.
-System memory in use after: 173.2 MB.
+System memory in use before: 172.9 MB.
+System memory in use after: 173.1 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4251.
-Total: 4.283700 ms (FindLiveObjects: 0.659500 ms CreateObjectMapping: 0.367500 ms MarkObjects: 3.228100 ms  DeleteObjects: 0.027100 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4208.
+Total: 3.929900 ms (FindLiveObjects: 0.773500 ms CreateObjectMapping: 0.417100 ms MarkObjects: 2.713100 ms  DeleteObjects: 0.023700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 1929.862817 seconds.
-  path: Assets/Prefabs/DamageOutput/Bullet_Shotgun.prefab
-  artifactKey: Guid(e878b8c5f7c5a264f80e210acd9a9d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet_Shotgun.prefab using Guid(e878b8c5f7c5a264f80e210acd9a9d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3fb4ab95a03ee2ecdc1600adea708e') in 0.418799 seconds
-  Import took 0.451300 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005311 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.619 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.1 MB.
-System memory in use after: 173.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4257.
-Total: 3.872700 ms (FindLiveObjects: 0.572100 ms CreateObjectMapping: 0.273400 ms MarkObjects: 3.000500 ms  DeleteObjects: 0.024600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005343 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.678 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.1 MB.
-System memory in use after: 173.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4260.
-Total: 4.544600 ms (FindLiveObjects: 0.555200 ms CreateObjectMapping: 0.317000 ms MarkObjects: 3.638100 ms  DeleteObjects: 0.032000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 554.513746 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_impact_metal_heavy_02.wav
-  artifactKey: Guid(e078c14e26f83bf458b5ce5ba9efcee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_impact_metal_heavy_02.wav using Guid(e078c14e26f83bf458b5ce5ba9efcee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fc21bfcf7146c45fbcd5fc92d03d12') in 0.327070 seconds
-  Import took 0.348644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_strong_05.wav
-  artifactKey: Guid(aa5e456956f4e26469ed60f1b8dfb9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_strong_05.wav using Guid(aa5e456956f4e26469ed60f1b8dfb9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94caa481b181eac029a949b6bcf6b9dd') in 0.057218 seconds
-  Import took 0.085068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000608 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_strong_06.wav
-  artifactKey: Guid(95c131d976a281f4f9b721446c113d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_strong_06.wav using Guid(95c131d976a281f4f9b721446c113d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0419a10b45bfbce684e7c8754dfc1eb') in 0.156580 seconds
-  Import took 0.215947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_08.wav
-  artifactKey: Guid(84fa47b77b22d8a41863e6345864d6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_08.wav using Guid(84fa47b77b22d8a41863e6345864d6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a8837c99ae812ab0da476cf413c53b') in 0.099988 seconds
-  Import took 0.137246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000484 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_med_05.wav
-  artifactKey: Guid(eab99ec356004b242a2b606d121b30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_med_05.wav using Guid(eab99ec356004b242a2b606d121b30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdc931205835b87b31ca24318383746') in 0.061735 seconds
-  Import took 0.091933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000479 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_med_08.wav
-  artifactKey: Guid(b978c145dce4a034aba96565a561a79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_med_08.wav using Guid(b978c145dce4a034aba96565a561a79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af93f14db45fa73f4221d29ee6a214ad') in 0.084811 seconds
-  Import took 0.094388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000568 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_med_03.wav
-  artifactKey: Guid(a93c1d6205e52fb43832bcbda3090d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_med_03.wav using Guid(a93c1d6205e52fb43832bcbda3090d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8e5ebb857854905b59ebea07f58148') in 0.067771 seconds
-  Import took 0.095698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_impact_metal_heavy_07.wav
-  artifactKey: Guid(15e3679feeb466d478ed4f93d0f92038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_impact_metal_heavy_07.wav using Guid(15e3679feeb466d478ed4f93d0f92038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3de896b5c4fed9e2990c1e48a49a40') in 0.054924 seconds
-  Import took 0.068915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_strong_04.wav
-  artifactKey: Guid(9c84128eb8f6fcc41b6dfcf89a83a881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_strong_04.wav using Guid(9c84128eb8f6fcc41b6dfcf89a83a881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ec4e8e35f92a43ae8884ddd2a8ba52') in 0.062821 seconds
-  Import took 0.079818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000595 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_impact_metal_heavy_07.wav
-  artifactKey: Guid(4c5d4e2874eaf074584174937d17e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_impact_metal_heavy_07.wav using Guid(4c5d4e2874eaf074584174937d17e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c6d80cfc4ccb055c3f39736d14bd1d') in 0.108466 seconds
-  Import took 0.117987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000567 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_med_03.wav
-  artifactKey: Guid(3bb32947b2dc8854d8a5ddbe090c981b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_med_03.wav using Guid(3bb32947b2dc8854d8a5ddbe090c981b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22613d99d2c943bcb2ae60b80ce7d8f3') in 0.099807 seconds
-  Import took 0.124763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000484 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_light_05.wav
-  artifactKey: Guid(60f84b608a0966e4ba0e35512cad8dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_light_05.wav using Guid(60f84b608a0966e4ba0e35512cad8dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243757c4bad3539068acabf88f7bd5e5') in 0.091796 seconds
-  Import took 0.148392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_impact_metal_heavy_08.wav
-  artifactKey: Guid(918ebf6a81005014ea0170ea39d216af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_impact_metal_heavy_08.wav using Guid(918ebf6a81005014ea0170ea39d216af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8888d538846bd491391d0e248c8bb361') in 0.025013 seconds
-  Import took 0.058123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000560 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_light_01.wav
-  artifactKey: Guid(2121ded7ec5670d4a87ec670d8e31c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_light_01.wav using Guid(2121ded7ec5670d4a87ec670d8e31c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c45f599b7d9db3b8c7df22abbdbf1e3') in 0.071665 seconds
-  Import took 0.098647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000589 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_light_08.wav
-  artifactKey: Guid(c76a4a2a042fe5941ba5a8a2685951d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_light_08.wav using Guid(c76a4a2a042fe5941ba5a8a2685951d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018680c0cb5f7b26ad6465e7399bf517') in 0.069612 seconds
-  Import took 0.148892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000497 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_04.wav
-  artifactKey: Guid(476b5a7d404806b4d9cb1c53bebfcd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_04.wav using Guid(476b5a7d404806b4d9cb1c53bebfcd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891ee7d59dccfaa0389e96ab1f796624') in 0.063550 seconds
-  Import took 0.082334 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000595 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_med_01.wav
-  artifactKey: Guid(19a28b6b7ccbcf04b9ada98d1425283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_med_01.wav using Guid(19a28b6b7ccbcf04b9ada98d1425283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95077b1ea6639097758c0873735f7c81') in 0.099358 seconds
-  Import took 0.107633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000494 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_strong_08.wav
-  artifactKey: Guid(75c2a14091a81d14ba51dca8efc7a72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_strong_08.wav using Guid(75c2a14091a81d14ba51dca8efc7a72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc9c310da1ed09e394d0482801b877c') in 0.069144 seconds
-  Import took 0.075855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000477 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_med_04.wav
-  artifactKey: Guid(88b56ae6c951c7a4fb871eeb843c929f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_med_04.wav using Guid(88b56ae6c951c7a4fb871eeb843c929f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20568b407fe29ad329c7ef7677471036') in 0.086412 seconds
-  Import took 0.159764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_impact_metal_heavy_08.wav
-  artifactKey: Guid(1c825ebd401bc954dafdc60f61220d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_impact_metal_heavy_08.wav using Guid(1c825ebd401bc954dafdc60f61220d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b0c46cfcd8e624284240579ad9c8d0') in 0.140168 seconds
-  Import took 0.158480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000549 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_strong_08.wav
-  artifactKey: Guid(182f1f04c079ceb468cb5005d12ba71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_strong_08.wav using Guid(182f1f04c079ceb468cb5005d12ba71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98db0c674a3ab77cafb71fc9d544d9e') in 0.100495 seconds
-  Import took 0.121804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_med_02.wav
-  artifactKey: Guid(31d50faa344040344b1b62786c27bf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_med_02.wav using Guid(31d50faa344040344b1b62786c27bf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8054435a0f12762bb956e4557454b06f') in 0.021572 seconds
-  Import took 0.108343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_strong_04.wav
-  artifactKey: Guid(5b25fe9ca57dddd4e92df0bf36b1f0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_strong_04.wav using Guid(5b25fe9ca57dddd4e92df0bf36b1f0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18297ef2de4b4ba34d5773e07a7460cd') in 0.299434 seconds
-  Import took 0.346724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_impact_metal_heavy_02.wav
-  artifactKey: Guid(a438bb66ee16d03479e0bcee9b99329f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_impact_metal_heavy_02.wav using Guid(a438bb66ee16d03479e0bcee9b99329f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9036593228108b880d97db1c7b98f2') in 0.042125 seconds
-  Import took 0.141160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_light_07.wav
-  artifactKey: Guid(43a04ce98671348498e9c7255b9348a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_light_07.wav using Guid(43a04ce98671348498e9c7255b9348a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fae19d774543b16464a48743fe69a98') in 0.379169 seconds
-  Import took 0.404614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000417 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_05.wav
-  artifactKey: Guid(3e29f75e4693429408a1b0e4e6ec5603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_05.wav using Guid(3e29f75e4693429408a1b0e4e6ec5603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10f1ee8f7d3c88bf3c224e3b00c3b01') in 0.055942 seconds
-  Import took 0.062291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_strong_01.wav
-  artifactKey: Guid(64c8d565d375fcc479764fe96c1ab30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_strong_01.wav using Guid(64c8d565d375fcc479764fe96c1ab30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb91f47b7ddd84946c0a8a6699806cdb') in 0.057571 seconds
-  Import took 0.079502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000489 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_strong_06.wav
-  artifactKey: Guid(1fd42651309c21543b8babfe0bd767b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_strong_06.wav using Guid(1fd42651309c21543b8babfe0bd767b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635e4f4fab1100dbf5946f19571dc3ef') in 0.047361 seconds
-  Import took 0.068278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_strong_05.wav
-  artifactKey: Guid(a025e3cba13b13341975d3609a3454cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_strong_05.wav using Guid(a025e3cba13b13341975d3609a3454cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e53d22ba7439c52ac205839387f19da') in 0.062286 seconds
-  Import took 0.080562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_01.wav
-  artifactKey: Guid(b034c4b1bfc24a24e89bf49e63bf8ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_01.wav using Guid(b034c4b1bfc24a24e89bf49e63bf8ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984b726952a89a9e523b7e587e1497cd') in 0.082489 seconds
-  Import took 0.089367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_strong_03.wav
-  artifactKey: Guid(b28af90a129b7b9429796e59b20f18c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_strong_03.wav using Guid(b28af90a129b7b9429796e59b20f18c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6299df3405da79052eff6eae13ee7f3') in 0.056916 seconds
-  Import took 0.087701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_med_07.wav
-  artifactKey: Guid(fc1185750b20897498d6c4b41da55627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_med_07.wav using Guid(fc1185750b20897498d6c4b41da55627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ae6130f8cb1f11a69dbf755565d1ec') in 0.057665 seconds
-  Import took 0.108615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_light_04.wav
-  artifactKey: Guid(d1e082fab29b1d74c900563a7d55f939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_light_04.wav using Guid(d1e082fab29b1d74c900563a7d55f939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180db15fb98f36ddd855acfabfb67ca1') in 0.079190 seconds
-  Import took 0.093350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_light_06.wav
-  artifactKey: Guid(5202f9f510abd1d4a89923f472a74d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_light_06.wav using Guid(5202f9f510abd1d4a89923f472a74d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc5342f558e56bd9e1511239ad8cd90') in 0.042881 seconds
-  Import took 0.068626 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_med_04.wav
-  artifactKey: Guid(49b3f9cb571a4aa4387f7b4a3407a156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_med_04.wav using Guid(49b3f9cb571a4aa4387f7b4a3407a156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129e6b451fda9459024dbc449cdb42c3') in 0.058049 seconds
-  Import took 0.067974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_med_07.wav
-  artifactKey: Guid(551226f9ef59e9c44bbfd86148fd96d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_med_07.wav using Guid(551226f9ef59e9c44bbfd86148fd96d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331c9f9905893049cb55f6a651010851') in 0.031774 seconds
-  Import took 0.054333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_impact_metal_heavy_03.wav
-  artifactKey: Guid(b3c61091bca6feb47807a62a6d5215d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_impact_metal_heavy_03.wav using Guid(b3c61091bca6feb47807a62a6d5215d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544ef05a54a90d056754f8996158dbba') in 0.078089 seconds
-  Import took 0.510485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_med_01.wav
-  artifactKey: Guid(2814d2783fcd27d438ea5d93c56f4cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_med_01.wav using Guid(2814d2783fcd27d438ea5d93c56f4cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176be933efd1309b54ed2e77409e3b9c') in 0.265167 seconds
-  Import took 0.415108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_med_05.wav
-  artifactKey: Guid(3fde4266e750d624c97cdb4d0f6aa8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_med_05.wav using Guid(3fde4266e750d624c97cdb4d0f6aa8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bd0edd910174c722bdc222b8051d7f') in 0.091155 seconds
-  Import took 0.275605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000461 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_impact_metal_heavy_05.wav
-  artifactKey: Guid(b414db6abb737514bb25d1514e48bf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/bullet_impact_metal_heavy_05.wav using Guid(b414db6abb737514bb25d1514e48bf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b849575630f2c3dc46b7393fe965702d') in 0.053546 seconds
-  Import took 0.060478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_impact_metal_heavy_03.wav
-  artifactKey: Guid(02bf6c72c1c2f60448d66de1e0a10798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_impact_metal_heavy_03.wav using Guid(02bf6c72c1c2f60448d66de1e0a10798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2386a49c602cac32af5a0a4f815dc7') in 0.066553 seconds
-  Import took 0.084729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000477 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_med_06.wav
-  artifactKey: Guid(db2e74430b4d8db4ba44ffbdf5841393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_med_06.wav using Guid(db2e74430b4d8db4ba44ffbdf5841393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e543bcc259d61b836b7fc052e951de60') in 0.079638 seconds
-  Import took 0.113533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_02.wav
-  artifactKey: Guid(ec94696ddc5acb74fa79d6fd77f5a1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_02.wav using Guid(ec94696ddc5acb74fa79d6fd77f5a1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2e25a6b620d99ee35e19ee3b619284') in 0.044019 seconds
-  Import took 0.087705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000493 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_light_03.wav
-  artifactKey: Guid(7542e98ef7252f14a9db198740cc4282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_light_03.wav using Guid(7542e98ef7252f14a9db198740cc4282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2075e3ed4f16b6b219df8bb175f7f269') in 0.089024 seconds
-  Import took 0.121152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_strong_02.wav
-  artifactKey: Guid(d6a9914afcb422042b143d37c7a8a8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_strong_02.wav using Guid(d6a9914afcb422042b143d37c7a8a8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0280a7488dea7c6127f1b8c038f792') in 0.043703 seconds
-  Import took 0.050973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000466 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_strong_07.wav
-  artifactKey: Guid(35625825dabb63143b283b1b38dc588e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_strong_07.wav using Guid(35625825dabb63143b283b1b38dc588e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dda52b975967fc70b71691dcd44317f') in 0.090825 seconds
-  Import took 0.139697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_med_08.wav
-  artifactKey: Guid(a7ec5184af3313d4286bdafef8a2feb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_med_08.wav using Guid(a7ec5184af3313d4286bdafef8a2feb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bc7fb6c8505a44c06bcdeffc84d37b') in 0.012321 seconds
-  Import took 0.018710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000493 seconds.
-  path: Assets/Prefabs/Interactibles/Pickup_Health.prefab
-  artifactKey: Guid(7bc6986430b2adc4da2b07cc4cec684a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Interactibles/Pickup_Health.prefab using Guid(7bc6986430b2adc4da2b07cc4cec684a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43b25153f5cd97157ac40cdc0e774f8') in 0.236775 seconds
-  Import took 0.365889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000515 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_06.wav
-  artifactKey: Guid(849d525b119b41c43a3ebe46e4f2c5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_06.wav using Guid(849d525b119b41c43a3ebe46e4f2c5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908012c9caf59b3a67b400f58556b781') in 0.026171 seconds
-  Import took 0.032258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_med_06.wav
-  artifactKey: Guid(6d9f293e84834de489970c7c92d99f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_med_06.wav using Guid(6d9f293e84834de489970c7c92d99f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0751e7dac8a7a9d8f9486cf3e4cce9c') in 0.042345 seconds
-  Import took 0.119577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000471 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/knife_unsheathe_02.wav
-  artifactKey: Guid(9efc9e015e347d943a6f0d6242e9a349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/knife_unsheathe_02.wav using Guid(9efc9e015e347d943a6f0d6242e9a349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5834bccd47061021ca39b6d978518acf') in 0.281937 seconds
-  Import took 0.347026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_strong_01.wav
-  artifactKey: Guid(25cbbfa4858e8d04fb4570e9c1241ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_strong_01.wav using Guid(25cbbfa4858e8d04fb4570e9c1241ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5425dcc4fc0fcfa8634a234cb26ffc') in 0.043711 seconds
-  Import took 0.050444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_03.wav
-  artifactKey: Guid(2a131b19d78ae2e4ebf775367f305758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_03.wav using Guid(2a131b19d78ae2e4ebf775367f305758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343c08cfd853ddf557040a10cd9571e2') in 0.101288 seconds
-  Import took 0.582830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_07.wav
-  artifactKey: Guid(dfb69e4edf795f64888d4a89654bd481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_light_07.wav using Guid(dfb69e4edf795f64888d4a89654bd481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f99fcfb6a4ebcdf37d57d429d7ad91') in 0.032731 seconds
-  Import took 0.050431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000455 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_med_02.wav
-  artifactKey: Guid(c6de460677eb54649b3517089050798a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_med_02.wav using Guid(c6de460677eb54649b3517089050798a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb78ea004702886bad57092f3eed217') in 0.072678 seconds
-  Import took 0.138238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000466 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_strong_07.wav
-  artifactKey: Guid(57c4bb25828921049b1b75e4405bef73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_strong_07.wav using Guid(57c4bb25828921049b1b75e4405bef73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bbdd02b2792020a122690b242da7d7') in 0.042869 seconds
-  Import took 0.133494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_impact_metal_heavy_05.wav
-  artifactKey: Guid(087bace50db49124c9737a5840e97554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bullet_impact_metal_heavy_05.wav using Guid(087bace50db49124c9737a5840e97554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0745e590d004ecdbb5b9b4267bf56ad8') in 0.282951 seconds
-  Import took 0.312737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000467 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_strong_02.wav
-  artifactKey: Guid(be4ca2624d752814287e0d52fc72e735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_strong_02.wav using Guid(be4ca2624d752814287e0d52fc72e735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae591bbf19fdddf3d90926858663bcf5') in 0.015009 seconds
-  Import took 0.030879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_strong_03.wav
-  artifactKey: Guid(dffc4861179b3904a8b42c1c76ab741d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/Mono Versions/foley_soldier_gear_equipment_metal_cloth_heavy_movement_strong_03.wav using Guid(dffc4861179b3904a8b42c1c76ab741d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b49d505645ad9be111dbfc55e2984dc') in 0.047306 seconds
-  Import took 0.065778 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_light_02.wav
-  artifactKey: Guid(01dbaa8dd200d664ba31598503cea6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/Foley/foley_soldier_gear_equipment_metal_cloth_heavy_move_light_02.wav using Guid(01dbaa8dd200d664ba31598503cea6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657d958664ca90a723693773f4ac73ec') in 0.023221 seconds
-  Import took 0.193170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.444894 seconds.
-  path: Assets/Prefabs/Interactibles/Pickup_Health.prefab
-  artifactKey: Guid(7bc6986430b2adc4da2b07cc4cec684a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Interactibles/Pickup_Health.prefab using Guid(7bc6986430b2adc4da2b07cc4cec684a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5f4d2b9d8eb499459326b20347d591') in 0.005017 seconds
-  Import took 0.017971 seconds .
-
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

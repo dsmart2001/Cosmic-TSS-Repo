@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GM_Objectives : MonoBehaviour
 {
+    public static bool objectiveWave = false;
+
     public GM_Objectives_Defend[] OBJ_Defend;
     private GM_Objectives_Defend currentDefend;
     private int defendZoneNum;
@@ -40,43 +42,47 @@ public class GM_Objectives : MonoBehaviour
         //SetObjective_Defend();
         //randomObjectiveInt = 2;
         //SetObjective_ButtonRun();
-        NextObjective();
+        //NextObjective();
     }
 
     // Update is called once per frame
     void Update()
     {
-        switch (randomObjectiveInt)
+        if(objectiveWave)
         {
-            // Defend 
-            case 1:
-                if(currentDefend.timePlayerDefending <= 0)
-                {
-                    CompleteObjective();
-                }
-                else
-                {
-                    objectiveText = "Defend " + currentDefend.zoneName + ": " + currentDefend.timePlayerDefending.ToString("n2") + " sec remaining";
-                }
-                break;
-            // Button Run
-            case 2:
-                if(remainingButtons <= 0)
-                {
-                    CompleteObjective();
-                }
-                else
-                {
-                    objectiveText = "Buttons Remaining: " + remainingButtons;
-                }
-                break;
-        }
+            switch (randomObjectiveInt)
+            {
+                // Defend 
+                case 1:
+                    if (currentDefend.timePlayerDefending <= 0)
+                    {
+                        CompleteObjective();
+                    }
+                    else
+                    {
+                        objectiveText = "Defend " + currentDefend.zoneName + ": " + currentDefend.timePlayerDefending.ToString("n2") + " sec remaining";
+                    }
+                    break;
+                // Button Run
+                case 2:
+                    if (remainingButtons <= 0)
+                    {
+                        CompleteObjective();
+                    }
+                    else
+                    {
+                        objectiveText = "Buttons Remaining: " + remainingButtons;
+                    }
+                    break;
+            }
+        }        
     }
 
     // Prepare next objective and relevant conditions
     public void NextObjective() 
     {
-        DisableCurrentObjective();
+        //DisableCurrentObjective();
+        objectiveWave = true;
 
         randomObjectiveInt = Random.Range(1, 3);
 
@@ -90,11 +96,8 @@ public class GM_Objectives : MonoBehaviour
             case 2:
                 SetObjective_ButtonRun();
                 break;
-            // Air leak
-            case 3:
-                SetObjective_AirLeak();
-                break;
         }
+
     }
 
     // Choose one of the defend zones as point for player to defend
@@ -107,6 +110,8 @@ public class GM_Objectives : MonoBehaviour
         OBJ_Defend[random].gameObject.SetActive(true);
 
         currentDefend = OBJ_Defend[random];
+
+        Debug.Log("Objectives: Started new [Defend Zone] objective");
     }
 
     // Spawn a random selection of the buttons to be activated
@@ -124,11 +129,7 @@ public class GM_Objectives : MonoBehaviour
 
             remainingButtons = random;
         }
-    }
-
-    // Despawn some walls that need to be repaired
-    public void SetObjective_AirLeak()
-    {
+        Debug.Log("Objectives: Started new [Button Run] objective");
 
     }
 
@@ -150,10 +151,6 @@ public class GM_Objectives : MonoBehaviour
                     i.gameObject.SetActive(false);
                 }
                 break;
-            // Air leak
-            case 3:
-
-                break;
         }
 
         objectiveText = "";
@@ -162,7 +159,7 @@ public class GM_Objectives : MonoBehaviour
     // Detect the end of a wave
     public void EndOfWave()
     {
-        NextObjective();
+        objectiveWave = false;
     }
 
     // Update conditions based on completing the current objective

@@ -9,6 +9,12 @@ public class GM_WaveSystem : MonoBehaviour
     public static Interactable_Ammo[] ammoPickups => FindObjectsOfType<Interactable_Ammo>();
 
     [Space]
+    [Header("Wave condition variables")]
+    public int EndWave = 30;
+    public int RushWave = 6;
+    public int ObjectiveWave = 2;
+
+    [Space]
     [Header("Wave values and variables")]
 
     [SerializeField] public static int waveNumber = 0;
@@ -41,8 +47,12 @@ public class GM_WaveSystem : MonoBehaviour
         // Trigger event once no enemies are present
         if(EnemiesDefeated())
         {
+            if (GM_Objectives.objectiveWave == true)
+            {
+                Objectives.EndOfWave();
+            }
+
             NextWave();
-            Objectives.EndOfWave();
         }
     }
 
@@ -96,7 +106,14 @@ public class GM_WaveSystem : MonoBehaviour
             i.gameObject.SetActive(true);
         }
 
+        if(waveNumber == ObjectiveWave)
+        {
+            Objectives.NextObjective();
+        }
+
         spawningEnemies = false;
+
+        Debug.Log("Starting new wave > Enemy counter = " + counter + " > Objective wave? = " + GM_Objectives.objectiveWave + " > Rush wave? ");
     }
 
     // Store current enemies in wave to array

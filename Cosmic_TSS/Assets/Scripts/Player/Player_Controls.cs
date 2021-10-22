@@ -81,7 +81,7 @@ public class Player_Controls : MonoBehaviour
         }
 
         // Get Attack inputs
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space))
         {
             FireWeapon();
         }
