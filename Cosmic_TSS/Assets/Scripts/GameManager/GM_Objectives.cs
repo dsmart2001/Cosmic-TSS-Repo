@@ -46,7 +46,7 @@ public class GM_Objectives : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if(objectiveWave)
         {
@@ -84,7 +84,7 @@ public class GM_Objectives : MonoBehaviour
         //DisableCurrentObjective();
         objectiveWave = true;
 
-        randomObjectiveInt = Random.Range(1, 3);
+        randomObjectiveInt = Random.Range(1, 2);
 
         switch(randomObjectiveInt) 
         {
@@ -130,7 +130,6 @@ public class GM_Objectives : MonoBehaviour
             remainingButtons = random;
         }
         Debug.Log("Objectives: Started new [Button Run] objective");
-
     }
 
     public void DisableCurrentObjective()
@@ -165,7 +164,9 @@ public class GM_Objectives : MonoBehaviour
     // Update conditions based on completing the current objective
     public void CompleteObjective()
     {
+        Debug.Log("Objectives: Completed current objective");
         objectiveText = "OBJECTIVE COMPLETE";
+        objectiveWave = false;
         DisableCurrentObjective();
     }
 }
