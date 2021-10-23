@@ -43,12 +43,15 @@ public class Player_Collision : MonoBehaviour
         if(tag =="Ammo_Pistol" && player.weapons[0].ammo != player.weapons[0].ammoLimit)
         {
             player.weapons[0].ammo = player.weapons[0].ammoLimit;
+            c.gameObject.GetComponent<Interactable_Ammo>().active = false;
             c.gameObject.SetActive(false);
         }
 
         if (tag == "Ammo_Shotgun" && player.weapons[1].ammo != player.weapons[1].ammoLimit)
         {
             player.weapons[1].ammo = player.weapons[1].ammoLimit;
+            c.gameObject.GetComponent<Interactable_Ammo>().active = false;
+
             c.gameObject.SetActive(false);
 
         }
@@ -56,6 +59,8 @@ public class Player_Collision : MonoBehaviour
         if (tag == "Ammo_Sniper" && player.weapons[2].ammo != player.weapons[2].ammoLimit)
         {
             player.weapons[2].ammo = player.weapons[2].ammoLimit;
+            c.gameObject.GetComponent<Interactable_Ammo>().active = false;
+
             c.gameObject.SetActive(false);
 
         }

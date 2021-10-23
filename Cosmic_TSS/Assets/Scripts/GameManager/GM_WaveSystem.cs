@@ -6,7 +6,8 @@ public class GM_WaveSystem : MonoBehaviour
 {
     public GameObject[] spawnPoints;
     public GM_Objectives Objectives => GetComponent<GM_Objectives>();
-    public static Interactable_Ammo[] ammoPickups => FindObjectsOfType<Interactable_Ammo>();
+    public Interactable_Ammo[] ammoPickups;
+    public Interactable_HealthPickup[] healthPickups;
 
     [Space]
     [Header("Wave condition variables")]
@@ -21,6 +22,7 @@ public class GM_WaveSystem : MonoBehaviour
     [SerializeField] public static int waveEnemyCounter;
     [SerializeField] private GameObject[] enemiesInWave;
     public static int remainingEnemies;
+    public static bool newWaveStarting = false;
 
     public float spawnWaitTimer = 1f;
     private float spawnWaitCurrent;
@@ -35,6 +37,10 @@ public class GM_WaveSystem : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        ammoPickups =  FindObjectsOfType<Interactable_Ammo>();
+        healthPickups = FindObjectsOfType<Interactable_HealthPickup>();
+
+        Debug.Log("Ammo Pickups found: " + ammoPickups.Length);
         spawnPoints = GameObject.FindGameObjectsWithTag("SpawnPoint");
 
         // Instantiate first round of enemies
@@ -101,12 +107,19 @@ public class GM_WaveSystem : MonoBehaviour
             }
         }
 
+        // Respawn Interactables
         foreach(Interactable_Ammo i in ammoPickups)
         {
-            i.gameObject.SetActive(true);
+            i.RespawnAmmo();
         }
 
-        if(waveNumber == ObjectiveWave)
+        foreach (Interactable_HealthPickup i in healthPickups)
+        {
+            i.RespawnHealth();
+        }
+
+        // Initiate next objective
+        if (waveNumber == ObjectiveWave)
         {
             Objectives.NextObjective();
         }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Interactable_HealthPickup : MonoBehaviour
 {
     public float addHealth = 10f;
+    public bool active = true;
 
     private void OnCollisionEnter(Collision c)
     {
@@ -13,7 +14,16 @@ public class Interactable_HealthPickup : MonoBehaviour
         if(tag == "Player")
         {
             Player_Stats.health += addHealth;
+            active = false;
             gameObject.SetActive(false);
+        }
+    }
+
+    public void RespawnHealth()
+    {
+        if (active == false)
+        {
+            gameObject.SetActive(true);
         }
     }
 }
