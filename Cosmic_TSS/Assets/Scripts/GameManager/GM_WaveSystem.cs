@@ -92,18 +92,7 @@ public class GM_WaveSystem : MonoBehaviour
         {
             if(waveNumber >= enemy.IntroWave)
             {
-                // Instantiate based on current number of expected enemies of each type
-                for(int i = 0; i <= enemy.CurrentQuantity + enemy.AddQuanitity - 1; i++)
-                {
-                    int spawnNum = Random.Range(0, spawnPoints.Length);
-
-                    enemiesInWave[counter] = Instantiate(enemy.prefab, spawnPoints[spawnNum].transform.position, spawnPoints[spawnNum].transform.rotation, spawnPoints[spawnNum].transform);
-                    counter++;
-                    //StartCoroutine(SpawnNextEnemy(counter, spawnNum, enemy));
-                }
-
-                // Update expected enemy types counter for next wave
-                enemy.CurrentQuantity += enemy.AddQuanitity;
+                StartCoroutine(SpawnNextEnemy(counter, enemy));
             }
         }
 
@@ -142,8 +131,7 @@ public class GM_WaveSystem : MonoBehaviour
         {
             return false;
         }
-
-        if (enemiesInWave == null || enemiesInWave.Length == 0)
+        else if (enemiesInWave == null || enemiesInWave.Length == 0)
         {
             return true;
         }
@@ -158,10 +146,25 @@ public class GM_WaveSystem : MonoBehaviour
         return true;
     }
 
-    IEnumerator SpawnNextEnemy(int counter, int spawnNum, GM_WaveSystem_Enemy enemyPrefab)
+    IEnumerator SpawnNextEnemy(int allEnemyCounter, GM_WaveSystem_Enemy enemyPrefab)
     {
-        yield return new WaitForSeconds(spawnWaitTimer);
-        enemiesInWave[counter] = Instantiate(enemyPrefab.prefab, spawnPoints[spawnNum].transform.position, spawnPoints[spawnNum].transform.rotation, spawnPoints[spawnNum].transform);
-        counter++;
+        int currentEnemyCounter = 0;
+
+        while(currentEnemyCounter <= enemyPrefab.CurrentQuantity + enemyPrefab.AddQuanitity - 1)
+        {
+            Debug.Log("Wave System: Spawned new " + enemyPrefab.name);
+
+            // Spawn new enemy at random spawn points
+            int spawnNum = Random.Range(0, spawnPoints.Length);
+
+            enemiesInWave[allEnemyCounter] = Instantiate(enemyPrefab.prefab, spawnPoints[spawnNum].transform.position, spawnPoints[spawnNum].transform.rotation, spawnPoints[spawnNum].transform);
+            allEnemyCounter++;
+            currentEnemyCounter++;
+
+            yield return new WaitForSeconds(spawnWaitTimer);
+        }
+
+        // Update expected enemy types counter for next wave
+        enemyPrefab.CurrentQuantity += enemyPrefab.AddQuanitity;
     }
 }
