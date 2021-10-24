@@ -65,6 +65,14 @@ public class Player_Collision : MonoBehaviour
 
         }
 
+        if(tag == "Ammo_MG" && player.weapons[3].ammo != player.weapons[3].ammoLimit)
+        {
+            player.weapons[3].ammo = player.weapons[3].ammoLimit;
+            c.gameObject.GetComponent<Interactable_Ammo>().active = false;
+
+            c.gameObject.SetActive(false);
+        }
+
         if (tag == "ObjectiveButton")
         {
             GM_Objectives.remainingButtons--;

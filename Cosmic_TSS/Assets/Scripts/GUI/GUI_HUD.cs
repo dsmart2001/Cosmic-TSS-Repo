@@ -12,6 +12,7 @@ public class GUI_HUD : MonoBehaviour
     public TMP_Text playerHealth;
     public Slider playerHealthSlider;
     public TMP_Text playerAmmo;
+    public Image playerCrosshair;
 
     [Space]
     [Header("Wave UI elements")]
@@ -56,5 +57,7 @@ public class GUI_HUD : MonoBehaviour
         {
             enemyCounter.gameObject.SetActive(false);
         }
+
+        playerCrosshair.transform.position = Input.mousePosition;
     }
 }

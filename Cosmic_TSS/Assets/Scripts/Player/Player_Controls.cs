@@ -17,6 +17,8 @@ public class Player_Controls : MonoBehaviour
 
     public static bool phoneControls = true;
 
+    public Camera camera;
+
     // Player Weapons
     [Header("Player Weapons")]
 
@@ -52,10 +54,12 @@ public class Player_Controls : MonoBehaviour
         if(!phoneControls)
         {
             movementVector = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+            AimInput = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
         }
         else
         {
             movementVector = new Vector3(PI.actions["Move"].ReadValue<Vector2>().x, 0f, PI.actions["Move"].ReadValue<Vector2>().y);
+            AimInput = PI.actions["Aim"].ReadValue<Vector2>();
         }
 
         if (Input.GetAxis("Horizontal") != 0 && Input.GetAxis("Vertical") != 0)
@@ -64,24 +68,24 @@ public class Player_Controls : MonoBehaviour
         }
 
         // Aim inputs
-        AimInput = PI.actions["Aim"].ReadValue<Vector2>();
-
-        float angle = AngleBetweenTwoPoints(Vector2.zero, AimInput);
+        Vector2 playerScreenPos = camera.WorldToScreenPoint(transform.position);
 
         // Check if Movement joystick is being read and not Aim joystick to let movestick control rotation
-        if(PI.actions["Aim"].ReadValue<Vector2>() != Vector2.zero)
+        if(phoneControls && PI.actions["Aim"].ReadValue<Vector2>() != Vector2.zero )
         {
+            float angle = AngleBetweenTwoPoints(Vector2.zero, AimInput);
+
             transform.rotation = Quaternion.Euler(0f, -angle - 90f, 0f);
         }
-        else if(PI.actions["Aim"].ReadValue<Vector2>() == Vector2.zero && PI.actions["Aim"].ReadValue<Vector2>() != Vector2.zero)
+        else if(!phoneControls)
         {
-            float angle2 = AngleBetweenTwoPoints(Vector2.zero, PI.actions["Aim"].ReadValue<Vector2>());
-
-            transform.rotation = Quaternion.Euler(0f, -angle2 - 90f, 0f);
+            float angle = AngleBetweenTwoPoints(playerScreenPos, AimInput);
+            Debug.Log(playerScreenPos);
+            transform.rotation = Quaternion.Euler(0f, -angle - 90f, 0f);
         }
 
         // Get Attack inputs
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) || Input.GetMouseButton(0))
         {
             FireWeapon();
         }
