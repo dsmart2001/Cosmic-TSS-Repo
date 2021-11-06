@@ -5,6 +5,7 @@ using TMPro;
 
 public class Weapon_PlayerGuns : MonoBehaviour
 {
+    public string name;
     public GameObject projectile;
     public int ammoLimit = 5;
     public int ammo;

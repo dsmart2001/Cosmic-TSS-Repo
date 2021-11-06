@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ac96c9011fdf674fa30d0a493114bfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: SHOTGUN
   projectile: {fileID: 3841506731169638177, guid: e878b8c5f7c5a264f80e210acd9a9d9d,
     type: 3}
   ammoLimit: 8

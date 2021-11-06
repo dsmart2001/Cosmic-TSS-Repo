@@ -13,6 +13,7 @@ public class GUI_HUD : MonoBehaviour
     public Slider playerHealthSlider;
     public TMP_Text playerAmmo;
     public Image playerCrosshair;
+    public Sprite[] crosshairs;
 
     [Space]
     [Header("Wave UI elements")]
@@ -59,5 +60,24 @@ public class GUI_HUD : MonoBehaviour
         }
 
         playerCrosshair.transform.position = Input.mousePosition;
+
+        switch(Player_Controls.equippedWeapon.name)
+        {
+            case "PISTOL":
+                playerCrosshair.sprite = crosshairs[0];
+                break;
+            case "SHOTGUN":
+                playerCrosshair.sprite = crosshairs[1];
+
+                break;
+            case "SNIPER":
+                playerCrosshair.sprite = crosshairs[2];
+
+                break;
+            case "MG":
+                playerCrosshair.sprite = crosshairs[3];
+
+                break;
+        }
     }
 }

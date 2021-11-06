@@ -17,13 +17,13 @@ public class Player_Controls : MonoBehaviour
 
     public static bool phoneControls = true;
 
-    public Camera camera;
+    public Camera playerCamera;
 
     // Player Weapons
     [Header("Player Weapons")]
 
     public Weapon_PlayerGuns[] weapons;
-    private Weapon_PlayerGuns equippedWeapon;
+    public static Weapon_PlayerGuns equippedWeapon;
     public TMP_Text ammoUI;
     private int weaponNum = 0;
 
@@ -68,7 +68,7 @@ public class Player_Controls : MonoBehaviour
         }
 
         // Aim inputs
-        Vector2 playerScreenPos = camera.WorldToScreenPoint(transform.position);
+        Vector2 playerScreenPos = playerCamera.WorldToScreenPoint(transform.position);
 
         // Check if Movement joystick is being read and not Aim joystick to let movestick control rotation
         if(phoneControls && PI.actions["Aim"].ReadValue<Vector2>() != Vector2.zero )
@@ -80,7 +80,7 @@ public class Player_Controls : MonoBehaviour
         else if(!phoneControls)
         {
             float angle = AngleBetweenTwoPoints(playerScreenPos, AimInput);
-            Debug.Log(playerScreenPos);
+            Debug.Log("Cursor Position: " + playerScreenPos);
             transform.rotation = Quaternion.Euler(0f, -angle - 90f, 0f);
         }
 
@@ -97,11 +97,13 @@ public class Player_Controls : MonoBehaviour
         }
 
         ammoUI.text = equippedWeapon.ammo.ToString();
+
+        RB.MovePosition(RB.position + (movementVector * movementSpeed * Time.deltaTime));
+
     }
 
     private void FixedUpdate()
     {
-        RB.MovePosition(RB.position + (movementVector * movementSpeed * Time.deltaTime));
     }
 
     float AngleBetweenTwoPoints(Vector3 a, Vector3 b)
