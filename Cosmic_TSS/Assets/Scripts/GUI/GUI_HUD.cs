@@ -14,6 +14,8 @@ public class GUI_HUD : MonoBehaviour
     public Slider playerHealthSlider;
     public Image playerCrosshair;
     public Sprite[] crosshairs;
+    public TMP_Text locationText;
+    public static TMP_Text _locationText;
 
     [Space]
     [Header("Wave UI elements")]
@@ -31,6 +33,9 @@ public class GUI_HUD : MonoBehaviour
         enemyCounter.gameObject.SetActive(false);
         playerHealthSlider.value = Player_Stats.health;
         playerHealthSlider.maxValue = Player_Stats.health;
+
+        _locationText = locationText;
+        GUI_HUD.UpdateLocation("Test");
     }
 
     // Update is called once per frame
@@ -79,5 +84,10 @@ public class GUI_HUD : MonoBehaviour
 
                 break;
         }
+    }
+
+    public static void UpdateLocation(string location)
+    {
+        _locationText.text = location;
     }
 }
