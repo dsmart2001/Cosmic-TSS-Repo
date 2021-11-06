@@ -9,9 +9,9 @@ public class GUI_HUD : MonoBehaviour
     // UI Objects
     [Space]
     [Header("Player UI elements")]
+    public GameObject playerHUD;
     public TMP_Text playerHealth;
     public Slider playerHealthSlider;
-    public TMP_Text playerAmmo;
     public Image playerCrosshair;
     public Sprite[] crosshairs;
 
