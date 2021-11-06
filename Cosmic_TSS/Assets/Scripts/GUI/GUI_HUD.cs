@@ -61,7 +61,7 @@ public class GUI_HUD : MonoBehaviour
 
         playerCrosshair.transform.position = Input.mousePosition;
 
-        switch(Player_Controls.equippedWeapon.name)
+        switch(Player_Controls.equippedWeapon.gunName)
         {
             case "PISTOL":
                 playerCrosshair.sprite = crosshairs[0];

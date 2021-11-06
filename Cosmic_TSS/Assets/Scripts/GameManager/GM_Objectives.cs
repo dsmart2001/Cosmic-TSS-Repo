@@ -84,7 +84,7 @@ public class GM_Objectives : MonoBehaviour
         //DisableCurrentObjective();
         objectiveWave = true;
 
-        randomObjectiveInt = Random.Range(1, 2);
+        randomObjectiveInt = Random.Range(1, 3);
 
         switch(randomObjectiveInt) 
         {
@@ -117,7 +117,7 @@ public class GM_Objectives : MonoBehaviour
     // Spawn a random selection of the buttons to be activated
     public void SetObjective_ButtonRun()
     {
-        int random = Random.Range(6, OBJ_ButtonRun.Length - 3);
+        int random = Random.Range(OBJ_ButtonRun.Length / 2, OBJ_ButtonRun.Length - 3);
 
         Debug.Log("Objectives: Current button run num = " + random);
 

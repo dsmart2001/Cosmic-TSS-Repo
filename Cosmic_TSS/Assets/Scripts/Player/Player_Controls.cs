@@ -80,7 +80,7 @@ public class Player_Controls : MonoBehaviour
         else if(!phoneControls)
         {
             float angle = AngleBetweenTwoPoints(playerScreenPos, AimInput);
-            Debug.Log("Cursor Position: " + playerScreenPos);
+            //Debug.Log("Cursor Position: " + playerScreenPos);
             transform.rotation = Quaternion.Euler(0f, -angle - 90f, 0f);
         }
 

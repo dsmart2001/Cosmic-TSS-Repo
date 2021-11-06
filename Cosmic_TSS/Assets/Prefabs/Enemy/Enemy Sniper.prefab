@@ -495,7 +495,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 0.62387043, g: 0.21226418, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_Range: 1.5804582
   m_SpotAngle: 128.14046
   m_InnerSpotAngle: 21.80208
@@ -529,7 +529,7 @@ Light:
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -2288,7 +2288,7 @@ PrefabInstance:
         type: 3}
       propertyPath: attackObject
       value: 
-      objectReference: {fileID: 5469393517330596157, guid: 5f82a2c28c369bd42838b5d26040b19c,
+      objectReference: {fileID: 382490678295092880, guid: 260a5eeb7eeebe544aade2d2ddab345c,
         type: 3}
     - target: {fileID: 3910927242902018184, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}

@@ -6,6 +6,7 @@ public class Enemy_Stats : MonoBehaviour
 {
     public float health = 100f;
     public float bodyDamage = 10f;
+    public GameObject dropObject;
 
     private GM_WaveSystem WaveSystem => FindObjectOfType<GM_WaveSystem>();
 
@@ -21,7 +22,12 @@ public class Enemy_Stats : MonoBehaviour
     public void Death()
     {
         GM_WaveSystem.remainingEnemies--;
-        
+
+        if(dropObject != null)
+        {
+            Instantiate(dropObject, new Vector3(transform.position.x, transform.position.y - 1, transform.position.z), transform.rotation);
+        }
+
         Destroy(gameObject);
     }
 

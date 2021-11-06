@@ -1764,7 +1764,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0.9491426, b: 0, a: 1}
-  m_Intensity: 3
+  m_Intensity: 1
   m_Range: 3.0599241
   m_SpotAngle: 92.911865
   m_InnerSpotAngle: 21.80208
@@ -1798,7 +1798,7 @@ Light:
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -2207,6 +2207,12 @@ PrefabInstance:
       propertyPath: bodyDamage
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2744129152584059327, guid: bc0b513a648a886478d44d8a0163cd47,
+        type: 3}
+      propertyPath: dropObject
+      value: 
+      objectReference: {fileID: 7527515404289363482, guid: b2db42e56383fa347aeff84ca0899e4d,
+        type: 3}
     - target: {fileID: 3910927242902018184, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
       propertyPath: attackRange

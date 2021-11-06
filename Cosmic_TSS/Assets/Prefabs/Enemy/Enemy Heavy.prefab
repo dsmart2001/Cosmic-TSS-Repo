@@ -457,6 +457,12 @@ PrefabInstance:
       propertyPath: health
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 2744129152584059327, guid: bc0b513a648a886478d44d8a0163cd47,
+        type: 3}
+      propertyPath: dropObject
+      value: 
+      objectReference: {fileID: 6066436216616124921, guid: 7bc6986430b2adc4da2b07cc4cec684a,
+        type: 3}
     - target: {fileID: 3910927242902018184, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
       propertyPath: attackRange

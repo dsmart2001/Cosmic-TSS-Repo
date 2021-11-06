@@ -7,12 +7,6 @@ public class Enemy_Collision : MonoBehaviour
     private Enemy_Stats Stats => GetComponent<Enemy_Stats>();
     private Enemy_NavMeshMovement Movement => GetComponent<Enemy_NavMeshMovement>();
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
     private void OnCollisionEnter(Collision c)
     {
         string tag = c.gameObject.tag;

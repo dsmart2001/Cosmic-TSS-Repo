@@ -32,7 +32,7 @@ public class GM_WaveSystem : MonoBehaviour
 
     public float spawnWaitTimer = 1f;
     public float spawnObjectiveWaitTimer = 5f;
-
+    public int spawnObjectiveMax = 20;
 
     [Space]
     [Header("Spawnable Objects Prefabs")]
@@ -169,7 +169,7 @@ public class GM_WaveSystem : MonoBehaviour
                 }
                 break;
             case true:
-                while (GM_Objectives.objectiveWave)
+                while (GM_Objectives.objectiveWave && remainingEnemies <= spawnObjectiveMax)
                 {
                     Debug.Log("Wave System: Spawned new " + enemyPrefab.name + " in objective wave");
 
