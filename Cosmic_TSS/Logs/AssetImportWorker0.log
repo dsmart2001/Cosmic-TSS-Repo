@@ -126,3 +126,28 @@ System memory in use after: 177.5 MB.
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4199.
 Total: 3.718600 ms (FindLiveObjects: 0.523000 ms CreateObjectMapping: 0.272900 ms MarkObjects: 2.898500 ms  DeleteObjects: 0.022900 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1496.179842 seconds.
+  path: Assets/Scenes/MainGame/PlayGame.unity
+  artifactKey: Guid(7095e5fd23de2f04db07a95d0f897fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayGame.unity using Guid(7095e5fd23de2f04db07a95d0f897fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa817ad4e12413ec258a3e17d046946') in 0.016604 seconds
+  Import took 0.043480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.779290 seconds.
+  path: Assets/Scenes/MainGame/MainMenu.unity
+  artifactKey: Guid(487ccecdd998c8e4bab3c8fe39edeb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/MainMenu.unity using Guid(487ccecdd998c8e4bab3c8fe39edeb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280ba390cacb74204e731d3d3c57f73f') in 0.003302 seconds
+  Import took 0.017763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004831 seconds.
+  path: Assets/Scenes/MainGame/MainMenu.unity
+  artifactKey: Guid(487ccecdd998c8e4bab3c8fe39edeb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/MainMenu.unity using Guid(487ccecdd998c8e4bab3c8fe39edeb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280ba390cacb74204e731d3d3c57f73f') in 0.003053 seconds
+  Import took 0.010596 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
