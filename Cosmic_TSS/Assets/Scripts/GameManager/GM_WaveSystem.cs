@@ -12,7 +12,7 @@ public class GM_WaveSystem : MonoBehaviour
 
     [Space]
     [Header("Wave condition variables")]
-    public int EndWave = 30;
+    public int EndWave = 2;
     public int RushWave = 6;
     private int RushWaveCounter;
     public int ObjectiveWave = 3;
@@ -60,20 +60,28 @@ public class GM_WaveSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(remainingEnemies == 0)
+        // Trigger event once no enemies are present
+
+        if (remainingEnemies == 0)
         {
             ClearEmptyEnemies();
         }
 
-        // Trigger event once no enemies are present
-        if(EnemiesDefeated())
+        if(EnemiesDefeated() && !GameManager.wonGame)
         {
             if (GM_Objectives.objectiveWave == true)
             {
                 Objectives.EndOfWave();
             }
 
-            NextWave();
+            if(waveNumber != EndWave)
+            {
+                NextWave();
+            }
+            else
+            {
+                GameManager.WinGame();
+            }
         }
     }
 

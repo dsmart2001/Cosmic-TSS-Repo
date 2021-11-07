@@ -7,6 +7,7 @@ public class Player_Stats : MonoBehaviour
     public static Transform PlayerCoord;
     public float _health = 100f;
     public static float health = 100f;
+    public static bool dead = false;
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +28,8 @@ public class Player_Stats : MonoBehaviour
 
     private void Death()
     {
-        Destroy(gameObject);
+        GameManager.DeathScreen();
+        dead = true;
     }
 
     public static void TakeDamage(float damage)

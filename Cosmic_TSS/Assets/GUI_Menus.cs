@@ -22,19 +22,33 @@ public class GUI_Menus : MonoBehaviour
 
     void Update()
     {
-       if(Input.GetKeyDown(KeyCode.Escape) && !paused)
+       if(Input.GetKeyDown(KeyCode.Escape))
         {
-            paused = true;
-            Menu_Pause.SetActive(true);
-            Time.timeScale = 0;
+            Pause();
         }
     }
 
-    public void Resume()
+    public void HideHUD(bool visible)
     {
-        paused = false;
-        Menu_Pause.SetActive(false);
-        Time.timeScale = 1;
+        PlayerHUD.SetActive(visible);
+    }
+
+    public void Pause()
+    {
+        if(!paused && !Player_Stats.dead)
+        {
+            paused = true;
+            Menu_Pause.SetActive(true);
+            HideHUD(false);
+            Time.timeScale = 0;
+        }
+        else
+        {
+            paused = false;
+            Menu_Pause.SetActive(false);
+            HideHUD(true);
+            Time.timeScale = 1;
+        }
     }
 
     public void Quit()
@@ -44,6 +58,6 @@ public class GUI_Menus : MonoBehaviour
 
     public void Restart()
     {
-        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
