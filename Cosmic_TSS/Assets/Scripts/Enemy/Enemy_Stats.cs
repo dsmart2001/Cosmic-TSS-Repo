@@ -25,7 +25,12 @@ public class Enemy_Stats : MonoBehaviour
 
         if(dropObject != null)
         {
-            Instantiate(dropObject, new Vector3(transform.position.x, transform.position.y - 1, transform.position.z), transform.rotation);
+            int random = Random.Range(0, 4);
+
+            if(random == 2)
+            {
+                Instantiate(dropObject, new Vector3(transform.position.x, transform.position.y - 1, transform.position.z), transform.rotation);
+            }
         }
 
         Destroy(gameObject);
