@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     public static void WinGame()
     {
         menus.HideHUD(false);
+        Cursor.visible = true;
 
         wonGame = true;
 
@@ -33,8 +34,10 @@ public class GameManager : MonoBehaviour
     public static void DeathScreen()
     {
         Time.timeScale = 0;
+        Cursor.visible = true;
 
         menus.Menu_Death.SetActive(true);
+        menus.HideHUD(false);
     }
 }
 
