@@ -25,6 +25,8 @@ public class GUI_HUD : MonoBehaviour
     public int enemiesToRevealCounter = 10;
     public TMP_Text enemyCounter;
     public Slider waveSlider;
+    public GameObject waveNotification;
+    public static GameObject _waveNotification;
 
     [Space]
     [Header("Objective UI elements")]
@@ -43,6 +45,9 @@ public class GUI_HUD : MonoBehaviour
 
         waveSlider.maxValue = waveSystem.EndWave;
         EnableObjectiveUI(false);
+
+        _waveNotification = waveNotification;
+        _waveNotification.SetActive(false);
     }
 
     // Update is called once per frame
@@ -135,5 +140,14 @@ public class GUI_HUD : MonoBehaviour
             objectiveSlider.gameObject.SetActive(false);
             objectiveText.gameObject.SetActive(false);
         }
+    }
+
+    public static IEnumerator WaveNotification()
+    {
+        _waveNotification.SetActive(true);
+
+        yield return new WaitForSeconds(5f);
+
+        _waveNotification.SetActive(false);
     }
 }

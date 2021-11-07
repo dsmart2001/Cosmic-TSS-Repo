@@ -44,6 +44,8 @@ public class GM_WaveSystem : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        waveNumber = 0;
+
         ammoPickups =  FindObjectsOfType<Interactable_Ammo>();
         healthPickups = FindObjectsOfType<Interactable_HealthPickup>();
         spawnPoints = GameObject.FindGameObjectsWithTag("SpawnPoint");
@@ -137,6 +139,8 @@ public class GM_WaveSystem : MonoBehaviour
         spawningEnemies = false;
 
         Debug.Log("Starting new wave > Enemy counter = " + remainingEnemies + " > Objective wave? = " + GM_Objectives.objectiveWave + " > Rush wave? ");
+
+        StartCoroutine(GUI_HUD.WaveNotification());
     }
 
     // Check if enemies still present
