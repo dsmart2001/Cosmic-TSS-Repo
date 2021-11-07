@@ -78,7 +78,7 @@ public class GM_Objectives : MonoBehaviour
                     {
                         objectiveType = "BUTTON";
 
-                        objectiveText = "Find & Press Buttons: " + remainingButtons;
+                        objectiveText = "Find & Press Panic Buttons: " + remainingButtons;
                     }
                     break;
             }
