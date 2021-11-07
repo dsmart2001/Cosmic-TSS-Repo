@@ -831,7 +831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosion: {fileID: 1584177188474152975}
-  integrity: 150
+  integrity: 75
 --- !u!1 &4427118701403941796
 GameObject:
   m_ObjectHideFlags: 0
