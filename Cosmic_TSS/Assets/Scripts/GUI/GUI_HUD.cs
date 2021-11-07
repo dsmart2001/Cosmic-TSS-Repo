@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class GUI_HUD : MonoBehaviour
 {
+    private GM_WaveSystem waveSystem => FindObjectOfType<GM_WaveSystem>();
+
     // UI Objects
     [Space]
     [Header("Player UI elements")]
@@ -22,10 +24,12 @@ public class GUI_HUD : MonoBehaviour
     public TMP_Text waveCounter;
     public int enemiesToRevealCounter = 10;
     public TMP_Text enemyCounter;
+    public Slider waveSlider;
 
     [Space]
     [Header("Objective UI elements")]
     public TMP_Text objectiveText;
+    public Slider objectiveSlider;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +39,10 @@ public class GUI_HUD : MonoBehaviour
         playerHealthSlider.maxValue = Player_Stats.health;
 
         _locationText = locationText;
-        GUI_HUD.UpdateLocation("Test");
+        //GUI_HUD.UpdateLocation("Test");
+
+        waveSlider.maxValue = waveSystem.EndWave;
+        EnableObjectiveUI(false);
     }
 
     // Update is called once per frame
@@ -51,7 +58,6 @@ public class GUI_HUD : MonoBehaviour
         }
 
         waveCounter.text = "Wave > " + GM_WaveSystem.waveNumber.ToString();
-        objectiveText.text = GM_Objectives.objectiveText;
 
         // Update wave UI info
         if(GM_WaveSystem.remainingEnemies <= enemiesToRevealCounter)
@@ -84,10 +90,50 @@ public class GUI_HUD : MonoBehaviour
 
                 break;
         }
+
+        if (GM_Objectives.objectiveWave)
+        {
+            objectiveText.text = GM_Objectives.objectiveText;
+
+            switch (GM_Objectives.objectiveType)
+            {
+                case "DEFEND":
+                    objectiveSlider.value = GM_Objectives.currentDefend.timePlayerDefending;
+                    break;
+                case "BUTTON":
+                    objectiveSlider.value = GM_Objectives.remainingButtons;
+                    break;
+            }
+        }
+
+        waveSlider.value = GM_WaveSystem.waveNumber;
     }
 
     public static void UpdateLocation(string location)
     {
         _locationText.text = location;
+    }
+
+    public void EnableObjectiveUI(bool active)
+    {
+        if(active)
+        {
+            objectiveSlider.gameObject.SetActive(true);
+            objectiveText.gameObject.SetActive(true);
+
+            switch (GM_Objectives.objectiveType) {
+                case "DEFEND":
+                    objectiveSlider.maxValue = GM_Objectives.currentDefend.timeToDefend;
+                    break;
+                case "BUTTON":
+                    objectiveSlider.maxValue = GM_Objectives.remainingButtons;
+                    break;
+            }
+        }
+        else
+        {
+            objectiveSlider.gameObject.SetActive(false);
+            objectiveText.gameObject.SetActive(false);
+        }
     }
 }

@@ -6,19 +6,20 @@ public class LocationTrigger : MonoBehaviour
 {
     public string locationName;
 
-    private void OnTriggerStay(Collision c)
+    private void OnTriggerEnter(Collider c)
     {
         if(c.gameObject.tag == "Player")
         {
+            Debug.Log("Location Trigger " + locationName + ": Collided with player");
             GUI_HUD.UpdateLocation(locationName);
         }
     }
 
-    private void OnCollisionExit(Collision c)
+    private void OnTriggerExit(Collider c)
     {
         if (c.gameObject.tag == "Player")
         {
-            GUI_HUD.UpdateLocation("");
+            GUI_HUD.UpdateLocation("Hallways");
         }
     }
 }

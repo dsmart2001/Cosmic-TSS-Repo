@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class GM_Objectives : MonoBehaviour
 {
+    public GUI_HUD GUI => FindObjectOfType<GUI_HUD>();
+
     public static bool objectiveWave = false;
 
     public GM_Objectives_Defend[] OBJ_Defend;
-    private GM_Objectives_Defend currentDefend;
+    public static GM_Objectives_Defend currentDefend;
     private int defendZoneNum;
 
     public GM_Objectives_ButtonRun[] OBJ_ButtonRun;
-    private GM_Objectives_ButtonRun[] currentButtonRun;
+    public static GM_Objectives_ButtonRun[] currentButtonRun;
     public static int remainingButtons;
+    public static int totalButtons = 6;
 
     public static string objectiveText;
+    public static string objectiveType;
     public static int randomObjectiveInt;
 
     // Start is called before the first frame update
@@ -60,6 +64,7 @@ public class GM_Objectives : MonoBehaviour
                     }
                     else
                     {
+                        objectiveType = "DEFEND";
                         objectiveText = "Defend " + currentDefend.zoneName + ": " + currentDefend.timePlayerDefending.ToString("n2") + " sec remaining";
                     }
                     break;
@@ -71,7 +76,9 @@ public class GM_Objectives : MonoBehaviour
                     }
                     else
                     {
-                        objectiveText = "Buttons Remaining: " + remainingButtons;
+                        objectiveType = "BUTTON";
+
+                        objectiveText = "Find & Press Buttons: " + remainingButtons;
                     }
                     break;
             }
@@ -81,7 +88,6 @@ public class GM_Objectives : MonoBehaviour
     // Prepare next objective and relevant conditions
     public void NextObjective() 
     {
-        //DisableCurrentObjective();
         objectiveWave = true;
 
         randomObjectiveInt = Random.Range(1, 3);
@@ -98,6 +104,7 @@ public class GM_Objectives : MonoBehaviour
                 break;
         }
 
+        GUI.EnableObjectiveUI(true);
     }
 
     // Choose one of the defend zones as point for player to defend
@@ -153,6 +160,8 @@ public class GM_Objectives : MonoBehaviour
         }
 
         objectiveText = "";
+
+        GUI.EnableObjectiveUI(false);
     }
 
     // Detect the end of a wave

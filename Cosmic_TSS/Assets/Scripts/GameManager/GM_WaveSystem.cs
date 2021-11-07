@@ -7,6 +7,7 @@ public class GM_WaveSystem : MonoBehaviour
 {
     public GameObject[] spawnPoints;
     public GM_Objectives Objectives => GetComponent<GM_Objectives>();
+
     [SerializeField] private Interactable_Ammo[] ammoPickups;
     [SerializeField] private Interactable_HealthPickup[] healthPickups;
 

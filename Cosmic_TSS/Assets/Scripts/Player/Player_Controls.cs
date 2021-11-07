@@ -93,7 +93,11 @@ public class Player_Controls : MonoBehaviour
         // Swap weapon
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            SwapWeapon();
+            SwapWeapon(true);
+        }
+        else if(Input.GetKeyDown(KeyCode.E))
+        {
+            SwapWeapon(false);
         }
 
         ammoUI.text = equippedWeapon.ammo.ToString();
@@ -118,21 +122,43 @@ public class Player_Controls : MonoBehaviour
     }
 
     // Swap from the given weapons of player
-    public void SwapWeapon()
+    public void SwapWeapon(bool direction)
     {
-        if(weaponNum != weapons.Length - 1)
+        switch(direction)
         {
-            equippedWeapon.gameObject.SetActive(false);
-            weaponNum++;
-            equippedWeapon = weapons[weaponNum];
-            equippedWeapon.gameObject.SetActive(true);
+            case true:
+                if (weaponNum != weapons.Length - 1)
+                {
+                    equippedWeapon.gameObject.SetActive(false);
+                    weaponNum++;
+                    equippedWeapon = weapons[weaponNum];
+                    equippedWeapon.gameObject.SetActive(true);
+                }
+                else
+                {
+                    equippedWeapon.gameObject.SetActive(false);
+                    weaponNum = 0;
+                    equippedWeapon = weapons[weaponNum];
+                    equippedWeapon.gameObject.SetActive(true);
+                }
+                break;
+            case false:
+                if (weaponNum != 0)
+                {
+                    equippedWeapon.gameObject.SetActive(false);
+                    weaponNum--;
+                    equippedWeapon = weapons[weaponNum];
+                    equippedWeapon.gameObject.SetActive(true);
+                }
+                else
+                {
+                    equippedWeapon.gameObject.SetActive(false);
+                    weaponNum = weapons.Length - 1;
+                    equippedWeapon = weapons[weaponNum];
+                    equippedWeapon.gameObject.SetActive(true);
+                }
+                break;
         }
-        else
-        {
-            equippedWeapon.gameObject.SetActive(false);
-            weaponNum = 0;
-            equippedWeapon = weapons[weaponNum];
-            equippedWeapon.gameObject.SetActive(true);
-        }
+
     }
 }
