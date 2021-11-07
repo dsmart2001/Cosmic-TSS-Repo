@@ -20,15 +20,28 @@ public class GameManager : MonoBehaviour
     }
 
 
-    public static void WinGame()
+    public void WinGame(bool won)
     {
-        menus.HideHUD(false);
-        Cursor.visible = true;
+        if(won)
+        {
+            menus.HideHUD(false);
+            Cursor.visible = true;
 
-        wonGame = true;
+            wonGame = true;
 
-        Time.timeScale = 0;
-        menus.Menu_Win.SetActive(true);
+            Time.timeScale = 0;
+            menus.Menu_Win.SetActive(true);
+        }
+        else
+        {
+            menus.HideHUD(true);
+            Cursor.visible = false;
+
+            wonGame = false;
+
+            Time.timeScale = 1;
+            menus.Menu_Win.SetActive(false);
+        }
     }
 
     public static void DeathScreen()
