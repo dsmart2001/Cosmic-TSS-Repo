@@ -416,6 +416,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4491905243839105987, guid: bc0b513a648a886478d44d8a0163cd47,
+        type: 3}
+      propertyPath: speedUpSpeed
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc0b513a648a886478d44d8a0163cd47, type: 3}
 --- !u!1 &2725172089628644023 stripped
@@ -516,6 +521,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806359038188508750, guid: 125e6176104a11345be590f3e8f3f3a6,
+        type: 3}
+      propertyPath: damage
+      value: 75
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 125e6176104a11345be590f3e8f3f3a6, type: 3}

@@ -70,7 +70,12 @@ public class GUI_Menus : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        GM_WaveSystem.RestartGame(false, 0);
+    }
+
+    public void ResetWave()
+    {
+        GM_WaveSystem.RestartGame(true, GM_WaveSystem.waveNumber);
     }
 
     public void OpenControls(bool active)

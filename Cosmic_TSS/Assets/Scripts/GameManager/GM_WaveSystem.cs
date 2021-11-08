@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class GM_WaveSystem : MonoBehaviour
 {
@@ -40,12 +41,14 @@ public class GM_WaveSystem : MonoBehaviour
     [Header("Spawnable Objects Prefabs")]
 
     public GM_WaveSystem_Enemy[] EnemyObjects;
+    public static GM_WaveSystem_Enemy[] _EnemyObjects;
+
+    private static bool debugWave = false;
+    private static int newDebugWave;
 
     // Start is called before the first frame update
     void Awake()
     {
-        waveNumber = 0;
-
         ammoPickups =  FindObjectsOfType<Interactable_Ammo>();
         healthPickups = FindObjectsOfType<Interactable_HealthPickup>();
         spawnPoints = GameObject.FindGameObjectsWithTag("SpawnPoint");
@@ -57,8 +60,19 @@ public class GM_WaveSystem : MonoBehaviour
         RushWaveCounter = RushWave;
         ObjectiveWaveCounter = ObjectiveWave;
 
+        _EnemyObjects = EnemyObjects;
+
+        if (debugWave)
+        {
+            foreach (GM_WaveSystem_Enemy enemy in _EnemyObjects)
+            {
+                enemy.CurrentQuantity = (enemy.CurrentQuantity += (enemy.AddQuanitity * (waveNumber - enemy.IntroWave)));
+            }
+        }
+
         // Instantiate first round of enemies
         NextWave();
+
     }
 
     // Update is called once per frame
@@ -106,11 +120,14 @@ public class GM_WaveSystem : MonoBehaviour
         }
 
         // Update total number of enemies in round
+        waveEnemyCounter = 0;
+
         foreach (GM_WaveSystem_Enemy enemy in EnemyObjects)
         {
             if (waveNumber >= enemy.IntroWave)
             {
-                waveEnemyCounter += enemy.CurrentQuantity + enemy.AddQuanitity;
+                waveEnemyCounter += enemy.CurrentQuantity + (enemy.AddQuanitity * waveNumber);
+                
             }
         }
 
@@ -151,12 +168,20 @@ public class GM_WaveSystem : MonoBehaviour
         {
             return false;
         }
-        else if (enemiesInWave == null || enemiesInWave.Any() != true || enemiesInWave.Count == 0)
+        //else if (enemiesInWave == null || enemiesInWave.Any() != true || enemiesInWave.Count == 0 || waveEnemyCounter <= 0)
+        //{
+        //    return true;
+        //}
+
+        foreach(GameObject i in enemiesInWave)
         {
-            return true;
+            if(i != null)
+            {
+                return false;
+            }
         }
       
-        return false;       
+        return true;       
     }
 
     IEnumerator SpawnNextEnemy(int allEnemyCounter, GM_WaveSystem_Enemy enemyPrefab)
@@ -173,7 +198,6 @@ public class GM_WaveSystem : MonoBehaviour
                     // Spawn new enemy at random spawn points
                     int spawnNum = Random.Range(0, spawnPoints.Length);
 
-                    //enemiesInWave[allEnemyCounter] = Instantiate(enemyPrefab.prefab, spawnPoints[spawnNum].transform.position, spawnPoints[spawnNum].transform.rotation, spawnPoints[spawnNum].transform);
                     enemiesInWave.Add(Instantiate(enemyPrefab.prefab, spawnPoints[spawnNum].transform.position, spawnPoints[spawnNum].transform.rotation, spawnPoints[spawnNum].transform));
                     allEnemyCounter++;
                     currentEnemyCounter++;
@@ -190,7 +214,6 @@ public class GM_WaveSystem : MonoBehaviour
                     // Spawn new enemy at random spawn points
                     int spawnNum = Random.Range(0, spawnPoints.Length);
 
-                    //enemiesInWave[allEnemyCounter] = Instantiate(enemyPrefab.prefab, spawnPoints[spawnNum].transform.position, spawnPoints[spawnNum].transform.rotation, spawnPoints[spawnNum].transform);
                     enemiesInWave.Add(Instantiate(enemyPrefab.prefab, spawnPoints[spawnNum].transform.position, spawnPoints[spawnNum].transform.rotation, spawnPoints[spawnNum].transform));
 
                     allEnemyCounter++;
@@ -208,5 +231,22 @@ public class GM_WaveSystem : MonoBehaviour
     {
         // Remove null enemies in list
         enemiesInWave.RemoveAll(item => item == null);
+    }
+
+    public static void RestartGame(bool resetWave, int newWaveNumber)
+    {
+        if(!resetWave)
+        {
+            waveNumber = 0;
+        }
+        else
+        {
+            debugWave = true;
+            waveNumber = newWaveNumber - 1;
+        }
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+        
     }
 }

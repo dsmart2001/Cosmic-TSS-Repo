@@ -35,6 +35,6 @@ public class Explosive_Barrel : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         explosion.SetActive(false);
-        gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 }

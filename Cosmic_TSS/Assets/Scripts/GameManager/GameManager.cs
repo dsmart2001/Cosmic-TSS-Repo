@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public Camera playerCamera;
     public static Camera _playerCamera;
     public static bool wonGame = false;
+    private bool debugMode = false;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,25 @@ public class GameManager : MonoBehaviour
         _playerCamera = playerCamera;
     }
 
+    private void Update()
+    {
+        // Debug controls
+        if(Input.GetKey(KeyCode.Alpha0) && !debugMode)
+        {
+            debugMode = true;
+        }
+
+        if(Input.GetKeyDown(KeyCode.Return) && debugMode)
+        {
+            GM_WaveSystem.RestartGame(true, 10);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Backspace) && debugMode)
+        {
+            GM_WaveSystem.RestartGame(true, 15);
+
+        }
+    }
 
     public void WinGame(bool won)
     {

@@ -277,7 +277,7 @@ PrefabInstance:
     - target: {fileID: 2744129152584059327, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
       propertyPath: bodyDamage
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2744129152584059327, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
@@ -371,6 +371,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f1b65537a6e12184b9bc065304a207b7, type: 2}
+    - target: {fileID: 4491905243839105987, guid: bc0b513a648a886478d44d8a0163cd47,
+        type: 3}
+      propertyPath: speedUpSpeed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4491905243839105987, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
       propertyPath: distanceToSpeedUp

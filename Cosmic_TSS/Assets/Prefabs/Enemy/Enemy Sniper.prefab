@@ -2277,8 +2277,14 @@ PrefabInstance:
     - target: {fileID: 2744129152584059327, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
       propertyPath: bodyDamage
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2744129152584059327, guid: bc0b513a648a886478d44d8a0163cd47,
+        type: 3}
+      propertyPath: dropObject
+      value: 
+      objectReference: {fileID: 1151776542899390229, guid: 1f4fdcc2b3639624da67151a80b8ddc0,
+        type: 3}
     - target: {fileID: 3910927242902018184, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
       propertyPath: attackRange
@@ -2288,12 +2294,12 @@ PrefabInstance:
         type: 3}
       propertyPath: attackObject
       value: 
-      objectReference: {fileID: 382490678295092880, guid: 260a5eeb7eeebe544aade2d2ddab345c,
+      objectReference: {fileID: 5469393517330596157, guid: 5f82a2c28c369bd42838b5d26040b19c,
         type: 3}
     - target: {fileID: 3910927242902018184, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
       propertyPath: attackInterval
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3910927242902018184, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
@@ -2370,6 +2376,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 26554b623a3c97d43b3eb40f9b83e32a, type: 2}
+    - target: {fileID: 4491905243839105987, guid: bc0b513a648a886478d44d8a0163cd47,
+        type: 3}
+      propertyPath: speedUpSpeed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4491905243839105987, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
       propertyPath: distanceToSpeedUp

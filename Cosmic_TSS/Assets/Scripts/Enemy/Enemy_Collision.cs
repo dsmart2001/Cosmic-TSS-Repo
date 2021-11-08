@@ -23,6 +23,11 @@ public class Enemy_Collision : MonoBehaviour
             Stats.Death();
         }
 
+        if(tag == "Player")
+        {
+            Movement.ResetStunVelocity(1f);
+        }
+
         // Take damage from fast moving object
         if(tag == "Moveable")
         {
@@ -32,6 +37,12 @@ public class Enemy_Collision : MonoBehaviour
             }
 
             Movement.ResetStunVelocity(1f);
+        }
+
+        if(tag == "Structure")
+        {
+            Movement.ResetStunVelocity(1f);
+
         }
     }
 

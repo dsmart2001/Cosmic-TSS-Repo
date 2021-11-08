@@ -551,6 +551,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 7ef24d6de5c3d404d899f52b325a94f5, type: 2}
     - target: {fileID: 4491905243839105987, guid: bc0b513a648a886478d44d8a0163cd47,
         type: 3}
+      propertyPath: speedUpSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491905243839105987, guid: bc0b513a648a886478d44d8a0163cd47,
+        type: 3}
       propertyPath: distanceToSpeedUp
       value: 20
       objectReference: {fileID: 0}
