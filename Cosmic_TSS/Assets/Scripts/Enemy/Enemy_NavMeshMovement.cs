@@ -29,7 +29,7 @@ public class Enemy_NavMeshMovement : MonoBehaviour
         cameraBounds = GameManager._playerCamera;
         setSpeed = agent.speed;
 
-        speedUpSpeed = agent.speed * 1.5f;
+        //speedUpSpeed = agent.speed * 1.5f;
     }
 
     // Update is called once per frame

@@ -675,6 +675,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ammo_Shotgun
       objectReference: {fileID: 0}
+    - target: {fileID: 1042745267714108672, guid: 94271e560118fee4292b35c9c7c99543,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1042745267714108673, guid: 94271e560118fee4292b35c9c7c99543,
         type: 3}
       propertyPath: m_RootOrder
@@ -985,6 +990,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4775499994698958889, guid: 94271e560118fee4292b35c9c7c99543,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94271e560118fee4292b35c9c7c99543, type: 3}
 --- !u!4 &1039570119704442580 stripped
@@ -1004,6 +1014,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ammo_Sniper
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151776542899390229, guid: 1f4fdcc2b3639624da67151a80b8ddc0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1151776542899390230, guid: 1f4fdcc2b3639624da67151a80b8ddc0,
         type: 3}
@@ -1315,6 +1330,11 @@ PrefabInstance:
       propertyPath: m_Tangents.Array.data[19].z
       value: NaN
       objectReference: {fileID: 0}
+    - target: {fileID: 8258364054699884040, guid: 1f4fdcc2b3639624da67151a80b8ddc0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f4fdcc2b3639624da67151a80b8ddc0, type: 3}
 --- !u!4 &1039570119575421485 stripped
@@ -1330,6 +1350,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1039570119713270278}
     m_Modifications:
+    - target: {fileID: 1974679215400353935, guid: b2db42e56383fa347aeff84ca0899e4d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7527515404289363476, guid: b2db42e56383fa347aeff84ca0899e4d,
         type: 3}
       propertyPath: m_Mesh
@@ -1590,6 +1615,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ammo_Pistol
       objectReference: {fileID: 0}
+    - target: {fileID: 7527515404289363482, guid: b2db42e56383fa347aeff84ca0899e4d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7527515404289363483, guid: b2db42e56383fa347aeff84ca0899e4d,
         type: 3}
       propertyPath: m_RootOrder
@@ -1665,6 +1695,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1202302456677869026, guid: a5a1e2445f7de7043b4024722294cc7d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2697598724122857527, guid: a5a1e2445f7de7043b4024722294cc7d,
         type: 3}
       propertyPath: m_RootOrder
@@ -1728,6 +1763,11 @@ PrefabInstance:
     - target: {fileID: 4143953312771242581, guid: a5a1e2445f7de7043b4024722294cc7d,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143953312771242581, guid: a5a1e2445f7de7043b4024722294cc7d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8204381859554398203, guid: a5a1e2445f7de7043b4024722294cc7d,

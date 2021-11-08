@@ -19,7 +19,7 @@ public class GM_Objectives : MonoBehaviour
 
     public static string objectiveText;
     public static string objectiveType;
-    public static int randomObjectiveInt;
+    public static int randomObjectiveInt = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -64,7 +64,6 @@ public class GM_Objectives : MonoBehaviour
                     }
                     else
                     {
-                        objectiveType = "DEFEND";
                         objectiveText = "Defend " + currentDefend.zoneName + ": " + currentDefend.timePlayerDefending.ToString("n2") + " sec remaining";
                     }
                     break;
@@ -76,7 +75,6 @@ public class GM_Objectives : MonoBehaviour
                     }
                     else
                     {
-                        objectiveType = "BUTTON";
 
                         objectiveText = "Find & Press Panic Buttons: " + remainingButtons;
                     }
@@ -103,8 +101,6 @@ public class GM_Objectives : MonoBehaviour
                 SetObjective_ButtonRun();
                 break;
         }
-
-        GUI.EnableObjectiveUI(true);
     }
 
     // Choose one of the defend zones as point for player to defend
@@ -119,12 +115,16 @@ public class GM_Objectives : MonoBehaviour
         currentDefend = OBJ_Defend[random];
 
         Debug.Log("Objectives: Started new [Defend Zone] objective");
+
+        objectiveType = "DEFEND";
+
+        GUI.EnableObjectiveUI(true);
     }
 
     // Spawn a random selection of the buttons to be activated
     public void SetObjective_ButtonRun()
     {
-        int random = Random.Range(OBJ_ButtonRun.Length / 2, OBJ_ButtonRun.Length - 3);
+        int random = Random.Range(OBJ_ButtonRun.Length / 2, OBJ_ButtonRun.Length - 5);
 
         Debug.Log("Objectives: Current button run num = " + random);
 
@@ -137,6 +137,10 @@ public class GM_Objectives : MonoBehaviour
             remainingButtons = random;
         }
         Debug.Log("Objectives: Started new [Button Run] objective");
+
+        objectiveType = "BUTTON";
+
+        GUI.EnableObjectiveUI(true);
     }
 
     public void DisableCurrentObjective()

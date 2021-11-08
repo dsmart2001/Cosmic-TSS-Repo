@@ -11,7 +11,7 @@ public class Interactable_HealthPickup : MonoBehaviour
     {
         string tag = c.gameObject.tag;
 
-        if(tag == "Player")
+        if(tag == "Player" && Player_Stats.health < 250)
         {
             Player_Stats.health += addHealth;
             active = false;

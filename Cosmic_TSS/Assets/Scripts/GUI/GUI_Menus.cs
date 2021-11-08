@@ -77,4 +77,13 @@ public class GUI_Menus : MonoBehaviour
     {
         Screen_Controls.SetActive(active);
     }
+
+    public void CloseIntro()
+    {
+        paused = false;
+        Menu_Intro.SetActive(false);
+        HideHUD(true);
+        Time.timeScale = 1;
+        Cursor.visible = false;
+    }
 }

@@ -32,7 +32,7 @@ public class Player_Collision : MonoBehaviour
 
         if (tag =="Instadeath")
         {
-            Destroy(gameObject);
+            Player_Stats.TakeDamage(3000);
         }
     }
 
