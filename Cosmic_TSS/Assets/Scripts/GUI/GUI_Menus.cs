@@ -10,6 +10,7 @@ public class GUI_Menus : MonoBehaviour
     public GameObject Menu_Win;
     public GameObject Menu_Death;
     public GameObject Screen_Controls;
+    public GameObject Menu_Intro;
 
     private bool paused = false;
 
@@ -20,6 +21,10 @@ public class GUI_Menus : MonoBehaviour
         Menu_Win.SetActive(false);
         Menu_Death.SetActive(false);
         Screen_Controls.SetActive(false);
+        Menu_Intro.SetActive(true);
+
+        HideHUD(false);
+        paused = true;
     }
 
     void Update()
@@ -50,6 +55,7 @@ public class GUI_Menus : MonoBehaviour
         {
             paused = false;
             Menu_Pause.SetActive(false);
+            Menu_Intro.SetActive(false);
             HideHUD(true);
             Time.timeScale = 1;
             Cursor.visible = false;
