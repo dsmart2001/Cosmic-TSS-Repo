@@ -113,9 +113,13 @@ public class GM_WaveSystem : MonoBehaviour
         waveEnemyCounter = 0;
 
         // Initiate next objective
-        if (waveNumber == ObjectiveWaveCounter)
+        if (waveNumber == ObjectiveWaveCounter && waveNumber != EndWave)
         {
             Objectives.NextObjective();
+            ObjectiveWaveCounter += ObjectiveWave;
+        }
+        else if((waveNumber == ObjectiveWaveCounter && waveNumber == EndWave))
+        {
             ObjectiveWaveCounter += ObjectiveWave;
         }
 
@@ -180,7 +184,7 @@ public class GM_WaveSystem : MonoBehaviour
                 return false;
             }
         }
-      
+        
         return true;       
     }
 
