@@ -14,6 +14,7 @@ public class Weapon_PlayerGuns : MonoBehaviour
     private float timer_fireRate;
     private bool canFire = true;
 
+    private AudioSource audio => GetComponent<AudioSource>();
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +41,8 @@ public class Weapon_PlayerGuns : MonoBehaviour
             canFire = false;
             timer_fireRate = Time.time + fireRate;
             ammo--;
+
+            audio.Play();
         }
     }
 }

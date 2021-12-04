@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ac96c9011fdf674fa30d0a493114bfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: SHOTGUN
+  gunName: SHOTGUN
   projectile: {fileID: 3841506731169638177, guid: e878b8c5f7c5a264f80e210acd9a9d9d,
     type: 3}
   ammoLimit: 8
@@ -63,7 +63,7 @@ PrefabInstance:
     - target: {fileID: 622457436309809570, guid: fa5ae404d02d59a4997129c6edfd043c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.37899995
       objectReference: {fileID: 0}
     - target: {fileID: 622457436309809570, guid: fa5ae404d02d59a4997129c6edfd043c,
         type: 3}

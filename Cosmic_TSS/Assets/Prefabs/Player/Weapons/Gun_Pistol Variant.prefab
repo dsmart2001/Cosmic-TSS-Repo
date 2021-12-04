@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ac96c9011fdf674fa30d0a493114bfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: PISTOL
+  gunName: PISTOL
   projectile: {fileID: 6767802179945942718, guid: c1dacca91bb54d740ac08325ce99c9f8,
     type: 3}
   ammoLimit: 20
@@ -28,7 +28,7 @@ PrefabInstance:
     - target: {fileID: 622457436309809569, guid: fa5ae404d02d59a4997129c6edfd043c,
         type: 3}
       propertyPath: m_Name
-      value: Gun_Pistol Variant
+      value: Gun_Pistol
       objectReference: {fileID: 0}
     - target: {fileID: 622457436309809569, guid: fa5ae404d02d59a4997129c6edfd043c,
         type: 3}
@@ -63,7 +63,7 @@ PrefabInstance:
     - target: {fileID: 622457436309809570, guid: fa5ae404d02d59a4997129c6edfd043c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.37899995
       objectReference: {fileID: 0}
     - target: {fileID: 622457436309809570, guid: fa5ae404d02d59a4997129c6edfd043c,
         type: 3}

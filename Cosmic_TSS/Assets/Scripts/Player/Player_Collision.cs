@@ -7,6 +7,7 @@ public class Player_Collision : MonoBehaviour
     private Rigidbody RB => GetComponent<Rigidbody>();
     private Collider CLDR => GetComponent<Collider>();
     private Player_Controls player => GetComponent<Player_Controls>();
+    private Player_Stats stats => GetComponent<Player_Stats>();
 
     private float damageTimer;
 
@@ -16,12 +17,12 @@ public class Player_Collision : MonoBehaviour
         
         if(tag == "Enemy")
         {
-            Player_Stats.TakeDamage(c.gameObject.GetComponent<Enemy_Stats>().bodyDamage);
+            stats.TakeDamage(c.gameObject.GetComponent<Enemy_Stats>().bodyDamage);
         }
 
         if(tag == "EnemyBullet")
         {
-            Player_Stats.TakeDamage(c.gameObject.GetComponent<Weapon_BulletVelocity>().damage);
+            stats.TakeDamage(c.gameObject.GetComponent<Weapon_BulletVelocity>().damage);
             Destroy(c.gameObject);
         }
 
@@ -32,7 +33,7 @@ public class Player_Collision : MonoBehaviour
 
         if (tag =="Instadeath")
         {
-            Player_Stats.TakeDamage(3000);
+            stats.TakeDamage(3000);
         }
     }
 
@@ -81,7 +82,7 @@ public class Player_Collision : MonoBehaviour
 
         if(tag == "Explosion")
         {
-            Player_Stats.TakeDamage(c.gameObject.GetComponent<Explosion>().damage);
+            stats.TakeDamage(c.gameObject.GetComponent<Explosion>().damage);
         }
     }
 
@@ -93,7 +94,7 @@ public class Player_Collision : MonoBehaviour
         {
             if(Time.time >= damageTimer)
             {
-                Player_Stats.TakeDamage(c.gameObject.GetComponent<Weapon_Acid>().damage);
+                stats.TakeDamage(c.gameObject.GetComponent<Weapon_Acid>().damage);
 
                 damageTimer = Time.time + c.gameObject.GetComponent<Weapon_Acid>().damageTimer;
             }

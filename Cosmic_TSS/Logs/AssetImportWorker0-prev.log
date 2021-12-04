@@ -1,0 +1,496 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16243 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/_Desktop Extra/Unity Project Storage/Cosmic-TSS-Repo/Cosmic_TSS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56518
+Successfully changed project path to: D:/_Desktop Extra/Unity Project Storage/Cosmic-TSS-Repo/Cosmic_TSS
+D:/_Desktop Extra/Unity Project Storage/Cosmic-TSS-Repo/Cosmic_TSS
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 115.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/_Desktop Extra/Unity Project Storage/Cosmic-TSS-Repo/Cosmic_TSS/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   30.0.14.7168
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004811 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 161.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.994 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007046 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 102.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.765 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3705 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.4 MB.
+System memory in use after: 189.6 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4159.
+Total: 3.667100 ms (FindLiveObjects: 0.627300 ms CreateObjectMapping: 0.283800 ms MarkObjects: 2.707500 ms  DeleteObjects: 0.039300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_shotgun_cock_04.wav
+  artifactKey: Guid(0a2ef4bb5d71a514f9bb53863200f60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_shotgun_cock_04.wav using Guid(0a2ef4bb5d71a514f9bb53863200f60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5196ea3d741aa8a2ad636f3e2de7dabd') in 0.623501 seconds
+  Import took 0.631769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/sci-fi_driod_robot_emote_01.wav
+  artifactKey: Guid(feaa9172646518b4bb2288c33915d924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/sci-fi_driod_robot_emote_01.wav using Guid(feaa9172646518b4bb2288c33915d924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97879c77972cee0b9fe1f7052a69d7c9') in 0.079721 seconds
+  Import took 0.086418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/fuse_stop_burn_out_bomb_dynamite_02.wav
+  artifactKey: Guid(34cbf5a884a91f8499c52ddf7fa78628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/fuse_stop_burn_out_bomb_dynamite_02.wav using Guid(34cbf5a884a91f8499c52ddf7fa78628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d80b6427cf497f176065a330728305c') in 0.085488 seconds
+  Import took 0.104277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/door_lock_fail_04.wav
+  artifactKey: Guid(63e30ad9a5e677e40a8bb0ee1da82f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/door_lock_fail_04.wav using Guid(63e30ad9a5e677e40a8bb0ee1da82f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e7f3af049c39516d2a7511bc33fd99') in 0.063190 seconds
+  Import took 0.073739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000581 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/knife_sharpen_05.wav
+  artifactKey: Guid(c32fe7e555f947f44aa6df0af19075cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/knife_sharpen_05.wav using Guid(c32fe7e555f947f44aa6df0af19075cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e3514de0867a76ca8648c5fcf7a8aa') in 0.096564 seconds
+  Import took 0.105568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/door_hatch_squeak_close_01.wav
+  artifactKey: Guid(bfe45ed92eaa3cb43ad7dd6807294f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/door_hatch_squeak_close_01.wav using Guid(bfe45ed92eaa3cb43ad7dd6807294f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29790fceaac1edde1fdc12dd68aa27c3') in 0.106010 seconds
+  Import took 0.114068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000656 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/ui_menu_button_beep_16.wav
+  artifactKey: Guid(5e249dfa519a6ae42bb9fcd44d3b08e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/ui_menu_button_beep_16.wav using Guid(5e249dfa519a6ae42bb9fcd44d3b08e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b6182b9bdbe986cb5d32d19430e6b0') in 0.075735 seconds
+  Import took 0.084765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000663 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/radio_tv_electronic_static_03.wav
+  artifactKey: Guid(376d259705360074aa4d9cdf0cdebc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/radio_tv_electronic_static_03.wav using Guid(376d259705360074aa4d9cdf0cdebc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95ec43940fcf9fb66213839935979e7') in 0.078808 seconds
+  Import took 0.088601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_tank_cannon_turret_shot_01.wav
+  artifactKey: Guid(48e1eed795b7ea9489c6551f7d6f0efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_tank_cannon_turret_shot_01.wav using Guid(48e1eed795b7ea9489c6551f7d6f0efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec4b302fa40930bd830fc3ba9579bca') in 0.049033 seconds
+  Import took 0.056129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/knife_sharpen_02.wav
+  artifactKey: Guid(0fe753bde5897904680a1616c14674f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/knife_sharpen_02.wav using Guid(0fe753bde5897904680a1616c14674f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd86d3df9686576568bb3e1424ebddd') in 0.030048 seconds
+  Import took 0.059235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000615 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/sci-fi_weapon_reload_06.wav
+  artifactKey: Guid(49a8589370744f9408df6ef21eddf724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/sci-fi_weapon_reload_06.wav using Guid(49a8589370744f9408df6ef21eddf724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b32b8b9a5eebf813918802a7bfa0d60') in 0.055706 seconds
+  Import took 0.066801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000664 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/door_A_creak_02.wav
+  artifactKey: Guid(614c6eaa95af4cd4788a91ad667e743c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/door_A_creak_02.wav using Guid(614c6eaa95af4cd4788a91ad667e743c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c24552e7e6e0b4755d47f7c7b55c42c') in 0.040801 seconds
+  Import took 0.048266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/door_lock_fail_03.wav
+  artifactKey: Guid(bfca00164a80a5542888907b18fc0273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/door_lock_fail_03.wav using Guid(bfca00164a80a5542888907b18fc0273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e3b73a429390b4500221149b72e15b') in 0.092071 seconds
+  Import took 0.098932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_shotgun_safety_switch_04.wav
+  artifactKey: Guid(54c3ff4b775a62640bf5279cfcb086b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_shotgun_safety_switch_04.wav using Guid(54c3ff4b775a62640bf5279cfcb086b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ca9edbcb9057d5472f29e95a657716') in 0.070199 seconds
+  Import took 0.079871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000576 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/voice_female_a_hurt_pain_02.wav
+  artifactKey: Guid(af9736a02ad29614aadde4e1a2e916d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/voice_female_a_hurt_pain_02.wav using Guid(af9736a02ad29614aadde4e1a2e916d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820ced7bf689e595ec7c61d05193953e') in 0.066111 seconds
+  Import took 0.075499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/door_lock_fail_02.wav
+  artifactKey: Guid(507207ac9bae7ca438dfaab8317bde4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/door_lock_fail_02.wav using Guid(507207ac9bae7ca438dfaab8317bde4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf37868df9ebd9d2a137fe75824c72cd') in 0.107691 seconds
+  Import took 0.125692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000660 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/door_A_creak_07.wav
+  artifactKey: Guid(2126b22f829d33646878d57b3f58aaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/door_A_creak_07.wav using Guid(2126b22f829d33646878d57b3f58aaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ece0a428e97527598ed2c5aa7c49cd') in 0.091933 seconds
+  Import took 0.100859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/sci-fi_driod_robot_emote_06.wav
+  artifactKey: Guid(bc4d8786ae2641244aeb9f10bd7410c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/sci-fi_driod_robot_emote_06.wav using Guid(bc4d8786ae2641244aeb9f10bd7410c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0af30bd60928c74b2b383bba8fe007') in 0.095116 seconds
+  Import took 0.102439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_shotgun_shot_01.wav
+  artifactKey: Guid(81770e6b12a35cf4791f1d6b0704ad36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_shotgun_shot_01.wav using Guid(81770e6b12a35cf4791f1d6b0704ad36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14f3e54e4684306d924a95bf94a7e4d') in 0.143017 seconds
+  Import took 0.151062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000579 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/ui_menu_button_beep_11.wav
+  artifactKey: Guid(1d51b0bd80072ee4d8b7991affbdafe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/ui_menu_button_beep_11.wav using Guid(1d51b0bd80072ee4d8b7991affbdafe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e285d00a9dc980a87ca3f87521ebf03b') in 0.132315 seconds
+  Import took 0.143561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_pistol_insert_mag_02.wav
+  artifactKey: Guid(78fa61f536cd8ee429e138582499bbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_pistol_insert_mag_02.wav using Guid(78fa61f536cd8ee429e138582499bbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e3e1bc3ba0846fa6ca6bd830ef627a') in 0.081940 seconds
+  Import took 0.088525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/voice_female_a_attack_09.wav
+  artifactKey: Guid(768ce81c58d2c2945a444d051d6a09fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/voice_female_a_attack_09.wav using Guid(768ce81c58d2c2945a444d051d6a09fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c6635c132e98cdd40fd4e478599e9b') in 0.061316 seconds
+  Import took 0.069168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/sci-fi_driod_robot_emote_13.wav
+  artifactKey: Guid(fd8e4bc8bd0cac742b226d8ed0b41282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/sci-fi_driod_robot_emote_13.wav using Guid(fd8e4bc8bd0cac742b226d8ed0b41282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962fb070a7627b4aa9c995b4326a3a17') in 0.137321 seconds
+  Import took 0.144890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_tank_cannon_turret_shot_03.wav
+  artifactKey: Guid(cd2daf50ca76fd9478f4e2169263942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_tank_cannon_turret_shot_03.wav using Guid(cd2daf50ca76fd9478f4e2169263942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833e7457fa0f394c596f3b45388b346d') in 0.113437 seconds
+  Import took 0.124893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000615 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_tank_cannon_turret_shot_04.wav
+  artifactKey: Guid(ea6cffcadaf948d47b9bdeaf948c6609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_tank_cannon_turret_shot_04.wav using Guid(ea6cffcadaf948d47b9bdeaf948c6609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43f9be68c663c7408cab28dc7688572') in 0.035694 seconds
+  Import took 0.043275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/knife_sharpen_01.wav
+  artifactKey: Guid(bac810f1ff39948468c2dd3d05b130e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/knife_sharpen_01.wav using Guid(bac810f1ff39948468c2dd3d05b130e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2e5d3ee527e3acab49ffd4c29a3c77') in 0.109977 seconds
+  Import took 0.121520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/radio_voice_male_soldier_go_go_go_03.wav
+  artifactKey: Guid(fb2ce492677823740adea4ff8a3d7dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/radio_voice_male_soldier_go_go_go_03.wav using Guid(fb2ce492677823740adea4ff8a3d7dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04b2b707cd911d1afe86a9c42117df6') in 0.114678 seconds
+  Import took 0.123015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000610 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/voice_female_a_effort_push_fast_02.wav
+  artifactKey: Guid(7b23d2c0ee1f6304ba1ba797ed5b9a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/voice_female_a_effort_push_fast_02.wav using Guid(7b23d2c0ee1f6304ba1ba797ed5b9a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5889faa956882a17b4ad2cc32781f8') in 0.035608 seconds
+  Import took 0.044526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/voice_male_b_hurt_pain_set_1_05.wav
+  artifactKey: Guid(57dd5c03a49450543a8dd14fd415baa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/voice_male_b_hurt_pain_set_1_05.wav using Guid(57dd5c03a49450543a8dd14fd415baa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44742b6be95e3fffa7725623fd2f9641') in 0.232176 seconds
+  Import took 0.240312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000560 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gas_large_flame_ignite_01.wav
+  artifactKey: Guid(c48a998b3033c9d4ba45517c1d9f34f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gas_large_flame_ignite_01.wav using Guid(c48a998b3033c9d4ba45517c1d9f34f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6590187e4d837dae7fa4c6ce32ce6a') in 0.081216 seconds
+  Import took 0.091154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000666 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/sci-fi_spaceship_background_room_tone_hum_loop_01.wav
+  artifactKey: Guid(90c41a35ee5e96548a3fece40956b0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/sci-fi_spaceship_background_room_tone_hum_loop_01.wav using Guid(90c41a35ee5e96548a3fece40956b0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1704598c5279e3709272fa98cf0d80a6') in 0.042136 seconds
+  Import took 0.052665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/fire_burning_flames_crackle_loop_02.wav
+  artifactKey: Guid(ba7148990cef43c4e82e7527f32b1c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/fire_burning_flames_crackle_loop_02.wav using Guid(ba7148990cef43c4e82e7527f32b1c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebe8b6bbb3ddef9bef2d514ea65502e') in 0.163048 seconds
+  Import took 0.171621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/sci-fi_weapon_rifle_large_shot_03.wav
+  artifactKey: Guid(65564e5e063e5ab41bd59ddb3cec1553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/sci-fi_weapon_rifle_large_shot_03.wav using Guid(65564e5e063e5ab41bd59ddb3cec1553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ba2a71a133fce6630806744c321630') in 0.058647 seconds
+  Import took 0.075060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/voice_male_c_death_04.wav
+  artifactKey: Guid(ed5dbd8279befda47bafa570d862880c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/voice_male_c_death_04.wav using Guid(ed5dbd8279befda47bafa570d862880c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdb8aad5bf5e709bf0f3c75d35740d4') in 0.104822 seconds
+  Import took 0.113308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds
+  artifactKey: Guid(8925bff50034426409a08dcc402a8a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds using Guid(8925bff50034426409a08dcc402a8a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56471d4c0cae4bd066eb6f4e26c95c3d') in 0.004206 seconds
+  Import took 0.012052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_shotgun_pickup_02.wav
+  artifactKey: Guid(24b8462a310d6bf4fb2e58a37f105f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_shotgun_pickup_02.wav using Guid(24b8462a310d6bf4fb2e58a37f105f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189aa45a8b3500acb94699506e5e491b') in 0.038044 seconds
+  Import took 0.048795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_tank_cannon_turret_shot_02.wav
+  artifactKey: Guid(0bbd267b8e6142b4ab12121a81b84ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_tank_cannon_turret_shot_02.wav using Guid(0bbd267b8e6142b4ab12121a81b84ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d961ba058364f5ea776e0a0dd266fcb') in 0.055931 seconds
+  Import took 0.088289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gas_leak_01_loop.wav
+  artifactKey: Guid(02cc234396649ff4da754885bd8157b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gas_leak_01_loop.wav using Guid(02cc234396649ff4da754885bd8157b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed28c09604afd89274cf6efe7b66e22') in 0.093565 seconds
+  Import took 0.101383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/radio_tv_electronic_static_04.wav
+  artifactKey: Guid(23fc90dea4ca1c14fbd92d130a34c3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/radio_tv_electronic_static_04.wav using Guid(23fc90dea4ca1c14fbd92d130a34c3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b42ad4d7a50216e1d5fa9c389c2278') in 0.233997 seconds
+  Import took 0.241779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/metal_lid_movement_impact_08.wav
+  artifactKey: Guid(5918b00b4744e744e81ae44b22eb72e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/metal_lid_movement_impact_08.wav using Guid(5918b00b4744e744e81ae44b22eb72e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae27d2a06e7af3dc0992fa059867f15c') in 0.066368 seconds
+  Import took 0.075854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_pistol_remove_mag_05.wav
+  artifactKey: Guid(dd2e983d5f087554f841e4abe0a3d90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_pistol_remove_mag_05.wav using Guid(dd2e983d5f087554f841e4abe0a3d90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b381c04412683185d313a86580d64d4') in 0.071356 seconds
+  Import took 0.081532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000640 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/sci-fi_driod_robot_emote_04.wav
+  artifactKey: Guid(3b349d9860d544c4aa2d54dd1c526818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/sci-fi_driod_robot_emote_04.wav using Guid(3b349d9860d544c4aa2d54dd1c526818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed91f4417e657ba53d24f81462543f11') in 0.046247 seconds
+  Import took 0.061606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/metal_door_hatch_close_slam_02.wav
+  artifactKey: Guid(42b092a99cbb5d14bbab25da8df3786e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/metal_door_hatch_close_slam_02.wav using Guid(42b092a99cbb5d14bbab25da8df3786e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35a6287bb9068c039053a38e1781793') in 0.117545 seconds
+  Import took 0.204691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/fuse_stop_burn_out_bomb_dynamite_01.wav
+  artifactKey: Guid(4071162e19871d149a75f88e63ebc5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/fuse_stop_burn_out_bomb_dynamite_01.wav using Guid(4071162e19871d149a75f88e63ebc5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb4d542ef1c66dbdc38392a9dfcbfe9') in 0.288192 seconds
+  Import took 0.301695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/fire_burning_flames_crackle_loop_03.wav
+  artifactKey: Guid(f861a4d5e23d2a5459cb38c4ac577f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/fire_burning_flames_crackle_loop_03.wav using Guid(f861a4d5e23d2a5459cb38c4ac577f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5641293de06e7e76efd6012957106fd') in 0.033246 seconds
+  Import took 0.042605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/voice_male_b_hurt_pain_set_2_08.wav
+  artifactKey: Guid(dc0f7110428091942897a82531997b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/voice_male_b_hurt_pain_set_2_08.wav using Guid(dc0f7110428091942897a82531997b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d2f2b7c6d4b80c79fd6a4d1c342b4e') in 0.115231 seconds
+  Import took 0.124460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/door_lock_slide_02.wav
+  artifactKey: Guid(4fdeea782d04a154db5b1b7db49b467b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/door_lock_slide_02.wav using Guid(4fdeea782d04a154db5b1b7db49b467b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2aa4fc049c2740026d25ab1aad55ae6') in 0.050783 seconds
+  Import took 0.060033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gas_large_flame_ignite_02.wav
+  artifactKey: Guid(a6c1f146218a39440b28dbc470cb31d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gas_large_flame_ignite_02.wav using Guid(a6c1f146218a39440b28dbc470cb31d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d4c35c462df35ce105eb2493490d60') in 0.068156 seconds
+  Import took 0.077726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/radio_voice_male_soldier_go_go_go_02.wav
+  artifactKey: Guid(322143345d58eca4ba0ecc9d97c09bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/radio_voice_male_soldier_go_go_go_02.wav using Guid(322143345d58eca4ba0ecc9d97c09bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197b438de7a3ef56bf89f7b4b87765a6') in 0.075450 seconds
+  Import took 0.107874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_shotgun_cock_01.wav
+  artifactKey: Guid(c427c61e8c4e69446ab380f4881b0d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_shotgun_cock_01.wav using Guid(c427c61e8c4e69446ab380f4881b0d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14f7edc11724c3a54761360dacb9d33') in 0.191493 seconds
+  Import took 0.201598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/punch_grit_wet_impact_06.wav
+  artifactKey: Guid(290a629374ee7ec43b21e75cdcf4b89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/punch_grit_wet_impact_06.wav using Guid(290a629374ee7ec43b21e75cdcf4b89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfe6ef78b74e175e9d59ee8685b5a0f') in 0.173228 seconds
+  Import took 0.187167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_shotgun_dry_fire_01.wav
+  artifactKey: Guid(e2c9e16620e2ce24997b1720afc31086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/gun_shotgun_dry_fire_01.wav using Guid(e2c9e16620e2ce24997b1720afc31086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a10552aef8e8206e1cbfa73f5c0cbc3') in 0.031673 seconds
+  Import took 0.040535 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
