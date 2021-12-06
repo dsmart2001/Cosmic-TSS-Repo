@@ -7,7 +7,9 @@ using UnityEngine;
 public class Enemy_Attack : MonoBehaviour
 {
     private Enemy_NavMeshMovement movement => GetComponent<Enemy_NavMeshMovement>();
+    private Enemy_Audio enemy_audio => GetComponent<Enemy_Audio>();
 
+    // Attack stat variables
     public GameObject attackObject;
     public float attackRange;
     public float attackInterval;
@@ -41,6 +43,8 @@ public class Enemy_Attack : MonoBehaviour
     {
         movement.PauseMovement(pauseForAttack);
         Instantiate(attackObject, transform.position, transform.rotation);
+
+        enemy_audio.SFX_Attack();
     }
 
     // Detect if player is within attack rande

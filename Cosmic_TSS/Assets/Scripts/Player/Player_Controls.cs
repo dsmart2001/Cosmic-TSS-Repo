@@ -23,7 +23,7 @@ public class Player_Controls : MonoBehaviour
     public static bool phoneControls = true;
 
     public Camera playerCamera;
-    public Player_Audio audio => GetComponent<Player_Audio>();
+    public Player_Audio player_audio => GetComponent<Player_Audio>();
 
     // Player Weapons
     [Header("Player Weapons")]
@@ -75,7 +75,7 @@ public class Player_Controls : MonoBehaviour
 
         if(Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
         {
-            audio.SFX_Walk();
+            player_audio.SFX_Walk();
         }
 
         // Aim inputs

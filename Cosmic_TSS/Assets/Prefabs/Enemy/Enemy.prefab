@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 2744129152584059327}
   - component: {fileID: 3910927242902018184}
   - component: {fileID: 3850155424426311877}
+  - component: {fileID: 8913323102323806457}
   m_Layer: 8
   m_Name: Enemy
   m_TagString: Enemy
@@ -211,9 +212,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 4437000926233660466, guid: 9b84bf801287cdd46a40ae17230863c4,
     type: 2}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1.3
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -296,3 +297,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8913323102323806457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4389212048251490883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f46c47c630fa868428a54c0aee4f0a7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SFX_voice:
+  - {fileID: 8300000, guid: ac35093658bf0164fba605801569db83, type: 3}
+  - {fileID: 8300000, guid: 10165f1b9e1be654496f2947a1ca823d, type: 3}
+  SFX_attack: {fileID: 8300000, guid: ab70326e0059dde44aceb27faa957385, type: 3}
+  SFX_death: {fileID: 8300000, guid: d4cc166d9e088254e9285b5dc6d24181, type: 3}

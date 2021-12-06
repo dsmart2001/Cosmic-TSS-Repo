@@ -9,6 +9,7 @@ public class Enemy_Stats : MonoBehaviour
     public GameObject dropObject;
 
     private GM_WaveSystem WaveSystem => FindObjectOfType<GM_WaveSystem>();
+    private Enemy_Audio enemy_audio => GetComponent<Enemy_Audio>();
 
     // Update is called once per frame
     void Update()
@@ -33,11 +34,15 @@ public class Enemy_Stats : MonoBehaviour
             }
         }
 
+        enemy_audio.SFX_Death();
+
         Destroy(gameObject);
     }
 
     public void TakeDamage(float damage)
     {
         health -= damage;
+
+        enemy_audio.SFX_Growl();
     }
 }

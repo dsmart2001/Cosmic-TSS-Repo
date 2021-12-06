@@ -6,12 +6,14 @@ using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(GameManager))]
 [RequireComponent(typeof(GM_Objectives))]
+[RequireComponent(typeof(GM_Audio))]
 
 public class GM_WaveSystem : MonoBehaviour
 {
     public GameObject[] spawnPoints;
     public GM_Objectives Objectives => GetComponent<GM_Objectives>();
     public GameManager GM => GetComponent<GameManager>();
+    private GM_Audio gm_audio => GetComponent<GM_Audio>();
 
     [SerializeField] private Interactable_Ammo[] ammoPickups;
     [SerializeField] private Interactable_HealthPickup[] healthPickups;
@@ -48,6 +50,14 @@ public class GM_WaveSystem : MonoBehaviour
 
     private static bool debugWave = false;
     private static int newDebugWave;
+
+    [Space]
+    [Header("Spawnable Objects Prefabs")]
+
+    public AudioClip SFX_newWave;
+    public AudioClip SFX_objectiveWave;
+    public AudioClip SFX_rushWave;
+    public AudioClip SFX_finalWave;
 
     // Start is called before the first frame update
     void Awake()
@@ -165,6 +175,24 @@ public class GM_WaveSystem : MonoBehaviour
         Debug.Log("Starting new wave > Enemy counter = " + remainingEnemies + " > Objective wave? = " + GM_Objectives.objectiveWave + " > Rush wave? ");
 
         StartCoroutine(GUI_HUD.WaveNotification());
+
+        // Wave SFX
+        if (waveNumber == EndWave)
+        {
+            gm_audio.PlaySound(SFX_finalWave);
+        }
+        else if (waveNumber == ObjectiveWaveCounter)
+        {
+            gm_audio.PlaySound(SFX_objectiveWave);
+        }
+        else if(waveNumber == RushWave)
+        {
+            gm_audio.PlaySound(SFX_rushWave);
+        }
+        else
+        {
+            gm_audio.PlaySound(SFX_newWave);
+        }
     }
 
     // Check if enemies still present
@@ -175,10 +203,6 @@ public class GM_WaveSystem : MonoBehaviour
         {
             return false;
         }
-        //else if (enemiesInWave == null || enemiesInWave.Any() != true || enemiesInWave.Count == 0 || waveEnemyCounter <= 0)
-        //{
-        //    return true;
-        //}
 
         foreach(GameObject i in enemiesInWave)
         {

@@ -8,7 +8,7 @@ public class Player_Stats : MonoBehaviour
     public float _health = 100f;
     public static float health = 100f;
     public static bool dead = false;
-    public Player_Audio audio => GetComponent<Player_Audio>();
+    public Player_Audio player_audio => GetComponent<Player_Audio>();
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +37,6 @@ public class Player_Stats : MonoBehaviour
     {
         health -= damage;
 
-        audio.SFX_TakeDamage();
+        player_audio.SFX_TakeDamage();
     }
 }
