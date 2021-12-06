@@ -96,7 +96,7 @@ public class Player_Controls : MonoBehaviour
         }
 
         // Get Attack inputs
-        if (Input.GetKey(KeyCode.Space) || Input.GetMouseButton(0))
+        if ((Input.GetKey(KeyCode.Space) || Input.GetMouseButton(0)) && !GameManager.paused)
         {
             FireWeapon();
         }

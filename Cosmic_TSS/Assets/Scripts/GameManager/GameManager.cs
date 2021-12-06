@@ -14,7 +14,9 @@ public class GameManager : MonoBehaviour
     public Camera playerCamera;
     public static Camera _playerCamera;
     public static bool wonGame = false;
+    public static bool paused;
     private bool debugMode = false;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +25,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0;
 
         _playerCamera = playerCamera;
+        paused = true;
     }
 
     private void Update()

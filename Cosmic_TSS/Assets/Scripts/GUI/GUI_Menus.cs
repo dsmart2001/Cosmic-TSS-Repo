@@ -12,8 +12,6 @@ public class GUI_Menus : MonoBehaviour
     public GameObject Screen_Controls;
     public GameObject Menu_Intro;
 
-    private bool paused = false;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +22,6 @@ public class GUI_Menus : MonoBehaviour
         Menu_Intro.SetActive(true);
 
         HideHUD(false);
-        paused = true;
     }
 
     void Update()
@@ -42,9 +39,9 @@ public class GUI_Menus : MonoBehaviour
 
     public void Pause()
     {
-        if(!paused && !Player_Stats.dead)
+        if(!GameManager.paused && !Player_Stats.dead)
         {
-            paused = true;
+            GameManager.paused = true;
             Menu_Pause.SetActive(true);
             HideHUD(false);
             Time.timeScale = 0;
@@ -53,7 +50,7 @@ public class GUI_Menus : MonoBehaviour
         }
         else
         {
-            paused = false;
+            GameManager.paused = false;
             Menu_Pause.SetActive(false);
             Menu_Intro.SetActive(false);
             HideHUD(true);
@@ -85,7 +82,7 @@ public class GUI_Menus : MonoBehaviour
 
     public void CloseIntro()
     {
-        paused = false;
+        GameManager.paused = false;
         Menu_Intro.SetActive(false);
         HideHUD(true);
         Time.timeScale = 1;
