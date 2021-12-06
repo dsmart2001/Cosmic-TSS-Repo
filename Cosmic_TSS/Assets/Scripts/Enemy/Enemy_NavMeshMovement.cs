@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+[RequireComponent(typeof(NavMeshAgent))]
+[RequireComponent(typeof(Enemy_Attack))]
+[RequireComponent(typeof(Rigidbody))]
+
 public class Enemy_NavMeshMovement : MonoBehaviour
 {
     // Get Components

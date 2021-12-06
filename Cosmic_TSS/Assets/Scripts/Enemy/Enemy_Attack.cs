@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Enemy_NavMeshMovement))]
+
 public class Enemy_Attack : MonoBehaviour
 {
     private Enemy_NavMeshMovement movement => GetComponent<Enemy_NavMeshMovement>();

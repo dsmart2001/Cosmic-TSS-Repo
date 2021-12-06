@@ -2,6 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(GM_Objectives))]
+[RequireComponent(typeof(GM_WaveSystem))]
+[RequireComponent(typeof(GM_DetectInput))]
+[RequireComponent(typeof(GM_Audio))]
+
 public class GameManager : MonoBehaviour
 {
     public static GUI_Menus menus => FindObjectOfType<GUI_Menus>();

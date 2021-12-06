@@ -2,6 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Collider))]
+[RequireComponent(typeof(Player_Controls))]
+[RequireComponent(typeof(Player_Stats))]
+
 public class Player_Collision : MonoBehaviour
 {
     private Rigidbody RB => GetComponent<Rigidbody>();

@@ -4,6 +4,9 @@ using UnityEngine;
 using System.Linq;
 using UnityEngine.SceneManagement;
 
+[RequireComponent(typeof(GameManager))]
+[RequireComponent(typeof(GM_Objectives))]
+
 public class GM_WaveSystem : MonoBehaviour
 {
     public GameObject[] spawnPoints;

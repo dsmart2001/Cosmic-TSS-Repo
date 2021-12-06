@@ -4,6 +4,11 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
 
+[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Collider))]
+[RequireComponent(typeof(PlayerInput))]
+[RequireComponent(typeof(Player_Audio))]
+
 public class Player_Controls : MonoBehaviour
 {
     /*
