@@ -15,11 +15,11 @@ D:/_Desktop Extra/Unity Project Storage/Cosmic-TSS-Repo/Cosmic_TSS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57868
+58574
 Successfully changed project path to: D:/_Desktop Extra/Unity Project Storage/Cosmic-TSS-Repo/Cosmic_TSS
 D:/_Desktop Extra/Unity Project Storage/Cosmic-TSS-Repo/Cosmic_TSS
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 86.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 89.88 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -36,1099 +36,327 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003198 seconds.
+Registered in 0.003186 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 106.86 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 86.73 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.264 seconds
+- Completed reload, in  1.291 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003979 seconds.
+Registered in 0.003928 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 83.88 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 88.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.189 seconds
+- Completed reload, in  1.161 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.6 MB.
-System memory in use after: 189.8 MB.
+Unloading 3709 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.1 MB.
+System memory in use after: 190.4 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4162.
-Total: 2.751200 ms (FindLiveObjects: 0.409500 ms CreateObjectMapping: 0.173100 ms MarkObjects: 2.141200 ms  DeleteObjects: 0.026300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/Enemy/Enemy_Audio.cs
-  artifactKey: Guid(f46c47c630fa868428a54c0aee4f0a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemy/Enemy_Audio.cs using Guid(f46c47c630fa868428a54c0aee4f0a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afc4b2494ecf9d566f240c22354ee58') in 0.053194 seconds
-  Import took 0.060553 seconds .
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4163.
+Total: 2.787800 ms (FindLiveObjects: 0.365800 ms CreateObjectMapping: 0.192000 ms MarkObjects: 2.202200 ms  DeleteObjects: 0.026600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.551035 seconds.
-  path: Assets/Scripts/Enemy/Enemy_Audio.cs
-  artifactKey: Guid(f46c47c630fa868428a54c0aee4f0a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemy/Enemy_Audio.cs using Guid(f46c47c630fa868428a54c0aee4f0a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd30460172f59e10ff1378c8d7049785') in 0.002552 seconds
-  Import took 0.008202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.111235 seconds.
-  path: Assets/Scripts/Enemy/Enemy_Audio.cs
-  artifactKey: Guid(f46c47c630fa868428a54c0aee4f0a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemy/Enemy_Audio.cs using Guid(f46c47c630fa868428a54c0aee4f0a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7271351a1c464bd22c74ba9e5c1d0542') in 0.002561 seconds
-  Import took 0.008079 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005518 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.052 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3582 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 177.9 MB.
-System memory in use after: 178.2 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4165.
-Total: 2.972900 ms (FindLiveObjects: 0.397900 ms CreateObjectMapping: 0.204100 ms MarkObjects: 2.348400 ms  DeleteObjects: 0.021200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003864 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.021 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3582 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.0 MB.
-System memory in use after: 178.2 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4168.
-Total: 2.652700 ms (FindLiveObjects: 0.341700 ms CreateObjectMapping: 0.166100 ms MarkObjects: 2.126700 ms  DeleteObjects: 0.017200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 348.080181 seconds.
-  path: Assets/ProBuilder Data/Default Material Palette.asset
-  artifactKey: Guid(8482292456c5ec747afe2204be663271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ProBuilder Data/Default Material Palette.asset using Guid(8482292456c5ec747afe2204be663271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294952a689247e07e7a707bd159a3b23') in 0.095722 seconds
-  Import took 0.101950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.481577 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c07bbb92ecfa9721bc3cb28167ec98') in 0.231350 seconds
-  Import took 0.236882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000478 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Sniper.prefab
-  artifactKey: Guid(7acf70de0938fcf4fbd40b2a826d5327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Sniper.prefab using Guid(7acf70de0938fcf4fbd40b2a826d5327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db291845e923c3e8ed65026f429b9a99') in 0.553373 seconds
-  Import took 0.559231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000524 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Explosive.prefab
-  artifactKey: Guid(aba0dab4400ffa4488e4c8752eb9b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Explosive.prefab using Guid(aba0dab4400ffa4488e4c8752eb9b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18a3a0d3e2faa652f3622d9401fb79e') in 0.058988 seconds
-  Import took 0.064836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000482 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Heavy.prefab
-  artifactKey: Guid(b5db7ae88f58ca044905874b6b254d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Heavy.prefab using Guid(b5db7ae88f58ca044905874b6b254d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15eb9b0f7e0930d3813b6cad679b887d') in 0.239077 seconds
-  Import took 0.245166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/Prefabs/DamageOutput/Projectile_EnemyShotgun.prefab
-  artifactKey: Guid(ac6404b1b476d5b46a1ac213db47a265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Projectile_EnemyShotgun.prefab using Guid(ac6404b1b476d5b46a1ac213db47a265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1749cdfe5429e3b4b04ddc760ed227f') in 0.118904 seconds
-  Import took 0.124884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/Prefabs/DamageOutput/Projectile_EnemyPistol.prefab
-  artifactKey: Guid(92ea01dc76615c6408d5a7f4a7aa0d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Projectile_EnemyPistol.prefab using Guid(92ea01dc76615c6408d5a7f4a7aa0d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371fc0e61bcfec8e13ce400e3869aa0a') in 0.012893 seconds
-  Import took 0.018640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000482 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Melee Variant.prefab
-  artifactKey: Guid(0238242ab83dfb248a3da7d89d60955c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Melee Variant.prefab using Guid(0238242ab83dfb248a3da7d89d60955c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c6255e7b9dd232c9209b92e53dbc6f') in 0.120441 seconds
-  Import took 0.126280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000540 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Shotgun.prefab
-  artifactKey: Guid(6eb345adb5d99ae4fb32c2e00d128b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Shotgun.prefab using Guid(6eb345adb5d99ae4fb32c2e00d128b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d818521f5fb7129491ac63d3842ebcf') in 0.059215 seconds
-  Import took 0.065068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000476 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Pistol.prefab
-  artifactKey: Guid(a2dccdd873afbf247a2690e091adfd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Pistol.prefab using Guid(a2dccdd873afbf247a2690e091adfd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8540825aa1e9959c5ededfe6801e9a') in 0.084476 seconds
-  Import took 0.090489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/Audio/SFX.mixer
-  artifactKey: Guid(9b84bf801287cdd46a40ae17230863c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SFX.mixer using Guid(9b84bf801287cdd46a40ae17230863c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7ba01fdd2208b807cc2b5fbbb4590d') in 0.023626 seconds
-  Import took 0.029034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000461 seconds.
-  path: Assets/Prefabs/DamageOutput/Projectile_EnemySniper.prefab
-  artifactKey: Guid(5f82a2c28c369bd42838b5d26040b19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Projectile_EnemySniper.prefab using Guid(5f82a2c28c369bd42838b5d26040b19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5211afbe8496e7ce62283be10a5985') in 0.046339 seconds
-  Import took 0.052266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000482 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Pistol.prefab
-  artifactKey: Guid(a2dccdd873afbf247a2690e091adfd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Pistol.prefab using Guid(a2dccdd873afbf247a2690e091adfd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8540825aa1e9959c5ededfe6801e9a') in 0.021166 seconds
-  Import took 0.027297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 58.929966 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/cicadas_day_loop_03.wav
-  artifactKey: Guid(76c9b8f956879df47ab45604f22b6850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/cicadas_day_loop_03.wav using Guid(76c9b8f956879df47ab45604f22b6850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2320349585c3d0fafca47ec58a4ec114') in 0.306931 seconds
-  Import took 0.313216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000473 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gas_large_flame_ignite_01.wav
-  artifactKey: Guid(b7768cba386151645ac9e8fade883b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gas_large_flame_ignite_01.wav using Guid(b7768cba386151645ac9e8fade883b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca4fcbf36809eab3aaaa6a5381a71e9') in 0.246784 seconds
-  Import took 0.304996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000457 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gas_leak_02_loop.wav
-  artifactKey: Guid(be9a8605d11055c47aa48f571518c761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gas_leak_02_loop.wav using Guid(be9a8605d11055c47aa48f571518c761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1499dd02788fd07c3780695e860a6e') in 0.093796 seconds
-  Import took 0.099956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000487 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/lighter_gas_sparks_flame_02.wav
-  artifactKey: Guid(6821b8330bea6ec4da6c0436733a67bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/lighter_gas_sparks_flame_02.wav using Guid(6821b8330bea6ec4da6c0436733a67bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bbab98cf9a84d51ac6fc7c1e57ad22') in 0.049143 seconds
-  Import took 0.055138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/door_hatch_squeak_close_01.wav
-  artifactKey: Guid(88b49e4b6854ee2479cc73a22cb03403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/door_hatch_squeak_close_01.wav using Guid(88b49e4b6854ee2479cc73a22cb03403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877458516212d8f37a1126cb55304c7c') in 0.059192 seconds
-  Import took 0.065217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000494 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_tank_cannon_turret_shot_01.wav
-  artifactKey: Guid(d0410ba7d815dc64aa887adfa74d2ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_tank_cannon_turret_shot_01.wav using Guid(d0410ba7d815dc64aa887adfa74d2ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969dc850b3a88581db44b362ca16c780') in 0.100085 seconds
-  Import took 0.105814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000496 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gas_leak_01_loop.wav
-  artifactKey: Guid(0e61785467a17af40a0e0b32807b33d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gas_leak_01_loop.wav using Guid(0e61785467a17af40a0e0b32807b33d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1c0b770daaa19b3784b2c7f9794211') in 0.073992 seconds
-  Import took 0.080435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000493 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/knife_sharpen_01.wav
-  artifactKey: Guid(244614907c9b135429ec8602626c3c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/knife_sharpen_01.wav using Guid(244614907c9b135429ec8602626c3c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbf1fdf471ff0cd1a23f63b85e16be6') in 0.082926 seconds
-  Import took 0.088940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000522 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/knife_sharpen_02.wav
-  artifactKey: Guid(c5ac69b3f9dff7c4ebedd6300e559b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/knife_sharpen_02.wav using Guid(c5ac69b3f9dff7c4ebedd6300e559b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c9392843190e08bcf503c7f56a6fcd') in 0.042550 seconds
-  Import took 0.048177 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000491 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/fuse_stop_burn_out_bomb_dynamite_02.wav
-  artifactKey: Guid(4575e11542d6724468d0df630487d03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/fuse_stop_burn_out_bomb_dynamite_02.wav using Guid(4575e11542d6724468d0df630487d03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a58c508063ce390188e09b89d6302f') in 0.085759 seconds
-  Import took 0.091052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000489 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/fire_burning_flames_crackle_loop_02.wav
-  artifactKey: Guid(872a0ba9562b82f45a74f952eefaa56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/fire_burning_flames_crackle_loop_02.wav using Guid(872a0ba9562b82f45a74f952eefaa56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d3de66c320ad683e8b8490214f6aaf') in 0.162260 seconds
-  Import took 0.167628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000453 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_tank_cannon_turret_shot_02.wav
-  artifactKey: Guid(33e3bcabfb013394989530b15dadde3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_tank_cannon_turret_shot_02.wav using Guid(33e3bcabfb013394989530b15dadde3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7577a6c9fa5c0f61e516264164c7f62d') in 0.024665 seconds
-  Import took 0.030356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000475 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/lighter_gas_flame_ignite_02.wav
-  artifactKey: Guid(87c1d1134bc5d0f42a28d5a4b569ac51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/lighter_gas_flame_ignite_02.wav using Guid(87c1d1134bc5d0f42a28d5a4b569ac51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b738af35134f591d34a2a67b605a159') in 0.088382 seconds
-  Import took 0.095223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000500 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gas_large_flame_ignite_02.wav
-  artifactKey: Guid(ad90de43d8eed4743b1a4cfca2eac482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gas_large_flame_ignite_02.wav using Guid(ad90de43d8eed4743b1a4cfca2eac482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e729d9f4cf0c09235d97a4e6b114c01') in 0.120489 seconds
-  Import took 0.127451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/fuse_stop_burn_out_bomb_dynamite_01.wav
-  artifactKey: Guid(3516ec4f52669fd4aaae4f0dc866aa42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/fuse_stop_burn_out_bomb_dynamite_01.wav using Guid(3516ec4f52669fd4aaae4f0dc866aa42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc75b05a942d021f39e5da945a82ac6c') in 0.076421 seconds
-  Import took 0.110219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_pistol_insert_mag_02.wav
-  artifactKey: Guid(0789f5458c83d404e82450fd5cd09be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_pistol_insert_mag_02.wav using Guid(0789f5458c83d404e82450fd5cd09be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ef7b94a0d02d9b2e40b1e6e7331b2e') in 0.216834 seconds
-  Import took 0.222873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000521 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_tank_cannon_turret_shot_03.wav
-  artifactKey: Guid(38ff1d6279221014b83a3ad484df06c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_tank_cannon_turret_shot_03.wav using Guid(38ff1d6279221014b83a3ad484df06c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd667c18b06fcdca536c8146489ac7e') in 0.097101 seconds
-  Import took 0.103545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_shotgun_cock_04.wav
-  artifactKey: Guid(22b831a6eeea7e94a9273336db586e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_shotgun_cock_04.wav using Guid(22b831a6eeea7e94a9273336db586e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef1739ee5507361a5b70badefaf8752') in 0.141216 seconds
-  Import took 0.151623 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000521 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_tank_cannon_turret_shot_04.wav
-  artifactKey: Guid(aeb3a22615e16bf428b3b10b019ee9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_tank_cannon_turret_shot_04.wav using Guid(aeb3a22615e16bf428b3b10b019ee9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4789ce0efb4bdbb777f41216c4f4e5') in 0.101650 seconds
-  Import took 0.111062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gas_leak_med_burst_02.wav
-  artifactKey: Guid(c6c52aa9258bb334c81b478e2d9153b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gas_leak_med_burst_02.wav using Guid(c6c52aa9258bb334c81b478e2d9153b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4f9045c4582f5835d8ae597e552afc') in 0.088384 seconds
-  Import took 0.095186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/door_A_creak_02.wav
-  artifactKey: Guid(073ecb01a7ef32142b640ee3dfb4cea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/door_A_creak_02.wav using Guid(073ecb01a7ef32142b640ee3dfb4cea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11f31a4ae534e9a0e2bf27766f629af') in 0.085582 seconds
-  Import took 0.093449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000520 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/fire_burning_flames_crackle_loop_03.wav
-  artifactKey: Guid(4cba6c0631ac74e41929cdb3689d36a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/fire_burning_flames_crackle_loop_03.wav using Guid(4cba6c0631ac74e41929cdb3689d36a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7209d5e504770fabeedaa9e1ad02f0d0') in 0.053716 seconds
-  Import took 0.061125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000491 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/knife_sharpen_05.wav
-  artifactKey: Guid(4e98ba36f61354f4caf1cdeb71e1ad56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/knife_sharpen_05.wav using Guid(4e98ba36f61354f4caf1cdeb71e1ad56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf636e9c62d86285d6c51b1f40e4f37b') in 0.057087 seconds
-  Import took 0.064112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_shotgun_cock_01.wav
-  artifactKey: Guid(b62235906ddf9fe45a56e26fcd539a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_shotgun_cock_01.wav using Guid(b62235906ddf9fe45a56e26fcd539a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be201d1646754f98b1ba35a46bddc91b') in 0.061172 seconds
-  Import took 0.068443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/door_lock_slide_02.wav
-  artifactKey: Guid(4b760945809a8aa4e81908c171946638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/door_lock_slide_02.wav using Guid(4b760945809a8aa4e81908c171946638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934955d216d8c31b450f7aa8c130a7f2') in 0.070589 seconds
-  Import took 0.076724 seconds .
+  path: Assets/Prefabs/DamageOutput/Bullet_Pistol.prefab
+  artifactKey: Guid(c1dacca91bb54d740ac08325ce99c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Bullet_Pistol.prefab using Guid(c1dacca91bb54d740ac08325ce99c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc18aa22c948edd913240fbb2e865da') in 0.223188 seconds
+  Import took 0.271901 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000460 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_shotgun_safety_switch_04.wav
-  artifactKey: Guid(7201fc39951246d4e9cd240f2ad6d666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_shotgun_safety_switch_04.wav using Guid(7201fc39951246d4e9cd240f2ad6d666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac058b9a45e817dc43de5c6032e479f') in 0.027481 seconds
-  Import took 0.036499 seconds .
+  path: Assets/Prefabs/DamageOutput/Melee_Acid.prefab
+  artifactKey: Guid(c3cbca5efc237e045920dbf2b63a71f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Melee_Acid.prefab using Guid(c3cbca5efc237e045920dbf2b63a71f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f616c503f060831c0bb2f0b86c58e93a') in 0.600274 seconds
+  Import took 0.605724 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000468 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_shotgun_dry_fire_01.wav
-  artifactKey: Guid(63b1beb8c3f1deb4a9924cc95d9de80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_shotgun_dry_fire_01.wav using Guid(63b1beb8c3f1deb4a9924cc95d9de80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c96acebf669c9fd8cae9eb8502b57fb') in 0.051431 seconds
-  Import took 0.057393 seconds .
+  Time since last request: 0.000499 seconds.
+  path: Assets/Prefabs/DamageOutput/Bullet_Shotgun.prefab
+  artifactKey: Guid(e878b8c5f7c5a264f80e210acd9a9d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Bullet_Shotgun.prefab using Guid(e878b8c5f7c5a264f80e210acd9a9d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07472cc44eaa29b2fb9abb6597f52986') in 0.052252 seconds
+  Import took 0.058637 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000453 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/door_A_creak_03.wav
-  artifactKey: Guid(9075012adfff5d844804232bb049db59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/door_A_creak_03.wav using Guid(9075012adfff5d844804232bb049db59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f4a80dab0f32124828ad5f81f295e8') in 0.063871 seconds
-  Import took 0.088267 seconds .
+  Time since last request: 0.000473 seconds.
+  path: Assets/Prefabs/DamageOutput/Projectile_EnemyShotgun.prefab
+  artifactKey: Guid(ac6404b1b476d5b46a1ac213db47a265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Projectile_EnemyShotgun.prefab using Guid(ac6404b1b476d5b46a1ac213db47a265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd013feb6b42a3bf025786dfa5fe6bbd6') in 0.010636 seconds
+  Import took 0.016001 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_shotgun_pickup_02.wav
-  artifactKey: Guid(d0d08aa1f9bda6a44bc3b840def3fbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_shotgun_pickup_02.wav using Guid(d0d08aa1f9bda6a44bc3b840def3fbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9667e340a6b66f3e4ab8ead640d80a81') in 0.032251 seconds
-  Import took 0.040345 seconds .
+  Time since last request: 0.000502 seconds.
+  path: Assets/Prefabs/DamageOutput/Projectile_EnemyPistol.prefab
+  artifactKey: Guid(92ea01dc76615c6408d5a7f4a7aa0d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Projectile_EnemyPistol.prefab using Guid(92ea01dc76615c6408d5a7f4a7aa0d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0812c95baf3bf934f509a79ff3f26367') in 0.011108 seconds
+  Import took 0.016510 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000434 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/lighter_gas_sparks_flame_04.wav
-  artifactKey: Guid(b554dbc867e00ce49bf4327b62f2b2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/lighter_gas_sparks_flame_04.wav using Guid(b554dbc867e00ce49bf4327b62f2b2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4b3cd8fe0b84acebaabda5ca6e07a3') in 0.074765 seconds
-  Import took 0.080384 seconds .
+  Time since last request: 0.000475 seconds.
+  path: Assets/Prefabs/DamageOutput/Bullet_MachineGun.prefab
+  artifactKey: Guid(0feb72cf9f5a3884896e37730e8c6519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Bullet_MachineGun.prefab using Guid(0feb72cf9f5a3884896e37730e8c6519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fdd2848b3877921bfa39a8c33bd999') in 0.019196 seconds
+  Import took 0.025977 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/door_A_creak_07.wav
-  artifactKey: Guid(db7a367b76e615d4b8cf790773ca8188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/door_A_creak_07.wav using Guid(db7a367b76e615d4b8cf790773ca8188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1a454f5c1d024c0b89c1391602bb2e') in 0.040553 seconds
-  Import took 0.047579 seconds .
+  Time since last request: 0.000495 seconds.
+  path: Assets/Prefabs/DamageOutput/Bullet.prefab
+  artifactKey: Guid(c04156efdc826634f96702eb6770873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Bullet.prefab using Guid(c04156efdc826634f96702eb6770873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4fb37b26030b7429ea4ceb34bcb54f') in 0.008430 seconds
+  Import took 0.014099 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/door_hatch_squeak_close_02.wav
-  artifactKey: Guid(32a18f42a3f80fb4fb8fe1f8e13439ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/door_hatch_squeak_close_02.wav using Guid(32a18f42a3f80fb4fb8fe1f8e13439ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbcf80259179f664a14265e4ce56555') in 0.035569 seconds
-  Import took 0.041057 seconds .
+  Time since last request: 0.000429 seconds.
+  path: Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab
+  artifactKey: Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab using Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bcdca7cb2ee23196160a2ee7e2f3f7') in 0.010934 seconds
+  Import took 0.016872 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/lighter_gas_sparks_flame_03.wav
-  artifactKey: Guid(16b61741c02aae24aa923cf754df2c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/lighter_gas_sparks_flame_03.wav using Guid(16b61741c02aae24aa923cf754df2c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5551496638548509ff03a9717a43fc8e') in 0.058074 seconds
-  Import took 0.063193 seconds .
+  Time since last request: 0.000475 seconds.
+  path: Assets/Prefabs/DamageOutput/Projectile_EnemySniper.prefab
+  artifactKey: Guid(5f82a2c28c369bd42838b5d26040b19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Projectile_EnemySniper.prefab using Guid(5f82a2c28c369bd42838b5d26040b19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efbde10480d356b09204f161acf3f2d') in 0.011648 seconds
+  Import took 0.018255 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gas_leak_long_burst_01.wav
-  artifactKey: Guid(b9b4da49c0b57dc4facd131e24785a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gas_leak_long_burst_01.wav using Guid(b9b4da49c0b57dc4facd131e24785a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05da95761e67eda8663034a745e4670') in 0.009727 seconds
-  Import took 0.015012 seconds .
+  Time since last request: 85.858638 seconds.
+  path: Assets/Prefabs/DamageOutput/Bullet_MachineGun.prefab
+  artifactKey: Guid(0feb72cf9f5a3884896e37730e8c6519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Bullet_MachineGun.prefab using Guid(0feb72cf9f5a3884896e37730e8c6519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7097f4722a9de873147c05fa123596aa') in 0.033119 seconds
+  Import took 0.039210 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000417 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/door_lock_fail_04.wav
-  artifactKey: Guid(3178a056ec4b82b48b0fc49243249a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/door_lock_fail_04.wav using Guid(3178a056ec4b82b48b0fc49243249a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979fde489fa97d6e92e104747fe232ab') in 0.025669 seconds
-  Import took 0.031259 seconds .
+  Time since last request: 40.781179 seconds.
+  path: Assets/Prefabs/DamageOutput/Bullet_Pistol.prefab
+  artifactKey: Guid(c1dacca91bb54d740ac08325ce99c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Bullet_Pistol.prefab using Guid(c1dacca91bb54d740ac08325ce99c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c09d4a1a1d5f10916e8e6bce5a3de6') in 0.011567 seconds
+  Import took 0.017707 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/lighter_gas_flame_ignite_01.wav
-  artifactKey: Guid(8f1c9aab6761d944e9362ace800ce60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/lighter_gas_flame_ignite_01.wav using Guid(8f1c9aab6761d944e9362ace800ce60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9c0efa0c88406387c2771209b78a77') in 0.048887 seconds
-  Import took 0.054048 seconds .
+  Time since last request: 9.992726 seconds.
+  path: Assets/Prefabs/DamageOutput/Bullet_MachineGun.prefab
+  artifactKey: Guid(0feb72cf9f5a3884896e37730e8c6519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Bullet_MachineGun.prefab using Guid(0feb72cf9f5a3884896e37730e8c6519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160acda5cc6ad555f6f85ff222c76dfc') in 0.013163 seconds
+  Import took 0.018962 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_shotgun_shot_01.wav
-  artifactKey: Guid(079a856ec169986469046c620b77c4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_shotgun_shot_01.wav using Guid(079a856ec169986469046c620b77c4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bc006a188cad48f3a8e1d8762892ab') in 0.033501 seconds
-  Import took 0.056426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000505 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_pistol_remove_mag_05.wav
-  artifactKey: Guid(c4f16976657d99b478782493b3a4e40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/gun_pistol_remove_mag_05.wav using Guid(c4f16976657d99b478782493b3a4e40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3266c57c3744959a44ec9054f4f5785') in 0.049543 seconds
-  Import took 0.055702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/door_lock_fail_02.wav
-  artifactKey: Guid(b192419a5e6a80046b60d1e610ce011a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/door_lock_fail_02.wav using Guid(b192419a5e6a80046b60d1e610ce011a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c6381b920147f845c8a1226c5430bc') in 0.045254 seconds
-  Import took 0.050408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000464 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/fuse_stop_burn_out_bomb_dynamite_03.wav
-  artifactKey: Guid(f0f8ee07e788c5f419a6f5feb57fa833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/fuse_stop_burn_out_bomb_dynamite_03.wav using Guid(f0f8ee07e788c5f419a6f5feb57fa833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b0cc05b1a2f6ee78fe0069e33c13f3') in 0.053491 seconds
-  Import took 0.059152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000493 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/door_lock_fail_03.wav
-  artifactKey: Guid(90a9c0c1e65c7584f80509fa3eed04c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/door_lock_fail_03.wav using Guid(90a9c0c1e65c7584f80509fa3eed04c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27de4a18f41fc301b32846270b32d46e') in 0.091018 seconds
-  Import took 0.096850 seconds .
+  Time since last request: 65.804553 seconds.
+  path: Assets/Prefabs/DamageOutput/Bullet_Pistol.prefab
+  artifactKey: Guid(c1dacca91bb54d740ac08325ce99c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Bullet_Pistol.prefab using Guid(c1dacca91bb54d740ac08325ce99c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927051ed5349b1b4032c9404b9d559b1') in 0.011793 seconds
+  Import took 0.017414 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003948 seconds.
+Registered in 0.004027 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.022 seconds
+- Completed reload, in  1.020 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3582 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 195.8 MB.
-System memory in use after: 196.0 MB.
+System memory in use before: 181.4 MB.
+System memory in use after: 181.6 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4184.
-Total: 3.386400 ms (FindLiveObjects: 0.403400 ms CreateObjectMapping: 0.203300 ms MarkObjects: 2.749300 ms  DeleteObjects: 0.028700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004318 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.003 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3582 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 195.8 MB.
-System memory in use after: 196.0 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4187.
-Total: 3.223500 ms (FindLiveObjects: 0.374300 ms CreateObjectMapping: 0.183400 ms MarkObjects: 2.643500 ms  DeleteObjects: 0.021100 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4175.
+Total: 3.867400 ms (FindLiveObjects: 0.782600 ms CreateObjectMapping: 0.273100 ms MarkObjects: 2.765700 ms  DeleteObjects: 0.044000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 232.034403 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1e2b6257b39e2c69b6f63807f87b2a') in 0.053782 seconds
-  Import took 0.060136 seconds .
+  Time since last request: 72.872100 seconds.
+  path: Assets/Prefabs/DamageOutput/Bullet.prefab
+  artifactKey: Guid(c04156efdc826634f96702eb6770873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Bullet.prefab using Guid(c04156efdc826634f96702eb6770873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfce020827b7e96e2fbb99a45945b52') in 0.052562 seconds
+  Import took 0.058297 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Sniper.prefab
-  artifactKey: Guid(7acf70de0938fcf4fbd40b2a826d5327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Sniper.prefab using Guid(7acf70de0938fcf4fbd40b2a826d5327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a2ecb4abc6bf8b743992be9a240654') in 0.033168 seconds
-  Import took 0.039058 seconds .
+  Time since last request: 0.000492 seconds.
+  path: Assets/Prefabs/DamageOutput/Bullet_Pistol.prefab
+  artifactKey: Guid(c1dacca91bb54d740ac08325ce99c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Bullet_Pistol.prefab using Guid(c1dacca91bb54d740ac08325ce99c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225bc5f8ca488c0ec3580ead70abd7d1') in 0.014642 seconds
+  Import took 0.021013 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Explosive.prefab
-  artifactKey: Guid(aba0dab4400ffa4488e4c8752eb9b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Explosive.prefab using Guid(aba0dab4400ffa4488e4c8752eb9b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53088f9f1afdc701604d65615b17281') in 0.014726 seconds
-  Import took 0.021261 seconds .
+  Time since last request: 0.000510 seconds.
+  path: Assets/Prefabs/DamageOutput/Melee_Acid.prefab
+  artifactKey: Guid(c3cbca5efc237e045920dbf2b63a71f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Melee_Acid.prefab using Guid(c3cbca5efc237e045920dbf2b63a71f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e37536cd6993d275c960c874b076689') in 0.028064 seconds
+  Import took 0.034265 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000463 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Melee Variant.prefab
-  artifactKey: Guid(0238242ab83dfb248a3da7d89d60955c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Melee Variant.prefab using Guid(0238242ab83dfb248a3da7d89d60955c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa10c8cc7856cb37e91575be4ff83be') in 0.026350 seconds
-  Import took 0.032775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Shotgun.prefab
-  artifactKey: Guid(6eb345adb5d99ae4fb32c2e00d128b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Shotgun.prefab using Guid(6eb345adb5d99ae4fb32c2e00d128b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aace0fcacbcbef380e89dd5782767902') in 0.020415 seconds
-  Import took 0.027417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Heavy.prefab
-  artifactKey: Guid(b5db7ae88f58ca044905874b6b254d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Heavy.prefab using Guid(b5db7ae88f58ca044905874b6b254d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68061684c45f4fb9a5d69858077ad58f') in 0.020130 seconds
-  Import took 0.026364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Pistol.prefab
-  artifactKey: Guid(a2dccdd873afbf247a2690e091adfd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Pistol.prefab using Guid(a2dccdd873afbf247a2690e091adfd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbfe247c0886a81ca797f33516db2a6') in 0.026853 seconds
-  Import took 0.033983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.974990 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203b4bd1de55ee5b9001cca3454e4e35') in 0.013080 seconds
-  Import took 0.019743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.065699 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203b4bd1de55ee5b9001cca3454e4e35') in 0.010614 seconds
-  Import took 0.016585 seconds .
+  Time since last request: 0.000474 seconds.
+  path: Assets/Prefabs/DamageOutput/Bullet_Shotgun.prefab
+  artifactKey: Guid(e878b8c5f7c5a264f80e210acd9a9d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Bullet_Shotgun.prefab using Guid(e878b8c5f7c5a264f80e210acd9a9d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a39c677c76b4e5ad7cc10e6f20a39c') in 0.011928 seconds
+  Import took 0.017621 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000465 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Sniper.prefab
-  artifactKey: Guid(7acf70de0938fcf4fbd40b2a826d5327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Sniper.prefab using Guid(7acf70de0938fcf4fbd40b2a826d5327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fa8238ce8f959776217b9ecb6c2ca0') in 0.031149 seconds
-  Import took 0.037457 seconds .
+  path: Assets/Prefabs/DamageOutput/Projectile_EnemyShotgun.prefab
+  artifactKey: Guid(ac6404b1b476d5b46a1ac213db47a265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Projectile_EnemyShotgun.prefab using Guid(ac6404b1b476d5b46a1ac213db47a265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44db83111773b6d94b968c785a7273f') in 0.010727 seconds
+  Import took 0.016776 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Explosive.prefab
-  artifactKey: Guid(aba0dab4400ffa4488e4c8752eb9b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Explosive.prefab using Guid(aba0dab4400ffa4488e4c8752eb9b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15ecf1a546cd710133f0deffbabb5d3') in 0.012892 seconds
-  Import took 0.018514 seconds .
+  Time since last request: 0.013163 seconds.
+  path: Assets/Prefabs/DamageOutput/Projectile_EnemyPistol.prefab
+  artifactKey: Guid(92ea01dc76615c6408d5a7f4a7aa0d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Projectile_EnemyPistol.prefab using Guid(92ea01dc76615c6408d5a7f4a7aa0d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70b2b3caa8812cd1bb2fcd3ed1720c8') in 0.010035 seconds
+  Import took 0.015726 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Melee Variant.prefab
-  artifactKey: Guid(0238242ab83dfb248a3da7d89d60955c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Melee Variant.prefab using Guid(0238242ab83dfb248a3da7d89d60955c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79b791a237f9b295ff31e885fdb1ca8') in 0.020470 seconds
-  Import took 0.026814 seconds .
+  Time since last request: 0.000600 seconds.
+  path: Assets/Prefabs/DamageOutput/Bullet_MachineGun.prefab
+  artifactKey: Guid(0feb72cf9f5a3884896e37730e8c6519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Bullet_MachineGun.prefab using Guid(0feb72cf9f5a3884896e37730e8c6519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49259aca12bbd926d59e0cf713b8ca0e') in 0.022894 seconds
+  Import took 0.028403 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Shotgun.prefab
-  artifactKey: Guid(6eb345adb5d99ae4fb32c2e00d128b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Shotgun.prefab using Guid(6eb345adb5d99ae4fb32c2e00d128b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92e39a1e2c1609c2daea7a677ffe82e') in 0.021282 seconds
-  Import took 0.027543 seconds .
+  Time since last request: 0.000491 seconds.
+  path: Assets/Prefabs/DamageOutput/Bullet.prefab
+  artifactKey: Guid(c04156efdc826634f96702eb6770873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Bullet.prefab using Guid(c04156efdc826634f96702eb6770873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfce020827b7e96e2fbb99a45945b52') in 0.007678 seconds
+  Import took 0.013393 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Heavy.prefab
-  artifactKey: Guid(b5db7ae88f58ca044905874b6b254d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Heavy.prefab using Guid(b5db7ae88f58ca044905874b6b254d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b69ffda27941a3c7373a662a3f93fb') in 0.023117 seconds
-  Import took 0.029594 seconds .
+  Time since last request: 0.000472 seconds.
+  path: Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab
+  artifactKey: Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab using Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0a3300b7c3947fd0d686e02f1594af') in 0.010737 seconds
+  Import took 0.016110 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Pistol.prefab
-  artifactKey: Guid(a2dccdd873afbf247a2690e091adfd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Pistol.prefab using Guid(a2dccdd873afbf247a2690e091adfd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8af6c72c205ef0cdafff89dbbd718e') in 0.020167 seconds
-  Import took 0.027023 seconds .
+  Time since last request: 0.000491 seconds.
+  path: Assets/Prefabs/DamageOutput/Projectile_EnemySniper.prefab
+  artifactKey: Guid(5f82a2c28c369bd42838b5d26040b19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Projectile_EnemySniper.prefab using Guid(5f82a2c28c369bd42838b5d26040b19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a6697895d4575d4c8869e49d5ba67a') in 0.012088 seconds
+  Import took 0.017346 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.479930 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32ce28baf4e484db17a69ce690ed0aa') in 0.011344 seconds
-  Import took 0.017217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.077196 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32ce28baf4e484db17a69ce690ed0aa') in 0.012054 seconds
-  Import took 0.017951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Sniper.prefab
-  artifactKey: Guid(7acf70de0938fcf4fbd40b2a826d5327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Sniper.prefab using Guid(7acf70de0938fcf4fbd40b2a826d5327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f2f33ce0b3739b64af265a738ee2ed') in 0.022839 seconds
-  Import took 0.105496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Explosive.prefab
-  artifactKey: Guid(aba0dab4400ffa4488e4c8752eb9b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Explosive.prefab using Guid(aba0dab4400ffa4488e4c8752eb9b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13c0a282647bfad8986e77ea8cbfa72') in 0.014703 seconds
-  Import took 0.021019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Melee Variant.prefab
-  artifactKey: Guid(0238242ab83dfb248a3da7d89d60955c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Melee Variant.prefab using Guid(0238242ab83dfb248a3da7d89d60955c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf0fbf8c9025df55b1eace0b0b8f6a0') in 0.019191 seconds
-  Import took 0.025090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Shotgun.prefab
-  artifactKey: Guid(6eb345adb5d99ae4fb32c2e00d128b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Shotgun.prefab using Guid(6eb345adb5d99ae4fb32c2e00d128b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9654c7fcf5428c2db370f286e208285') in 0.018910 seconds
-  Import took 0.024812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.721078 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c2ae99a3a62ec3869a21500547416f') in 0.204520 seconds
-  Import took 0.210844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Sniper.prefab
-  artifactKey: Guid(7acf70de0938fcf4fbd40b2a826d5327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Sniper.prefab using Guid(7acf70de0938fcf4fbd40b2a826d5327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adedb9b96f824cb744517d8d25464f1d') in 0.022551 seconds
-  Import took 0.028436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Explosive.prefab
-  artifactKey: Guid(aba0dab4400ffa4488e4c8752eb9b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Explosive.prefab using Guid(aba0dab4400ffa4488e4c8752eb9b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d15eb01f6e279ff56489578456a93b7') in 0.012583 seconds
-  Import took 0.018833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Melee Variant.prefab
-  artifactKey: Guid(0238242ab83dfb248a3da7d89d60955c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Melee Variant.prefab using Guid(0238242ab83dfb248a3da7d89d60955c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21d67aa1c97a7d61ba15b86176a08a9') in 0.021198 seconds
-  Import took 0.027751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Shotgun.prefab
-  artifactKey: Guid(6eb345adb5d99ae4fb32c2e00d128b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Shotgun.prefab using Guid(6eb345adb5d99ae4fb32c2e00d128b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f909092ec8b613286f44496d16e0ad3c') in 0.021892 seconds
-  Import took 0.027816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Heavy.prefab
-  artifactKey: Guid(b5db7ae88f58ca044905874b6b254d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Heavy.prefab using Guid(b5db7ae88f58ca044905874b6b254d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7c02e8d57e99b505eb4f8dd32908b1') in 0.019059 seconds
-  Import took 0.025637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000463 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Pistol.prefab
-  artifactKey: Guid(a2dccdd873afbf247a2690e091adfd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Pistol.prefab using Guid(a2dccdd873afbf247a2690e091adfd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a73a7bba421819b4712c7528758ccd') in 0.021815 seconds
-  Import took 0.028354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.341540 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32954b7492ed07d64b2d3c5f69272987') in 0.012385 seconds
-  Import took 0.018451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.003328 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab239b930aebb946898acdcb0097a796') in 0.011176 seconds
-  Import took 0.017108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018161 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab239b930aebb946898acdcb0097a796') in 0.011413 seconds
-  Import took 0.017381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.847563 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c44defede2255b8d2a8f1e5edaa19e') in 0.011552 seconds
-  Import took 0.017879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.518921 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2527156b0b9c9e50f76f4dc7110051') in 0.010507 seconds
-  Import took 0.016496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046174 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2527156b0b9c9e50f76f4dc7110051') in 0.010822 seconds
-  Import took 0.016671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.013617 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282206747435a3c08dca3ab2bc0beb1b') in 0.012247 seconds
-  Import took 0.018519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.045783 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282206747435a3c08dca3ab2bc0beb1b') in 0.012257 seconds
-  Import took 0.018248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.580588 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3674ed16e01fcd3f32ae343b71485a9f') in 0.016214 seconds
-  Import took 0.022503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035019 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3674ed16e01fcd3f32ae343b71485a9f') in 0.016784 seconds
-  Import took 0.023346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.044875 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2faa5dd41b8af9bbfe62f7fb76ffcddc') in 0.012481 seconds
-  Import took 0.018955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.193303 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc908f25dfbd1bbfa1a34df44e0ae85a') in 0.013055 seconds
-  Import took 0.019286 seconds .
+  Time since last request: 65.567316 seconds.
+  path: Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab
+  artifactKey: Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab using Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa63bd58bfbe6008bb04d8f0b0d82027') in 0.012250 seconds
+  Import took 0.018528 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005101 seconds.
+Registered in 0.004005 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 3.97 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.038 seconds
+- Completed reload, in  2.263 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3582 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 195.9 MB.
-System memory in use after: 196.1 MB.
+System memory in use before: 181.5 MB.
+System memory in use after: 181.7 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4191.
-Total: 3.819500 ms (FindLiveObjects: 0.536600 ms CreateObjectMapping: 0.271400 ms MarkObjects: 2.988400 ms  DeleteObjects: 0.021800 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4179.
+Total: 4.766200 ms (FindLiveObjects: 0.540100 ms CreateObjectMapping: 0.343400 ms MarkObjects: 3.845900 ms  DeleteObjects: 0.034700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.088539 seconds.
+  path: Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab
+  artifactKey: Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab using Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a161db02cc0bfc75c216ae137c6414e') in 0.065469 seconds
+  Import took 0.286541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.024434 seconds.
+  path: Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab
+  artifactKey: Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab using Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a161db02cc0bfc75c216ae137c6414e') in 0.014984 seconds
+  Import took 0.021704 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004261 seconds.
+Registered in 0.003970 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.012 seconds
+- Completed reload, in  1.170 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3582 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 195.9 MB.
-System memory in use after: 196.1 MB.
+System memory in use before: 181.5 MB.
+System memory in use after: 181.8 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4194.
-Total: 3.610200 ms (FindLiveObjects: 0.674600 ms CreateObjectMapping: 0.259000 ms MarkObjects: 2.651400 ms  DeleteObjects: 0.022400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 265.588215 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Sniper.prefab
-  artifactKey: Guid(7acf70de0938fcf4fbd40b2a826d5327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Sniper.prefab using Guid(7acf70de0938fcf4fbd40b2a826d5327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429131ee04665d435bb92d1ee07e4b12') in 0.080815 seconds
-  Import took 0.088086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Explosive.prefab
-  artifactKey: Guid(aba0dab4400ffa4488e4c8752eb9b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Explosive.prefab using Guid(aba0dab4400ffa4488e4c8752eb9b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97dbc53ae2def86b4951d4e1e1a3ea36') in 0.015555 seconds
-  Import took 0.021685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000457 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Melee Variant.prefab
-  artifactKey: Guid(0238242ab83dfb248a3da7d89d60955c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Melee Variant.prefab using Guid(0238242ab83dfb248a3da7d89d60955c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0b3bba37eaa8e28eb8c7436df0d362') in 0.023158 seconds
-  Import took 0.029698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Shotgun.prefab
-  artifactKey: Guid(6eb345adb5d99ae4fb32c2e00d128b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Shotgun.prefab using Guid(6eb345adb5d99ae4fb32c2e00d128b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9d02d628a4a912bd7766c936e47fb1') in 0.023035 seconds
-  Import took 0.031568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Heavy.prefab
-  artifactKey: Guid(b5db7ae88f58ca044905874b6b254d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Heavy.prefab using Guid(b5db7ae88f58ca044905874b6b254d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c147c8e56ee5d2397e1af0c9b8976f') in 0.021445 seconds
-  Import took 0.028685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Prefabs/Enemy/Enemy Pistol.prefab
-  artifactKey: Guid(a2dccdd873afbf247a2690e091adfd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy Pistol.prefab using Guid(a2dccdd873afbf247a2690e091adfd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5143630103aed07a683d047a09b97a4a') in 0.022261 seconds
-  Import took 0.028309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.798519 seconds.
-  path: Assets/Prefabs/Enemy/Enemy.prefab
-  artifactKey: Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Enemy.prefab using Guid(bc0b513a648a886478d44d8a0163cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377f0b93fa149efdaa8c61539121866a') in 0.013607 seconds
-  Import took 0.019869 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004224 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.012 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3582 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.0 MB.
-System memory in use after: 196.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4198.
-Total: 3.830500 ms (FindLiveObjects: 0.710700 ms CreateObjectMapping: 0.296500 ms MarkObjects: 2.797900 ms  DeleteObjects: 0.024300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 459.020211 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/announcer_voice_classic_FPS_style_fury.wav
-  artifactKey: Guid(39c8be2b2ba0dbe49880356a5da7ced2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/announcer_voice_classic_FPS_style_fury.wav using Guid(39c8be2b2ba0dbe49880356a5da7ced2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ca8df5811e41bddf963fe78e99d62c') in 0.550431 seconds
-  Import took 0.557714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000448 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bird_small_song_call_chirp_04.wav
-  artifactKey: Guid(4289b88eafb118e43a0f2965c7bf689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bird_small_song_call_chirp_04.wav using Guid(4289b88eafb118e43a0f2965c7bf689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e216e07817cc21ee204bf9feed4bde00') in 0.109770 seconds
-  Import took 0.131303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/announcer_voice_classic_FPS_style_killingspree.wav
-  artifactKey: Guid(2172c7e8740c0a7418f36e2723682627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/announcer_voice_classic_FPS_style_killingspree.wav using Guid(2172c7e8740c0a7418f36e2723682627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7baf485ab59d05bbf8be2badcb1df44d') in 0.151409 seconds
-  Import took 0.157221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/announcer_voice_classic_FPS_style_fury.wav
-  artifactKey: Guid(39c8be2b2ba0dbe49880356a5da7ced2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/announcer_voice_classic_FPS_style_fury.wav using Guid(39c8be2b2ba0dbe49880356a5da7ced2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ca8df5811e41bddf963fe78e99d62c') in 0.007462 seconds
-  Import took 0.013243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000456 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/birds_small_calling_chirping_loop_03.wav
-  artifactKey: Guid(5982045fff5c68942990f1f96a2d1bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/birds_small_calling_chirping_loop_03.wav using Guid(5982045fff5c68942990f1f96a2d1bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6db5d8b7ebe60d19ba06600d7698a05') in 0.065170 seconds
-  Import took 0.071599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bird_med_songbird_magpie_crow_call_chirp_04.wav
-  artifactKey: Guid(f8a05f77cc2179347b95a98079f1c499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Gamemaster Audio - Footstep and Foley Sounds/ProSoundCollection_BonusSounds/Mono Versions/bird_med_songbird_magpie_crow_call_chirp_04.wav using Guid(f8a05f77cc2179347b95a98079f1c499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30d919e6320e8744c9dc191fcd4ce95') in 0.130293 seconds
-  Import took 0.136224 seconds .
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4183.
+Total: 2.642600 ms (FindLiveObjects: 0.377400 ms CreateObjectMapping: 0.182900 ms MarkObjects: 2.063400 ms  DeleteObjects: 0.017200 ms)
 
