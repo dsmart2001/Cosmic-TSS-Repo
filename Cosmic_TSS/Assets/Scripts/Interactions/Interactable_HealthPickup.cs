@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Interactable_HealthPickup : MonoBehaviour
 {
+    private AudioSource pickupAudio => GetComponent<AudioSource>();
+    private MeshRenderer mesh => GetComponent<MeshRenderer>();
+
     public float addHealth = 10f;
     public bool active = true;
 
@@ -15,7 +18,8 @@ public class Interactable_HealthPickup : MonoBehaviour
         {
             Player_Stats.health += addHealth;
             active = false;
-            gameObject.SetActive(false);
+            StartCoroutine(PickupHealth());
+
         }
     }
 
@@ -25,5 +29,17 @@ public class Interactable_HealthPickup : MonoBehaviour
         {
             gameObject.SetActive(true);
         }
+    }
+
+    IEnumerator PickupHealth()
+    {
+        pickupAudio.Play();
+        mesh.enabled = false;
+
+        yield return new WaitForSeconds(pickupAudio.clip.length);
+
+        mesh.enabled = true;
+        gameObject.SetActive(false);
+
     }
 }
