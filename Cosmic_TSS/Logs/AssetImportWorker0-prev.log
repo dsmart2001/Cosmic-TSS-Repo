@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16243 MB
+OS: 'Windows 10 Home; OS build 19044.1586; Version 2009; 64bit' Language: 'en' Physical Memory: 16243 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/_Desktop Extra/Unity Project Storage/Cosmic-TSS-Repo/Cosmic_TSS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58574
+54350
 Successfully changed project path to: D:/_Desktop Extra/Unity Project Storage/Cosmic-TSS-Repo/Cosmic_TSS
 D:/_Desktop Extra/Unity Project Storage/Cosmic-TSS-Repo/Cosmic_TSS
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 89.88 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 89.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -36,328 +36,77 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003186 seconds.
+Registered in 0.003083 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 86.73 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 87.75 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.291 seconds
+- Completed reload, in  1.194 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003928 seconds.
+Registered in 0.004041 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 88.84 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 84.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.161 seconds
+- Completed reload, in  1.176 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3709 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 190.1 MB.
-System memory in use after: 190.4 MB.
+System memory in use before: 190.3 MB.
+System memory in use after: 190.5 MB.
 
 Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4163.
-Total: 2.787800 ms (FindLiveObjects: 0.365800 ms CreateObjectMapping: 0.192000 ms MarkObjects: 2.202200 ms  DeleteObjects: 0.026600 ms)
+Total: 3.685500 ms (FindLiveObjects: 0.938500 ms CreateObjectMapping: 0.590100 ms MarkObjects: 2.129900 ms  DeleteObjects: 0.025800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/DamageOutput/Bullet_Pistol.prefab
-  artifactKey: Guid(c1dacca91bb54d740ac08325ce99c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet_Pistol.prefab using Guid(c1dacca91bb54d740ac08325ce99c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc18aa22c948edd913240fbb2e865da') in 0.223188 seconds
-  Import took 0.271901 seconds .
+  path: Assets/Prefabs/Environment/Map Environments/Map_DerelictShip.prefab
+  artifactKey: Guid(62b40e86f0d96474daf15bf1c1fa1a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Map Environments/Map_DerelictShip.prefab using Guid(62b40e86f0d96474daf15bf1c1fa1a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0ffb948f17b297d01330c78a62fcf9') in 0.371394 seconds
+  Import took 0.657584 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000460 seconds.
-  path: Assets/Prefabs/DamageOutput/Melee_Acid.prefab
-  artifactKey: Guid(c3cbca5efc237e045920dbf2b63a71f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Melee_Acid.prefab using Guid(c3cbca5efc237e045920dbf2b63a71f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f616c503f060831c0bb2f0b86c58e93a') in 0.600274 seconds
-  Import took 0.605724 seconds .
+  Time since last request: 25.296588 seconds.
+  path: Assets/Prefabs/GameManager
+  artifactKey: Guid(b10c1d057ffa39745a999f4e0962c7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GameManager using Guid(b10c1d057ffa39745a999f4e0962c7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c3623e8d3f81ddca12ee3b5fbaa051') in 0.002491 seconds
+  Import took 0.060859 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000499 seconds.
-  path: Assets/Prefabs/DamageOutput/Bullet_Shotgun.prefab
-  artifactKey: Guid(e878b8c5f7c5a264f80e210acd9a9d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet_Shotgun.prefab using Guid(e878b8c5f7c5a264f80e210acd9a9d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07472cc44eaa29b2fb9abb6597f52986') in 0.052252 seconds
-  Import took 0.058637 seconds .
+  Time since last request: 4.013166 seconds.
+  path: Assets/Prefabs/GameManager/GameManager.prefab
+  artifactKey: Guid(dadfdd9880cd3974188a0df3e52ac83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GameManager/GameManager.prefab using Guid(dadfdd9880cd3974188a0df3e52ac83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08a9cf53de73a279d9ec211ef258cbf') in 0.172728 seconds
+  Import took 0.243739 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000473 seconds.
-  path: Assets/Prefabs/DamageOutput/Projectile_EnemyShotgun.prefab
-  artifactKey: Guid(ac6404b1b476d5b46a1ac213db47a265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Projectile_EnemyShotgun.prefab using Guid(ac6404b1b476d5b46a1ac213db47a265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd013feb6b42a3bf025786dfa5fe6bbd6') in 0.010636 seconds
-  Import took 0.016001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000502 seconds.
-  path: Assets/Prefabs/DamageOutput/Projectile_EnemyPistol.prefab
-  artifactKey: Guid(92ea01dc76615c6408d5a7f4a7aa0d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Projectile_EnemyPistol.prefab using Guid(92ea01dc76615c6408d5a7f4a7aa0d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0812c95baf3bf934f509a79ff3f26367') in 0.011108 seconds
-  Import took 0.016510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000475 seconds.
-  path: Assets/Prefabs/DamageOutput/Bullet_MachineGun.prefab
-  artifactKey: Guid(0feb72cf9f5a3884896e37730e8c6519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet_MachineGun.prefab using Guid(0feb72cf9f5a3884896e37730e8c6519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fdd2848b3877921bfa39a8c33bd999') in 0.019196 seconds
-  Import took 0.025977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000495 seconds.
-  path: Assets/Prefabs/DamageOutput/Bullet.prefab
-  artifactKey: Guid(c04156efdc826634f96702eb6770873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet.prefab using Guid(c04156efdc826634f96702eb6770873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4fb37b26030b7429ea4ceb34bcb54f') in 0.008430 seconds
-  Import took 0.014099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab
-  artifactKey: Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab using Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bcdca7cb2ee23196160a2ee7e2f3f7') in 0.010934 seconds
-  Import took 0.016872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000475 seconds.
-  path: Assets/Prefabs/DamageOutput/Projectile_EnemySniper.prefab
-  artifactKey: Guid(5f82a2c28c369bd42838b5d26040b19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Projectile_EnemySniper.prefab using Guid(5f82a2c28c369bd42838b5d26040b19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efbde10480d356b09204f161acf3f2d') in 0.011648 seconds
-  Import took 0.018255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 85.858638 seconds.
-  path: Assets/Prefabs/DamageOutput/Bullet_MachineGun.prefab
-  artifactKey: Guid(0feb72cf9f5a3884896e37730e8c6519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet_MachineGun.prefab using Guid(0feb72cf9f5a3884896e37730e8c6519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7097f4722a9de873147c05fa123596aa') in 0.033119 seconds
-  Import took 0.039210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.781179 seconds.
-  path: Assets/Prefabs/DamageOutput/Bullet_Pistol.prefab
-  artifactKey: Guid(c1dacca91bb54d740ac08325ce99c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet_Pistol.prefab using Guid(c1dacca91bb54d740ac08325ce99c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c09d4a1a1d5f10916e8e6bce5a3de6') in 0.011567 seconds
-  Import took 0.017707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.992726 seconds.
-  path: Assets/Prefabs/DamageOutput/Bullet_MachineGun.prefab
-  artifactKey: Guid(0feb72cf9f5a3884896e37730e8c6519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet_MachineGun.prefab using Guid(0feb72cf9f5a3884896e37730e8c6519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160acda5cc6ad555f6f85ff222c76dfc') in 0.013163 seconds
-  Import took 0.018962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.804553 seconds.
-  path: Assets/Prefabs/DamageOutput/Bullet_Pistol.prefab
-  artifactKey: Guid(c1dacca91bb54d740ac08325ce99c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet_Pistol.prefab using Guid(c1dacca91bb54d740ac08325ce99c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927051ed5349b1b4032c9404b9d559b1') in 0.011793 seconds
-  Import took 0.017414 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004027 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.020 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3582 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.4 MB.
-System memory in use after: 181.6 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4175.
-Total: 3.867400 ms (FindLiveObjects: 0.782600 ms CreateObjectMapping: 0.273100 ms MarkObjects: 2.765700 ms  DeleteObjects: 0.044000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.872100 seconds.
-  path: Assets/Prefabs/DamageOutput/Bullet.prefab
-  artifactKey: Guid(c04156efdc826634f96702eb6770873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet.prefab using Guid(c04156efdc826634f96702eb6770873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfce020827b7e96e2fbb99a45945b52') in 0.052562 seconds
-  Import took 0.058297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000492 seconds.
-  path: Assets/Prefabs/DamageOutput/Bullet_Pistol.prefab
-  artifactKey: Guid(c1dacca91bb54d740ac08325ce99c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet_Pistol.prefab using Guid(c1dacca91bb54d740ac08325ce99c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225bc5f8ca488c0ec3580ead70abd7d1') in 0.014642 seconds
-  Import took 0.021013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000510 seconds.
-  path: Assets/Prefabs/DamageOutput/Melee_Acid.prefab
-  artifactKey: Guid(c3cbca5efc237e045920dbf2b63a71f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Melee_Acid.prefab using Guid(c3cbca5efc237e045920dbf2b63a71f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e37536cd6993d275c960c874b076689') in 0.028064 seconds
-  Import took 0.034265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000474 seconds.
-  path: Assets/Prefabs/DamageOutput/Bullet_Shotgun.prefab
-  artifactKey: Guid(e878b8c5f7c5a264f80e210acd9a9d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet_Shotgun.prefab using Guid(e878b8c5f7c5a264f80e210acd9a9d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a39c677c76b4e5ad7cc10e6f20a39c') in 0.011928 seconds
-  Import took 0.017621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000465 seconds.
-  path: Assets/Prefabs/DamageOutput/Projectile_EnemyShotgun.prefab
-  artifactKey: Guid(ac6404b1b476d5b46a1ac213db47a265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Projectile_EnemyShotgun.prefab using Guid(ac6404b1b476d5b46a1ac213db47a265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44db83111773b6d94b968c785a7273f') in 0.010727 seconds
-  Import took 0.016776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013163 seconds.
-  path: Assets/Prefabs/DamageOutput/Projectile_EnemyPistol.prefab
-  artifactKey: Guid(92ea01dc76615c6408d5a7f4a7aa0d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Projectile_EnemyPistol.prefab using Guid(92ea01dc76615c6408d5a7f4a7aa0d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70b2b3caa8812cd1bb2fcd3ed1720c8') in 0.010035 seconds
-  Import took 0.015726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000600 seconds.
-  path: Assets/Prefabs/DamageOutput/Bullet_MachineGun.prefab
-  artifactKey: Guid(0feb72cf9f5a3884896e37730e8c6519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet_MachineGun.prefab using Guid(0feb72cf9f5a3884896e37730e8c6519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49259aca12bbd926d59e0cf713b8ca0e') in 0.022894 seconds
-  Import took 0.028403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000491 seconds.
-  path: Assets/Prefabs/DamageOutput/Bullet.prefab
-  artifactKey: Guid(c04156efdc826634f96702eb6770873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet.prefab using Guid(c04156efdc826634f96702eb6770873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfce020827b7e96e2fbb99a45945b52') in 0.007678 seconds
-  Import took 0.013393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab
-  artifactKey: Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab using Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0a3300b7c3947fd0d686e02f1594af') in 0.010737 seconds
-  Import took 0.016110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000491 seconds.
-  path: Assets/Prefabs/DamageOutput/Projectile_EnemySniper.prefab
-  artifactKey: Guid(5f82a2c28c369bd42838b5d26040b19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Projectile_EnemySniper.prefab using Guid(5f82a2c28c369bd42838b5d26040b19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a6697895d4575d4c8869e49d5ba67a') in 0.012088 seconds
-  Import took 0.017346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.567316 seconds.
-  path: Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab
-  artifactKey: Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab using Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa63bd58bfbe6008bb04d8f0b0d82027') in 0.012250 seconds
-  Import took 0.018528 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004005 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 3.97 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.263 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3582 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.5 MB.
-System memory in use after: 181.7 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4179.
-Total: 4.766200 ms (FindLiveObjects: 0.540100 ms CreateObjectMapping: 0.343400 ms MarkObjects: 3.845900 ms  DeleteObjects: 0.034700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 73.088539 seconds.
-  path: Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab
-  artifactKey: Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab using Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a161db02cc0bfc75c216ae137c6414e') in 0.065469 seconds
-  Import took 0.286541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.024434 seconds.
-  path: Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab
-  artifactKey: Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DamageOutput/Bullet_Sniper.prefab using Guid(260a5eeb7eeebe544aade2d2ddab345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a161db02cc0bfc75c216ae137c6414e') in 0.014984 seconds
-  Import took 0.021704 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003970 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.170 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3582 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.5 MB.
-System memory in use after: 181.8 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4183.
-Total: 2.642600 ms (FindLiveObjects: 0.377400 ms CreateObjectMapping: 0.182900 ms MarkObjects: 2.063400 ms  DeleteObjects: 0.017200 ms)
+  Time since last request: 14.483021 seconds.
+  path: Assets/Scenes/MainGame/Introduction.unity
+  artifactKey: Guid(e388a7981d799d149968461b10150b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/Introduction.unity using Guid(e388a7981d799d149968461b10150b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a24ec416b592e53d68118db168a2157') in 0.003539 seconds
+  Import took 0.387304 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
