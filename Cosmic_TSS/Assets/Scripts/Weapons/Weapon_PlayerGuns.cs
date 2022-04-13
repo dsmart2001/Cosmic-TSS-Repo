@@ -15,12 +15,15 @@ public class Weapon_PlayerGuns : MonoBehaviour
     private bool canFire = true;
 
     private AudioSource audioSource => GetComponent<AudioSource>();
+    public AudioClip SFX_gunshot;
+    public AudioClip SFX_empty;
 
     // Start is called before the first frame update
     void Start()
     {
         timer_fireRate = fireRate;
         ammo = ammoLimit;
+        audioSource.clip = SFX_gunshot;
     }
 
     // Update is called once per frame
@@ -42,6 +45,12 @@ public class Weapon_PlayerGuns : MonoBehaviour
             timer_fireRate = Time.time + fireRate;
             ammo--;
 
+            audioSource.clip = SFX_gunshot;
+            audioSource.Play();
+        }
+        else if(!canFire && ammo <= 0)
+        {
+            audioSource.clip = SFX_empty;
             audioSource.Play();
         }
     }

@@ -8,15 +8,15 @@ public class Enemy_Audio : MonoBehaviour
 {
     private AudioSource audioSource => GetComponent<AudioSource>();
 
-    public AudioClip[] SFX_voice;
+    public AudioClip[] SFX_growls;
     public AudioClip SFX_attack;
     public AudioClip SFX_death;
 
     public void SFX_Growl()
     {
-        int random = Random.Range(0, SFX_voice.Length - 1);
+        int random = Random.Range(0, SFX_growls.Length - 1);
 
-        audioSource.PlayOneShot(SFX_voice[random]);
+        audioSource.PlayOneShot(SFX_growls[random]);
     }
 
     public void SFX_Attack()

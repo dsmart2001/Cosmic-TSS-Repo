@@ -20,7 +20,7 @@ public class Enemy_Collision : MonoBehaviour
 
         if (tag == "Instadeath")
         {
-            Stats.Death();
+            StartCoroutine(Stats.Death());
         }
 
         if(tag == "Player")
