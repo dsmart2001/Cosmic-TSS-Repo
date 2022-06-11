@@ -5,15 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class GUI_MainMenu : MonoBehaviour
 {
+    // Main Menu objects
     public GameObject creditsMenu;
     public GameObject controlsMenu;
+
+    // Object organizing
+    public List<GameObject> HideAtStart;
 
     // Start is called before the first frame update
     void Start()
     {
-        creditsMenu.SetActive(false);
-        controlsMenu.SetActive(false);
-
+        foreach(GameObject obj in HideAtStart) 
+        {
+            obj.SetActive(false);
+        }
     }
 
     public void OpenCredits(bool active)
