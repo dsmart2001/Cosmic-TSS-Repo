@@ -1,0 +1,1304 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.1706; Version 2009; 64bit' Language: 'en' Physical Memory: 16242 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/_Desktop Extra/Unity Project Storage/Cosmic-TSS-Repo/Cosmic_TSS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56574
+Successfully changed project path to: D:/_Desktop Extra/Unity Project Storage/Cosmic-TSS-Repo/Cosmic_TSS
+D:/_Desktop Extra/Unity Project Storage/Cosmic-TSS-Repo/Cosmic_TSS
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 91.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/_Desktop Extra/Unity Project Storage/Cosmic-TSS-Repo/Cosmic_TSS/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   30.0.15.1169
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003250 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 86.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.265 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004180 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 85.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.201 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3709 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.5 MB.
+System memory in use after: 190.7 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4163.
+Total: 4.579900 ms (FindLiveObjects: 0.755500 ms CreateObjectMapping: 0.261600 ms MarkObjects: 3.526500 ms  DeleteObjects: 0.034800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bc421754e4d9035c6b86cce0beb177') in 0.157469 seconds
+  Import took 0.198213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.380890 seconds.
+  path: Assets/GUI/Fonts/Ubuntu-MI SDF.asset
+  artifactKey: Guid(aed3117fc776c6243980d440e9c539c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI/Fonts/Ubuntu-MI SDF.asset using Guid(aed3117fc776c6243980d440e9c539c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf60c864e3fece1f693da14e6e04219') in 0.078202 seconds
+  Import took 0.153741 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 5.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.8 MB.
+System memory in use after: 112.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4206.
+Total: 3.584500 ms (FindLiveObjects: 0.324000 ms CreateObjectMapping: 0.169800 ms MarkObjects: 3.075800 ms  DeleteObjects: 0.014200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004209 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.010 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3582 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.9 MB.
+System memory in use after: 182.1 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4209.
+Total: 4.600600 ms (FindLiveObjects: 0.636100 ms CreateObjectMapping: 0.356700 ms MarkObjects: 3.586300 ms  DeleteObjects: 0.019600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004147 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.007 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3582 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.9 MB.
+System memory in use after: 182.2 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4212.
+Total: 3.012800 ms (FindLiveObjects: 0.559900 ms CreateObjectMapping: 0.209700 ms MarkObjects: 2.219500 ms  DeleteObjects: 0.022300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004100 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.049 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3582 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.0 MB.
+System memory in use after: 182.2 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4215.
+Total: 4.683600 ms (FindLiveObjects: 0.909700 ms CreateObjectMapping: 0.530100 ms MarkObjects: 3.214900 ms  DeleteObjects: 0.026100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1128.953830 seconds.
+  path: Assets/Materials/Glass.mat
+  artifactKey: Guid(f1f5084164115214bab93d07695853cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Glass.mat using Guid(f1f5084164115214bab93d07695853cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11658c85b82d68f5365f7f636bc9f96d') in 0.176012 seconds
+  Import took 0.272360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001601 seconds.
+  path: Assets/Materials/Glass.mat
+  artifactKey: Guid(f1f5084164115214bab93d07695853cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Glass.mat using Guid(f1f5084164115214bab93d07695853cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11658c85b82d68f5365f7f636bc9f96d') in 0.009036 seconds
+  Import took 0.127568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.003532 seconds.
+  path: Assets/AssetStore/Sci-fi Weapons Arsenal/Textures/Sci-fi Knife/2k/Custom B/Agent Naomi Knife albedo.png
+  artifactKey: Guid(4cf950d112f2bb846b933d358e829c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Sci-fi Weapons Arsenal/Textures/Sci-fi Knife/2k/Custom B/Agent Naomi Knife albedo.png using Guid(4cf950d112f2bb846b933d358e829c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4131a82618082b5aca3566e61badb7a8') in 0.482602 seconds
+  Import took 0.575616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-25_comp_dir.png
+  artifactKey: Guid(7a3f5dd4c977f2749934b46b060cc750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-25_comp_dir.png using Guid(7a3f5dd4c977f2749934b46b060cc750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e72ea16d33b4caf1b5bdbb88cd88425') in 0.066097 seconds
+  Import took 0.211599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-5_comp_light.exr
+  artifactKey: Guid(3276712418aa42348b84d795f889f49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-5_comp_light.exr using Guid(3276712418aa42348b84d795f889f49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82afdccbfbad6a4c419b86664996cc06') in 0.051795 seconds
+  Import took 0.080557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-11_comp_shadowmask.png
+  artifactKey: Guid(feb07a3d01f0d284c8df6e0fcec876c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-11_comp_shadowmask.png using Guid(feb07a3d01f0d284c8df6e0fcec876c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c640caffbcbe3589a67eda85b689188') in 0.034123 seconds
+  Import took 0.119879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-38_comp_dir.png
+  artifactKey: Guid(5b2971bf84138c34184a7e319be93237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-38_comp_dir.png using Guid(5b2971bf84138c34184a7e319be93237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a518e7ac1b9bfbad13a5ad5692ec70e0') in 0.010738 seconds
+  Import took 0.051088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-35_comp_dir.png
+  artifactKey: Guid(99e1fec5c0e86184a99f2773dc691e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-35_comp_dir.png using Guid(99e1fec5c0e86184a99f2773dc691e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8df378bbeb3d50ea6fde9e746bfc0ba') in 0.011120 seconds
+  Import took 0.050363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-30_comp_dir.png
+  artifactKey: Guid(891a039ee8cf3aa4d805d74fb92fd50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-30_comp_dir.png using Guid(891a039ee8cf3aa4d805d74fb92fd50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7869026a357d2bdba7eeb11a6f0734') in 0.026414 seconds
+  Import took 0.061815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-7_comp_shadowmask.png
+  artifactKey: Guid(2ba6b8ad888599c4fa034bfa9177edbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-7_comp_shadowmask.png using Guid(2ba6b8ad888599c4fa034bfa9177edbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf1221b58295f13c89c981d3b25695d') in 0.029355 seconds
+  Import took 0.050538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-24_comp_shadowmask.png
+  artifactKey: Guid(26b8212e2624d4e43a0e747cb28071c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-24_comp_shadowmask.png using Guid(26b8212e2624d4e43a0e747cb28071c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d1131f9797b97e4688de366c86ddd1') in 0.021837 seconds
+  Import took 0.069716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-27_comp_shadowmask.png
+  artifactKey: Guid(be1b49d3b15c8d54a87ee1b09a170cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-27_comp_shadowmask.png using Guid(be1b49d3b15c8d54a87ee1b09a170cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e57c454cbe7b4f5dc342afc8e685bcb') in 0.047274 seconds
+  Import took 0.096565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-12_comp_light.exr
+  artifactKey: Guid(f6b6da562e1c96b469f075d448ee330a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-12_comp_light.exr using Guid(f6b6da562e1c96b469f075d448ee330a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c72e7bbd6b62428466d99297d578c0') in 0.049174 seconds
+  Import took 0.101734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-0_comp_dir.png
+  artifactKey: Guid(61229c7b279d02b4e8fd957c1c1efbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-0_comp_dir.png using Guid(61229c7b279d02b4e8fd957c1c1efbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9931d813b2160e8a7a2e0fa1ad3e480') in 0.025786 seconds
+  Import took 0.084439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-21_comp_dir.png
+  artifactKey: Guid(420d3ba40f6911348ade2f979eeee9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-21_comp_dir.png using Guid(420d3ba40f6911348ade2f979eeee9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca42c745300171f6954d3d99165cf9ee') in 0.020783 seconds
+  Import took 0.039629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-21_comp_shadowmask.png
+  artifactKey: Guid(b4907e98087e18d40a2920517e8fefc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-21_comp_shadowmask.png using Guid(b4907e98087e18d40a2920517e8fefc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0832d8ecd8f5c5a2ed069373b109ff23') in 0.018835 seconds
+  Import took 0.071532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000751 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-38_comp_shadowmask.png
+  artifactKey: Guid(10087e15bdb050047b277b6ab87d01b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-38_comp_shadowmask.png using Guid(10087e15bdb050047b277b6ab87d01b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d57d1d32f01cd580dfe3afaf1d47abf') in 0.013279 seconds
+  Import took 0.019271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-6_comp_dir.png
+  artifactKey: Guid(2b6dedaa1fb194d4c9501578e14392be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-6_comp_dir.png using Guid(2b6dedaa1fb194d4c9501578e14392be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc61a860e0e7e9495314bdd021f50df4') in 0.011707 seconds
+  Import took 0.074664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-25_comp_light.exr
+  artifactKey: Guid(ef03824f404886849833738fcb70d79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-25_comp_light.exr using Guid(ef03824f404886849833738fcb70d79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be776d3c73d5c41be6f54ce203df2e8f') in 0.010444 seconds
+  Import took 0.044390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-16_comp_dir.png
+  artifactKey: Guid(476d7a8a78bbcbb4680dcd030614e08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-16_comp_dir.png using Guid(476d7a8a78bbcbb4680dcd030614e08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fd3b12e16c7e7e705b29298e354fa1') in 0.011081 seconds
+  Import took 0.045309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-23_comp_dir.png
+  artifactKey: Guid(6589af80709b26d4ab139250da6db6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-23_comp_dir.png using Guid(6589af80709b26d4ab139250da6db6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ad3efc177f5dff0c813aae91f72b2b') in 0.010216 seconds
+  Import took 0.018230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-10_comp_light.exr
+  artifactKey: Guid(670edd7dc744a054eb27fef6daebd59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-10_comp_light.exr using Guid(670edd7dc744a054eb27fef6daebd59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961b94262e55e5d7ea8ee0c79162b963') in 0.010257 seconds
+  Import took 0.056269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-5_comp_shadowmask.png
+  artifactKey: Guid(3b9e2ed185b04594187f549ddcf04584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-5_comp_shadowmask.png using Guid(3b9e2ed185b04594187f549ddcf04584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c235351720a45760915bb002f6ab45') in 0.011085 seconds
+  Import took 0.032266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-18_comp_dir.png
+  artifactKey: Guid(7f63d3341e98e7c44aa7c6509e87f8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-18_comp_dir.png using Guid(7f63d3341e98e7c44aa7c6509e87f8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f9c9ae041a88d6b6a5c58392080f04') in 0.025125 seconds
+  Import took 0.050821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-13_comp_shadowmask.png
+  artifactKey: Guid(0e48e6eaa1b648d4ebd0c8b2a523dfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-13_comp_shadowmask.png using Guid(0e48e6eaa1b648d4ebd0c8b2a523dfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfbf44a773f88a48c87e23be8a68d28') in 0.032293 seconds
+  Import took 0.058561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-20_comp_dir.png
+  artifactKey: Guid(fb4d16b3bf2b45d46b0cfd5b3545afcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-20_comp_dir.png using Guid(fb4d16b3bf2b45d46b0cfd5b3545afcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276f3e76c71c180bec6b836aefbab0a7') in 0.028286 seconds
+  Import took 0.050075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-10_comp_dir.png
+  artifactKey: Guid(aa8c923778596d94993a97335d2f91de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-10_comp_dir.png using Guid(aa8c923778596d94993a97335d2f91de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970f5ab19deb4c5f4163b64edc26bd11') in 0.008966 seconds
+  Import took 0.055968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-27_comp_light.exr
+  artifactKey: Guid(5e12ad59e6c75ae43b376e0c180ae4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-27_comp_light.exr using Guid(5e12ad59e6c75ae43b376e0c180ae4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bba3fccc425980f325fdf354079120') in 0.010517 seconds
+  Import took 0.043086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-4_comp_dir.png
+  artifactKey: Guid(44ef74ac415811d4a98c92b3043803d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-4_comp_dir.png using Guid(44ef74ac415811d4a98c92b3043803d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0fbc015af919cf31bfc794c84a2fc4') in 0.010885 seconds
+  Import took 0.060940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-36_comp_dir.png
+  artifactKey: Guid(26eee1fa908d8d544b5e001fe7d71583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-36_comp_dir.png using Guid(26eee1fa908d8d544b5e001fe7d71583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a119aee30c767a85e21280e2c1a2ddff') in 0.015451 seconds
+  Import took 0.042484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-32_comp_light.exr
+  artifactKey: Guid(daa253899ca8e974796b6058ab7b7e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-32_comp_light.exr using Guid(daa253899ca8e974796b6058ab7b7e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2ad0b3f6c2e02d2786fe95616161cd') in 0.011943 seconds
+  Import took 0.058713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/AssetStore/Sci-fi Weapons Arsenal/Effects/Textures/Lazer.png
+  artifactKey: Guid(86e36b0aca7c4b947bbb41b19f7b1d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Sci-fi Weapons Arsenal/Effects/Textures/Lazer.png using Guid(86e36b0aca7c4b947bbb41b19f7b1d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf78be04c56977b89d009648e2f6c57') in 0.053067 seconds
+  Import took 0.137433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-33_comp_dir.png
+  artifactKey: Guid(20d10f19e8074d5478ca3c87b33844d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-33_comp_dir.png using Guid(20d10f19e8074d5478ca3c87b33844d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172b318b5279630f9dedf66e8a812e1b') in 0.027959 seconds
+  Import took 0.076498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-26_comp_light.exr
+  artifactKey: Guid(9b4d6688cf7349345ab807064aea2eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-26_comp_light.exr using Guid(9b4d6688cf7349345ab807064aea2eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddc3318897c646b1aec147c45912a4f') in 0.028030 seconds
+  Import took 0.069984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-4_comp_shadowmask.png
+  artifactKey: Guid(7f3ebf79f58b4ac4a9cbf709e2f6cb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-4_comp_shadowmask.png using Guid(7f3ebf79f58b4ac4a9cbf709e2f6cb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19252e88d3be08450571705d29e348d9') in 0.033211 seconds
+  Import took 0.072930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(c33ffff81e1929240a46fa0dc56016ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-1_comp_shadowmask.png using Guid(c33ffff81e1929240a46fa0dc56016ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c55b9cd26aada59ffc1c2bde87d097') in 0.014070 seconds
+  Import took 0.100178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-39_comp_dir.png
+  artifactKey: Guid(d9f4cce5d1920d24d9342543ad1b232e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-39_comp_dir.png using Guid(d9f4cce5d1920d24d9342543ad1b232e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c969543e1401792d8eed14a92e2f5bf') in 0.054301 seconds
+  Import took 0.073808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-10_comp_shadowmask.png
+  artifactKey: Guid(7d2a95c35d8230449be5ac2c4ab8af77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-10_comp_shadowmask.png using Guid(7d2a95c35d8230449be5ac2c4ab8af77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d19670f8178cc83134a96bfa3f0c96') in 0.010252 seconds
+  Import took 0.111883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-12_comp_dir.png
+  artifactKey: Guid(92dc9036632fb5948b9bc8c9320b27a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-12_comp_dir.png using Guid(92dc9036632fb5948b9bc8c9320b27a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071b9e45821e4af11b5d0f1eb3726c42') in 0.009880 seconds
+  Import took 0.076114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-42_comp_dir.png
+  artifactKey: Guid(d0e60b7389a59dc4f9dad818a5cdff10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-42_comp_dir.png using Guid(d0e60b7389a59dc4f9dad818a5cdff10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d111dac2900f1089d13fc822342f91') in 0.020717 seconds
+  Import took 0.078445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-17_comp_dir.png
+  artifactKey: Guid(1a0103c5369f7fb498a6824b24b1b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-17_comp_dir.png using Guid(1a0103c5369f7fb498a6824b24b1b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9babdc56efe0d4acab135a32c7717a') in 0.022455 seconds
+  Import took 0.070356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-5_comp_dir.png
+  artifactKey: Guid(6d019348a08582042882a0897a63d556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-5_comp_dir.png using Guid(6d019348a08582042882a0897a63d556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d50ccecc49d4257658e2c6c98a16df6') in 0.016119 seconds
+  Import took 0.093582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(aa032467104bc3b45976674a0ae61d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-0_comp_shadowmask.png using Guid(aa032467104bc3b45976674a0ae61d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccf64becf8b686898cb887b35156f') in 0.010603 seconds
+  Import took 0.066063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-29_comp_shadowmask.png
+  artifactKey: Guid(e924de968b9117141893d7af8b6b0a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-29_comp_shadowmask.png using Guid(e924de968b9117141893d7af8b6b0a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73145e47b28430d2743659cdb88a1622') in 0.011006 seconds
+  Import took 0.041664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-39_comp_light.exr
+  artifactKey: Guid(0fa380717db423940917729bc68493eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-39_comp_light.exr using Guid(0fa380717db423940917729bc68493eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021dd47a964c2cc340f6bffaea9886ad') in 0.009861 seconds
+  Import took 0.021180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-14_comp_dir.png
+  artifactKey: Guid(4402ca1448ab6ff46b8ab92927bf7676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-14_comp_dir.png using Guid(4402ca1448ab6ff46b8ab92927bf7676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf02b3f670203594276138d8fbb27c9e') in 0.020635 seconds
+  Import took 0.038652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-2_comp_dir.png
+  artifactKey: Guid(fc2bc58ef99a55040ac4ec7f049252bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-2_comp_dir.png using Guid(fc2bc58ef99a55040ac4ec7f049252bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c8cde55a04e6e159d346efef54a04f') in 0.010808 seconds
+  Import took 0.082700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-9_comp_dir.png
+  artifactKey: Guid(885497f63bf58154a9cfd54ae3c91327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-9_comp_dir.png using Guid(885497f63bf58154a9cfd54ae3c91327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50cfdd2dfd944b50e962713a72db4b8') in 0.018569 seconds
+  Import took 0.074232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-3_comp_shadowmask.png
+  artifactKey: Guid(bfa5196a4b70c964db50a34f0fdab030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-3_comp_shadowmask.png using Guid(bfa5196a4b70c964db50a34f0fdab030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f59f0dd8793cecf8dcda6e11c4b67a') in 0.021309 seconds
+  Import took 0.055232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-6_comp_shadowmask.png
+  artifactKey: Guid(c63fe68b5b9016942bc3b5604f092172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-6_comp_shadowmask.png using Guid(c63fe68b5b9016942bc3b5604f092172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cd68b8565e011d7c73a90facf969ab') in 0.010830 seconds
+  Import took 0.041979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-13_comp_light.exr
+  artifactKey: Guid(9d3dc2f760cadf94897403275192d03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-13_comp_light.exr using Guid(9d3dc2f760cadf94897403275192d03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7589567d89daa70018805bd39f5f294') in 0.027516 seconds
+  Import took 0.080329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-20_comp_shadowmask.png
+  artifactKey: Guid(40ec4d02b0b25664595518c0d00b2264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-20_comp_shadowmask.png using Guid(40ec4d02b0b25664595518c0d00b2264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf7d8d134fe25cdaffd3e39567ed871') in 0.010542 seconds
+  Import took 0.096024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-24_comp_dir.png
+  artifactKey: Guid(8597890ffed6ca04d9a8a530ee9da239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-24_comp_dir.png using Guid(8597890ffed6ca04d9a8a530ee9da239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742587fb19f10588e78f355d33cf2f11') in 0.010740 seconds
+  Import took 0.022799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-33_comp_light.exr
+  artifactKey: Guid(f857d509f19494149a8a617c129d5cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-33_comp_light.exr using Guid(f857d509f19494149a8a617c129d5cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a07959072a81cd66155c04d6ad73f3') in 0.009805 seconds
+  Import took 0.053035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-28_comp_shadowmask.png
+  artifactKey: Guid(406319b5a70e58149b11dd88cd628835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-28_comp_shadowmask.png using Guid(406319b5a70e58149b11dd88cd628835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7dd9a3bfb78ca973ed8f56183173ee') in 0.008907 seconds
+  Import took 0.035486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-41_comp_dir.png
+  artifactKey: Guid(e1ac85bcde22f60479af0ee5f41b6ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-41_comp_dir.png using Guid(e1ac85bcde22f60479af0ee5f41b6ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e247b25f2e37ed4eb07cda14f8845346') in 0.010309 seconds
+  Import took 0.103507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-6_comp_light.exr
+  artifactKey: Guid(f7663718533fde34a83867ae6ba1690f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-6_comp_light.exr using Guid(f7663718533fde34a83867ae6ba1690f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8aab72b47a0ef5f935c75f3fb16e5b3') in 0.009958 seconds
+  Import took 0.069180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-31_comp_shadowmask.png
+  artifactKey: Guid(878cec80fb5a9d6478d8464db7e74204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-31_comp_shadowmask.png using Guid(878cec80fb5a9d6478d8464db7e74204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee50b2f81755bb6e11a1e08e62a9b1d') in 0.011013 seconds
+  Import took 0.016423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-7_comp_dir.png
+  artifactKey: Guid(954b0953d44c51a43a500a84b406f49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-7_comp_dir.png using Guid(954b0953d44c51a43a500a84b406f49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ccbc603af23bc428f8652d3e17e016') in 0.010664 seconds
+  Import took 0.069531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-19_comp_light.exr
+  artifactKey: Guid(36618bea50be50143aad39837c64ef2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-19_comp_light.exr using Guid(36618bea50be50143aad39837c64ef2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c335e306aeb6efe0ec3d39fe80117ae') in 0.028990 seconds
+  Import took 0.050572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-8_comp_light.exr
+  artifactKey: Guid(a5c6fddbd7bd6274792792058d687f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-8_comp_light.exr using Guid(a5c6fddbd7bd6274792792058d687f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cab2dffddac410ddbd53f10cd3e7f6') in 0.010696 seconds
+  Import took 0.096944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-13_comp_dir.png
+  artifactKey: Guid(f789c86e24263fa43b88703d00283dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-13_comp_dir.png using Guid(f789c86e24263fa43b88703d00283dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955f0a407c5b4a59ef4dd71bd27d6e7e') in 0.013941 seconds
+  Import took 0.063131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-8_comp_shadowmask.png
+  artifactKey: Guid(d8fb3e91300bf4d4282f6a3c35c909e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-8_comp_shadowmask.png using Guid(d8fb3e91300bf4d4282f6a3c35c909e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fff04acb5cbfb12c8a4b19a42d9a98') in 0.010052 seconds
+  Import took 0.060090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-19_comp_dir.png
+  artifactKey: Guid(f5044ffb9e8d9e34ea30d72271e2c14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-19_comp_dir.png using Guid(f5044ffb9e8d9e34ea30d72271e2c14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2302487a80f8051721cb583028565367') in 0.010056 seconds
+  Import took 0.046159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-11_comp_dir.png
+  artifactKey: Guid(96295c30c06ee794aa19ecb6799519c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-11_comp_dir.png using Guid(96295c30c06ee794aa19ecb6799519c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f10f74bf51c3f898f1cd7a7d04b1b5') in 0.026766 seconds
+  Import took 0.081091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-22_comp_light.exr
+  artifactKey: Guid(61409c9aa3a759d44ac3f3d4b6482f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-22_comp_light.exr using Guid(61409c9aa3a759d44ac3f3d4b6482f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d59b947f0aadcc824c298b5a3aba0f6') in 0.009812 seconds
+  Import took 0.035248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-33_comp_shadowmask.png
+  artifactKey: Guid(1c3db0e743fd5064faba2ec20f7a6abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-33_comp_shadowmask.png using Guid(1c3db0e743fd5064faba2ec20f7a6abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c1ca48ee45bb2aa3759f6d64f882b0') in 0.009295 seconds
+  Import took 0.035853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-0_comp_light.exr
+  artifactKey: Guid(00beed54953ea95409a5a4f95ebb64ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-0_comp_light.exr using Guid(00beed54953ea95409a5a4f95ebb64ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1dbf6ce156978547e1708bf280b1cf') in 0.031878 seconds
+  Import took 0.086113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-2_comp_light.exr
+  artifactKey: Guid(ae4b8eb9d0eadc249b03bd22e92820c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-2_comp_light.exr using Guid(ae4b8eb9d0eadc249b03bd22e92820c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d459e6370f6760febe53445498d3bd') in 0.072883 seconds
+  Import took 0.132678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-18_comp_shadowmask.png
+  artifactKey: Guid(38d660ce8a2ca564b8dd8e94199e4d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-18_comp_shadowmask.png using Guid(38d660ce8a2ca564b8dd8e94199e4d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6998e8760903c175c7507fd6b794cd') in 0.023116 seconds
+  Import took 0.044068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-23_comp_light.exr
+  artifactKey: Guid(e95c16c22c3c2e641bdcc900f93159e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-23_comp_light.exr using Guid(e95c16c22c3c2e641bdcc900f93159e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89832c7690bc0f34d460ea1d412717d') in 0.009700 seconds
+  Import took 0.032564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-30_comp_shadowmask.png
+  artifactKey: Guid(a8ff1489bdf65d54ca4cf4af6605e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-30_comp_shadowmask.png using Guid(a8ff1489bdf65d54ca4cf4af6605e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2395b4f4fb1ebfa44ece9a93d932263') in 0.022656 seconds
+  Import took 0.052827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-26_comp_dir.png
+  artifactKey: Guid(edb3102edcab7f842b78ea9595dd767b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-26_comp_dir.png using Guid(edb3102edcab7f842b78ea9595dd767b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8d8b07bb369ecf4314f989aa6b3e5f') in 0.010557 seconds
+  Import took 0.081603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-27_comp_dir.png
+  artifactKey: Guid(feff17b513f98f644ae743d2c313bced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-27_comp_dir.png using Guid(feff17b513f98f644ae743d2c313bced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb67c95a76b666f12df6c76329540b5') in 0.009796 seconds
+  Import took 0.015069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-32_comp_shadowmask.png
+  artifactKey: Guid(4490861a9cb18a741a7fc19f5878d370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-32_comp_shadowmask.png using Guid(4490861a9cb18a741a7fc19f5878d370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47bd720146262271093636f69aab54a') in 0.046890 seconds
+  Import took 0.070708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-34_comp_shadowmask.png
+  artifactKey: Guid(b4cdf1d8748e97143b230a1261c77b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-34_comp_shadowmask.png using Guid(b4cdf1d8748e97143b230a1261c77b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd0068928666091351317238149865a') in 0.011088 seconds
+  Import took 0.080074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-29_comp_dir.png
+  artifactKey: Guid(47a6a82d9302bd84d8f70f4196557c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-29_comp_dir.png using Guid(47a6a82d9302bd84d8f70f4196557c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48fe1c5356c7eec210535367d7bc00e') in 0.009554 seconds
+  Import took 0.035847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-35_comp_shadowmask.png
+  artifactKey: Guid(46f2b22eb0f65524f8d9b31fb463f330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-35_comp_shadowmask.png using Guid(46f2b22eb0f65524f8d9b31fb463f330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41af20e0a0841c60740d64e19617955c') in 0.013224 seconds
+  Import took 0.040469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-17_comp_shadowmask.png
+  artifactKey: Guid(0eabada556aeab44aabd2a56ceab1f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-17_comp_shadowmask.png using Guid(0eabada556aeab44aabd2a56ceab1f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4a9aa2732cdd424f77ce5ce19b3f6a') in 0.010616 seconds
+  Import took 0.082306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-41_comp_shadowmask.png
+  artifactKey: Guid(6d8da2274842d8448b3f7176ff2a40f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-41_comp_shadowmask.png using Guid(6d8da2274842d8448b3f7176ff2a40f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e5f32fb873598f3081c72b2db08f0a') in 0.009951 seconds
+  Import took 0.015503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-29_comp_light.exr
+  artifactKey: Guid(2b9a211184b103b409f79fec9df94dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-29_comp_light.exr using Guid(2b9a211184b103b409f79fec9df94dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b9684452655bc2a7e96eddf08058ec') in 0.009562 seconds
+  Import took 0.075047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-36_comp_shadowmask.png
+  artifactKey: Guid(b5a34a183967b9045a12382b6433e4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-36_comp_shadowmask.png using Guid(b5a34a183967b9045a12382b6433e4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9de4e23654f6f5c9f9768534535ca23') in 0.013054 seconds
+  Import took 0.049833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-37_comp_light.exr
+  artifactKey: Guid(cd9a8b78151002f4fa74f63bc836fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-37_comp_light.exr using Guid(cd9a8b78151002f4fa74f63bc836fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d073889bf2e3e099d34792014d85413') in 0.014322 seconds
+  Import took 0.115211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-15_comp_light.exr
+  artifactKey: Guid(71b949d50cece3c4f8e0402457a0731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-15_comp_light.exr using Guid(71b949d50cece3c4f8e0402457a0731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89690e16072b7551989df1dc10c68813') in 0.021611 seconds
+  Import took 0.085254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-37_comp_dir.png
+  artifactKey: Guid(e461a6ecfda354f41abf3c3946891973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-37_comp_dir.png using Guid(e461a6ecfda354f41abf3c3946891973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f431c3277901ec0f1ac3191c19fb4b') in 0.010234 seconds
+  Import took 0.015490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-28_comp_light.exr
+  artifactKey: Guid(7e0c219a98afeba40a431dc85dc16184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-28_comp_light.exr using Guid(7e0c219a98afeba40a431dc85dc16184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45518249dd84ad653062abc13ac8fe6d') in 0.012273 seconds
+  Import took 0.087864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-25_comp_shadowmask.png
+  artifactKey: Guid(0063cf7745120004aacb1b66d497071e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-25_comp_shadowmask.png using Guid(0063cf7745120004aacb1b66d497071e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8a41a81d178cdafbaa9ce0d4ab8b8d') in 0.012061 seconds
+  Import took 0.060789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-23_comp_shadowmask.png
+  artifactKey: Guid(1a2b93a9ba7036a4c8ab146cc3854126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-23_comp_shadowmask.png using Guid(1a2b93a9ba7036a4c8ab146cc3854126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64edcac4eae33d77a25c637cd3236dcd') in 0.018365 seconds
+  Import took 0.055422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-24_comp_light.exr
+  artifactKey: Guid(d8fcd2249d402e94ea8d6b6b456a9f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-24_comp_light.exr using Guid(d8fcd2249d402e94ea8d6b6b456a9f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7a74f2b25b7e6cec2858744ebd14df') in 0.010228 seconds
+  Import took 0.028715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-28_comp_dir.png
+  artifactKey: Guid(9471aa19a58514a4685911b5751f7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-28_comp_dir.png using Guid(9471aa19a58514a4685911b5751f7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdfb5b5e7e0253ebf4b4494063e5a2a') in 0.010668 seconds
+  Import took 0.124712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-38_comp_light.exr
+  artifactKey: Guid(bc7d8e18cc1ed754ea1885a3d25d5a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-38_comp_light.exr using Guid(bc7d8e18cc1ed754ea1885a3d25d5a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904d0c7786db3a4431258291c3783d76') in 0.010505 seconds
+  Import took 0.108549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-14_comp_light.exr
+  artifactKey: Guid(c2161afe104a1d746a83fb7afa20d0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-14_comp_light.exr using Guid(c2161afe104a1d746a83fb7afa20d0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67117d78697ec26ce9b031c07b590f59') in 0.008893 seconds
+  Import took 0.102299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-9_comp_light.exr
+  artifactKey: Guid(920127760dba5ff409629f3c5b05ca57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-9_comp_light.exr using Guid(920127760dba5ff409629f3c5b05ca57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155b692026eb0ab7a349bab841c3842c') in 0.009547 seconds
+  Import took 0.028199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-26_comp_shadowmask.png
+  artifactKey: Guid(630adb4ab97dd8840b0f68a79e611d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-26_comp_shadowmask.png using Guid(630adb4ab97dd8840b0f68a79e611d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf0458270415bbd9cf40b2ca7ce06b1') in 0.010691 seconds
+  Import took 0.080400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-31_comp_dir.png
+  artifactKey: Guid(f5721c59d2ebed741afb18a7cfbf423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-31_comp_dir.png using Guid(f5721c59d2ebed741afb18a7cfbf423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2d7c2e3771ee37134d1aa08b66eb57') in 0.048706 seconds
+  Import took 0.102329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-4_comp_light.exr
+  artifactKey: Guid(d017536755c6f4e468c1ec9c532592dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-4_comp_light.exr using Guid(d017536755c6f4e468c1ec9c532592dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebd88220a988ae74488738dae11a6ce') in 0.008965 seconds
+  Import took 0.054643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-40_comp_dir.png
+  artifactKey: Guid(5b57d9fc46b87534f972c6731733dcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-40_comp_dir.png using Guid(5b57d9fc46b87534f972c6731733dcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a81e45f0b5c810bc7888ffc6a6d134d') in 0.038322 seconds
+  Import took 0.097256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-17_comp_light.exr
+  artifactKey: Guid(4c026fda40111af4e8bdd537f9e582dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-17_comp_light.exr using Guid(4c026fda40111af4e8bdd537f9e582dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838b8b8d909111b98433f4020f44a198') in 0.011432 seconds
+  Import took 0.068685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-22_comp_shadowmask.png
+  artifactKey: Guid(05bc3cf08bfec124b8bac16eb2753ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-22_comp_shadowmask.png using Guid(05bc3cf08bfec124b8bac16eb2753ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c685b3eaf542cb832899f58cd2d5ec39') in 0.010171 seconds
+  Import took 0.020217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-16_comp_light.exr
+  artifactKey: Guid(16747284cfb43f442acaf8b41eeef9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-16_comp_light.exr using Guid(16747284cfb43f442acaf8b41eeef9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5334941be11852e5ed16231beeb66ea4') in 0.009612 seconds
+  Import took 0.014742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-37_comp_shadowmask.png
+  artifactKey: Guid(a01dc5553b289924ea436d8e7190443c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-37_comp_shadowmask.png using Guid(a01dc5553b289924ea436d8e7190443c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d0be3513f6bfe9430fcc6a4de28b19') in 0.009724 seconds
+  Import took 0.033873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000671 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-9_comp_shadowmask.png
+  artifactKey: Guid(57a858c56ebd3644a9fc39d713e8e308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-9_comp_shadowmask.png using Guid(57a858c56ebd3644a9fc39d713e8e308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca6367a2439b64abb3773300cdfdba0') in 0.009357 seconds
+  Import took 0.042039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-12_comp_shadowmask.png
+  artifactKey: Guid(3d587c778c7f86b4aac4ea71e05c8fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-12_comp_shadowmask.png using Guid(3d587c778c7f86b4aac4ea71e05c8fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7025c68dff75d69b747cd18476ee598e') in 0.009291 seconds
+  Import took 0.014805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000598 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-30_comp_light.exr
+  artifactKey: Guid(c8263f395a52c46478897b4d522a27ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-30_comp_light.exr using Guid(c8263f395a52c46478897b4d522a27ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f056ff75cd050efec75bb8522e7d47') in 0.017723 seconds
+  Import took 0.043525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-34_comp_dir.png
+  artifactKey: Guid(373210d2cc5c0184a938809e23ec31fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-34_comp_dir.png using Guid(373210d2cc5c0184a938809e23ec31fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccf182ad9b7e7797366f373d8401575') in 0.027410 seconds
+  Import took 0.032688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-42_comp_shadowmask.png
+  artifactKey: Guid(2f345d6747eced74098ed72aeb098501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-42_comp_shadowmask.png using Guid(2f345d6747eced74098ed72aeb098501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04996eb21ba200e91b360feedc8aaafa') in 0.010883 seconds
+  Import took 0.078327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-19_comp_shadowmask.png
+  artifactKey: Guid(416aac7eca5a7fa4099e8081b125fd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-19_comp_shadowmask.png using Guid(416aac7eca5a7fa4099e8081b125fd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d55468046baf8c3a28108045d096fc') in 0.009843 seconds
+  Import took 0.062030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-15_comp_dir.png
+  artifactKey: Guid(e811c006c76214c488e3b63be60cf5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-15_comp_dir.png using Guid(e811c006c76214c488e3b63be60cf5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21dd8ff192f3d180e5c8033e614e3b87') in 0.011957 seconds
+  Import took 0.017523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/AssetStore/Sci-fi Weapons Arsenal/Textures/Sci-fi Knife/2k/Custom B/Agent Naomi Knife emission.png
+  artifactKey: Guid(8f9fe2981d2aef547aed9474a9e138a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Sci-fi Weapons Arsenal/Textures/Sci-fi Knife/2k/Custom B/Agent Naomi Knife emission.png using Guid(8f9fe2981d2aef547aed9474a9e138a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b4cd814a1594e871fc50a7e982642e') in 0.170595 seconds
+  Import took 0.232110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-41_comp_light.exr
+  artifactKey: Guid(d427f879f247e6145b7c10c94ca1b98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-41_comp_light.exr using Guid(d427f879f247e6145b7c10c94ca1b98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d90ddd70be3c80ffa93e9176e28110') in 0.011566 seconds
+  Import took 0.018381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-40_comp_light.exr
+  artifactKey: Guid(2218adca97a0f4148a35a50e273a9b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-40_comp_light.exr using Guid(2218adca97a0f4148a35a50e273a9b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5091a941642f02b9d1b5653bee703a') in 0.010505 seconds
+  Import took 0.064699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-31_comp_light.exr
+  artifactKey: Guid(5f0e9ac777c7faf4e85e88e284a83b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-31_comp_light.exr using Guid(5f0e9ac777c7faf4e85e88e284a83b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453b533045de4cad16e811118ec30536') in 0.010665 seconds
+  Import took 0.016356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-18_comp_light.exr
+  artifactKey: Guid(ab477389898c63646a1385affbc0e1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-18_comp_light.exr using Guid(ab477389898c63646a1385affbc0e1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023c15c4a158ee6af58d1c19af58e59d') in 0.012078 seconds
+  Import took 0.018078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-34_comp_light.exr
+  artifactKey: Guid(f9bc3290aa2e9b44680983ac1a6439c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-34_comp_light.exr using Guid(f9bc3290aa2e9b44680983ac1a6439c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c73d75600dd86ad8b0148e4693d20d8') in 0.009461 seconds
+  Import took 0.015187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-2_comp_shadowmask.png
+  artifactKey: Guid(f7a5c372e4d8ae94e9a1f807dfd93f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-2_comp_shadowmask.png using Guid(f7a5c372e4d8ae94e9a1f807dfd93f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e4e45923e0387510ed317388b7cf65') in 0.009972 seconds
+  Import took 0.032238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-36_comp_light.exr
+  artifactKey: Guid(5dd316344fe9c734ba1042e63359e8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-36_comp_light.exr using Guid(5dd316344fe9c734ba1042e63359e8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c46b970fde29fda0b5474b6ad2b4407') in 0.019181 seconds
+  Import took 0.024137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-39_comp_shadowmask.png
+  artifactKey: Guid(ccdafcb8595bc434bbfda4ababdda90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-39_comp_shadowmask.png using Guid(ccdafcb8595bc434bbfda4ababdda90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ca3a05fadc0cb7bef9c255fa95d18a') in 0.013518 seconds
+  Import took 0.077825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-20_comp_light.exr
+  artifactKey: Guid(2435eaffc579df14c9c4e7fd72cf07c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-20_comp_light.exr using Guid(2435eaffc579df14c9c4e7fd72cf07c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd378873342f77a3725896e49a6fcb443') in 0.010106 seconds
+  Import took 0.039752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-3_comp_light.exr
+  artifactKey: Guid(8f591bb3d0c4c9141aecd8db7904cd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-3_comp_light.exr using Guid(8f591bb3d0c4c9141aecd8db7904cd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1442ccc0b058ff32f5c68fe1f9641929') in 0.014007 seconds
+  Import took 0.020585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-32_comp_dir.png
+  artifactKey: Guid(1cf98df0e1febba49be5af9c09bfeb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-32_comp_dir.png using Guid(1cf98df0e1febba49be5af9c09bfeb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d69f49e705281a8bf70ac1c3cb17a5e') in 0.009217 seconds
+  Import took 0.014814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-1_comp_light.exr
+  artifactKey: Guid(a3df570bda5078e40877ff70f177f42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-1_comp_light.exr using Guid(a3df570bda5078e40877ff70f177f42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b31737ee51add10ba1d176ea53e978') in 0.010359 seconds
+  Import took 0.036033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-11_comp_light.exr
+  artifactKey: Guid(6df00ab34d07cbf41b62f60135927282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-11_comp_light.exr using Guid(6df00ab34d07cbf41b62f60135927282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc68148fcf8063fd077b8c04cbb89dc8') in 0.057439 seconds
+  Import took 0.096211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-7_comp_light.exr
+  artifactKey: Guid(44122d4e6a176554ca26ae015e3be07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-7_comp_light.exr using Guid(44122d4e6a176554ca26ae015e3be07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e004e68ce8274e3469414a97dc93088') in 0.009289 seconds
+  Import took 0.036297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-3_comp_dir.png
+  artifactKey: Guid(5d5847d4f04b2594a80eaf55447e5643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-3_comp_dir.png using Guid(5d5847d4f04b2594a80eaf55447e5643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7410c0872cc6f38b0b0c6779796d8105') in 0.059359 seconds
+  Import took 0.064879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-42_comp_light.exr
+  artifactKey: Guid(0883c456b5258fb4cbf9cd25c436aefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-42_comp_light.exr using Guid(0883c456b5258fb4cbf9cd25c436aefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70813c6fbcaba6fa2cf13dfb25f2f05b') in 0.010355 seconds
+  Import took 0.016671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-1_comp_dir.png
+  artifactKey: Guid(622e0b07248ec834991a84b9071e89e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-1_comp_dir.png using Guid(622e0b07248ec834991a84b9071e89e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3687ff97a1e32584e6ddb78fdb17da04') in 0.009417 seconds
+  Import took 0.056120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-40_comp_shadowmask.png
+  artifactKey: Guid(72eceb7d8778fde4399340d33923c316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-40_comp_shadowmask.png using Guid(72eceb7d8778fde4399340d33923c316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db7d6129c18cdec20ac16a326c7aad5') in 0.011885 seconds
+  Import took 0.017725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-22_comp_dir.png
+  artifactKey: Guid(bc3a6492a01aa3649a2847e0d597bc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-22_comp_dir.png using Guid(bc3a6492a01aa3649a2847e0d597bc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b800cf073d61b6a1a7fda8b76ddb1a39') in 0.010362 seconds
+  Import took 0.016130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-35_comp_light.exr
+  artifactKey: Guid(b8c5037d11e330c4e8059288e136030f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-35_comp_light.exr using Guid(b8c5037d11e330c4e8059288e136030f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8606f50b6e6c9c05cfd7f87c27925b') in 0.015266 seconds
+  Import took 0.036394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-14_comp_shadowmask.png
+  artifactKey: Guid(ffa97ac949495e74aa68eaa6888602ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-14_comp_shadowmask.png using Guid(ffa97ac949495e74aa68eaa6888602ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cd974ce1321cefe7f53f08fe6d7aef') in 0.009664 seconds
+  Import took 0.015793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-21_comp_light.exr
+  artifactKey: Guid(93ef30e05ce262b4c9d2fe83a96c6237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-21_comp_light.exr using Guid(93ef30e05ce262b4c9d2fe83a96c6237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51ce1748ce208d762b1cdbf0716b791') in 0.009870 seconds
+  Import took 0.016105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict/Lightmap-8_comp_dir.png
+  artifactKey: Guid(df56abee27e20f74c94d2c0e829a0f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict/Lightmap-8_comp_dir.png using Guid(df56abee27e20f74c94d2c0e829a0f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37757abeefc7f491922a29a782054157') in 0.015289 seconds
+  Import took 0.079101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/AssetStore/Sci-fi Weapons Arsenal/Textures/Sci-fi Knife/2k/Custom B/Agent Naomi Knife albedo.png
+  artifactKey: Guid(4cf950d112f2bb846b933d358e829c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Sci-fi Weapons Arsenal/Textures/Sci-fi Knife/2k/Custom B/Agent Naomi Knife albedo.png using Guid(4cf950d112f2bb846b933d358e829c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4131a82618082b5aca3566e61badb7a8') in 0.013980 seconds
+  Import took 0.019627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.749788 seconds.
+  path: Assets/Materials/Glass.mat
+  artifactKey: Guid(f1f5084164115214bab93d07695853cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Glass.mat using Guid(f1f5084164115214bab93d07695853cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b717fb2ac176ccb48f9597af2bb1c43e') in 0.015350 seconds
+  Import took 0.033044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 424.911086 seconds.
+  path: Assets/Scenes/MainGame/MainMenu.unity
+  artifactKey: Guid(487ccecdd998c8e4bab3c8fe39edeb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/MainMenu.unity using Guid(487ccecdd998c8e4bab3c8fe39edeb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b92560633ba85efd29dc2b598da7aa') in 0.041532 seconds
+  Import took 0.048958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.477729 seconds.
+  path: Assets/Scenes/MainGame/PlayDerelict.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/PlayDerelict.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fea5db307b3f7972a0fa89bfba750e') in 0.119866 seconds
+  Import took 0.208704 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004023 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3582 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.6 MB.
+System memory in use after: 182.8 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4223.
+Total: 3.224000 ms (FindLiveObjects: 0.418900 ms CreateObjectMapping: 0.224600 ms MarkObjects: 2.559300 ms  DeleteObjects: 0.020200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.650187 seconds.
+  path: Assets/Scenes/MainGame/MainMenu.unity
+  artifactKey: Guid(487ccecdd998c8e4bab3c8fe39edeb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/MainMenu.unity using Guid(487ccecdd998c8e4bab3c8fe39edeb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a929c9e7387f15331a140b15c606142') in 0.016508 seconds
+  Import took 0.453879 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
