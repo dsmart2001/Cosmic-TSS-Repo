@@ -35,7 +35,7 @@ public class Enemy_Stats : MonoBehaviour
     {
         GM_WaveSystem.remainingEnemies--;
 
-        movement.PauseMovement(5f);
+        movement.PauseMovement(1f);
         collision.enabled = false;
 
         if (dropObject != null)

@@ -14,7 +14,7 @@ public class Enemy_Collision : MonoBehaviour
         // Take damage from player attacks or kill barrier
         if(tag == "Bullet")
         {
-            Stats.health -= c.gameObject.GetComponent<Weapon_BulletVelocity>().damage;
+            Stats.TakeDamage(c.gameObject.GetComponent<Weapon_BulletVelocity>().damage);
             Movement.ResetStunVelocity(c.gameObject.GetComponent<Weapon_BulletVelocity>().stunTime);
         }
 

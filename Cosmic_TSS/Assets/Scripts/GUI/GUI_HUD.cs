@@ -77,6 +77,7 @@ public class GUI_HUD : MonoBehaviour
 
         playerCrosshair.transform.position = Input.mousePosition;
 
+        // Update Crosshair
         switch(Player_Controls.equippedWeapon.gunName)
         {
             case "PISTOL":
@@ -84,18 +85,16 @@ public class GUI_HUD : MonoBehaviour
                 break;
             case "SHOTGUN":
                 playerCrosshair.sprite = crosshairs[1];
-
                 break;
             case "SNIPER":
                 playerCrosshair.sprite = crosshairs[2];
-
                 break;
             case "MG":
                 playerCrosshair.sprite = crosshairs[3];
-
                 break;
         }
 
+        // Update Objective slider
         if (GM_Objectives.objectiveWave)
         {
             objectiveText.text = GM_Objectives.objectiveText;
@@ -114,11 +113,13 @@ public class GUI_HUD : MonoBehaviour
         waveSlider.value = GM_WaveSystem.waveNumber;
     }
 
+    // Update UI location text
     public static void UpdateLocation(string location)
     {
         _locationText.text = location;
     }
 
+    // Update objective UI
     public void EnableObjectiveUI(bool active)
     {
         if(active)
@@ -142,6 +143,7 @@ public class GUI_HUD : MonoBehaviour
         }
     }
 
+    // Coroutine for the wave notification
     public static IEnumerator WaveNotification()
     {
         _waveNotification.SetActive(true);
