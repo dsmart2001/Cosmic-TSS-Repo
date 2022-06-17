@@ -7,23 +7,28 @@ public class GM_Objectives : MonoBehaviour
     public GUI_HUD GUI => FindObjectOfType<GUI_HUD>();
 
     public static bool objectiveWave = false;
+    public static int randomObjectiveInt = 1;
 
+    // Objective Class variables
+    // Defend the Zone Objective
     public GM_Objectives_Defend[] OBJ_Defend;
     public static GM_Objectives_Defend currentDefend;
     private int defendZoneNum;
 
+    // Button Run Objective
     public GM_Objectives_ButtonRun[] OBJ_ButtonRun;
     public static GM_Objectives_ButtonRun[] currentButtonRun;
     public static int remainingButtons;
     public static int totalButtons = 6;
 
+    // Objective UI info
     public static string objectiveText;
     public static string objectiveType;
-    public static int randomObjectiveInt = 1;
 
     // Start is called before the first frame update
     void Start()
     {
+        // Initialize objectives
         defendZoneNum = OBJ_Defend.Length;
         currentButtonRun = OBJ_ButtonRun;
 
@@ -41,7 +46,7 @@ public class GM_Objectives : MonoBehaviour
 
         Debug.Log("Objectives: Total number of defend zones " + defendZoneNum);
 
-        // TESTING DEFEND
+        // TESTING DEFEND \\
         //randomObjectiveInt = 1;
         //SetObjective_Defend();
         //randomObjectiveInt = 2;
@@ -143,6 +148,7 @@ public class GM_Objectives : MonoBehaviour
         GUI.EnableObjectiveUI(true);
     }
 
+    // Method to disable the current objective 
     public void DisableCurrentObjective()
     {
         switch(randomObjectiveInt)

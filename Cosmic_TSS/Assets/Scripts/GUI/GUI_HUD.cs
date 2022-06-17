@@ -34,7 +34,7 @@ public class GUI_HUD : MonoBehaviour
     public Slider objectiveSlider;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         enemyCounter.gameObject.SetActive(false);
         playerHealthSlider.value = Player_Stats.health;

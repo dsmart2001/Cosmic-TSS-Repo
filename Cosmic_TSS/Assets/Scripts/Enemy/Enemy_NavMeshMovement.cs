@@ -39,7 +39,10 @@ public class Enemy_NavMeshMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        agent.SetDestination(Player_Stats.PlayerCoord.position);
+        if(!GameManager.paused)
+        {
+            agent.SetDestination(Player_Stats.PlayerCoord.position);
+        }
 
         // Rotate enemy when within stopping distance
         if (Attack.InAttackRange(Player_Stats.PlayerCoord))

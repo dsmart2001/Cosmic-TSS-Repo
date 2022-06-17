@@ -82,17 +82,18 @@ public class GM_WaveSystem : MonoBehaviour
                 enemy.CurrentQuantity = (enemy.CurrentQuantity += (enemy.AddQuanitity * (waveNumber - enemy.IntroWave)));
             }
         }
+    }
 
+    private void Start()
+    {
         // Instantiate first round of enemies
         NextWave();
-
     }
 
     // Update is called once per frame
     void Update()
     {
         // Trigger event once no enemies are present
-
         if (remainingEnemies == 0)
         {
             ClearEmptyEnemies();
@@ -171,7 +172,6 @@ public class GM_WaveSystem : MonoBehaviour
         }
 
         spawningEnemies = false;
-
         Debug.Log("Starting new wave > Enemy counter = " + remainingEnemies + " > Objective wave? = " + GM_Objectives.objectiveWave + " > Rush wave? ");
 
         StartCoroutine(GUI_HUD.WaveNotification());
@@ -215,6 +215,7 @@ public class GM_WaveSystem : MonoBehaviour
         return true;       
     }
 
+    // Coroutine to spawn enemies given the WaveSystem Enemy class
     IEnumerator SpawnNextEnemy(int allEnemyCounter, GM_WaveSystem_Enemy enemyPrefab)
     {
         int currentEnemyCounter = 0;
@@ -258,12 +259,14 @@ public class GM_WaveSystem : MonoBehaviour
         enemyPrefab.CurrentQuantity += enemyPrefab.AddQuanitity;
     }
 
+    // Method to remove empty slots in enemy list
     public void ClearEmptyEnemies()
     {
         // Remove null enemies in list
         enemiesInWave.RemoveAll(item => item == null);
     }
 
+    // Method to restart game
     public static void RestartGame(bool resetWave, int newWaveNumber)
     {
         if(!resetWave)
@@ -276,8 +279,6 @@ public class GM_WaveSystem : MonoBehaviour
             waveNumber = newWaveNumber - 1;
         }
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
-        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);    
     }
 }

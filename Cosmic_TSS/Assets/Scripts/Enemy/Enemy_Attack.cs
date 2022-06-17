@@ -32,7 +32,6 @@ public class Enemy_Attack : MonoBehaviour
         // Attack: Check if within attackRange and surpassed attackTimer to attack player
         if(InAttackRange(Player_Stats.PlayerCoord) && Time.time > attackTimer)
         {
-            
             Attack();
             attackTimer = Time.time + attackTimerAdd;
         }
