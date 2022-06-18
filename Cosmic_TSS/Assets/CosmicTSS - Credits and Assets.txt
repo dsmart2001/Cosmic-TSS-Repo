@@ -1,0 +1,83 @@
+Designer, Programmer, Developer: Dallas Smart.
+
+Models:
+
+"Low-Poly Astronaut" (https://skfb.ly/o6xpY) by SunnyChen753/SW fan is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Alien" (https://skfb.ly/6xCMS) by DJMaesen is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Alien" (https://skfb.ly/6vKFJ) by M4tt_U is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+DinV Studio (2018). Dynamic Space Background Lite. Unity Asset Store. https://assetstore.unity.com/packages/2d/textures-materials/dynamic-space-background-lite-104606
+
+
+Textures:
+
+"TechMech Materials" by Dosch Textures is licensed under Adobe Stock Standard license.
+
+"SciFi Panels. Futuristic texture. Spaceship hull geometric pattern. 3d illustration." by lotus_studio is licensed under Adobe Stock Standard license.
+
+"scifi wall. metal wall and rivet. metal background and texture." by Metallic Citizen is licensed under Adobe Stock Standard license.
+
+"Fond graphique 15" by Norman75 is licensed under Adobe Stock Standard license.
+
+"steampunk patched seamless metal background 3d illustration" by Andrey Kuzmin is licensed under Adobe Stock Standard license.
+
+"seamless old space ship metal panels pattern" by BORIS is licensed under Adobe Stock Standard license.
+
+"seamless space station metal panels texture" by BORIS is licensed under Adobe Stock Standard license.
+
+New Textures:
+"White stairs leading to terrace in Oia, Santorini" by Limages Studio is licensed under Adobe Stock Standard license.
+
+"Gold particle swirl effect. Golden glitter circle twirl trace" by Ron Dale is licensed under Adobe Stock Standard license.
+
+"Abstract Modern pastel colored holographic background in 80s style. Synthwave. Vaporwave style. Retrowave, retro futurism, webpunk" by Aleksandra Konoplya is licensed under Adobe Stock Standard license.
+
+"Star field in deep space many light years far from the Earth" by Vadimsadovski is licensed under Adobe Stock Standard license.
+
+"Galactic Space Elements of this image furnished by NASA" by rolffimages is licensed under Adobe Stock Standard license.
+
+"Star clusters, deep space nebulae. Beautiful space landscape. Science fiction. Elements of this image furnished by NASA" by Aaron Alien is licensed under Adobe Stock Standard license.
+
+"Abstract digital fabric. Sci-fi background. Holographic foil. Illustration" by Cg loser is licensed under Adobe Stock Standard license.
+
+"Natural environment, textured stone with bright yellow moss and lichen, close up background in nature." by yrabota is licensed under Adobe Stock Standard license.
+
+"Metal damaged plate military steam punk background 3d illustration" by Andrey Kuzmin  is licensed under Adobe Stock Standard license.
+
+"Red leather capitone background texture" by breakingthewalls is licensed under Adobe Stock Standard license.
+
+"UI HUD screen tech system innovation concept background template. vector illustration" by Panuwat is licensed under Adobe Stock Standard license.
+
+"Textured hazard background" by emjoynz is licensed under Adobe Stock Standard license.
+
+
+Font:
+
+Dalton Maag (2010). Ubuntu font family (Type font). Ubuntu. https://fonts.google.com/specimen/Ubuntu#about
+
+
+Music: 
+
+Xenon Sentry by Shane Ivers - https://www.silvermansound.com
+
+
+Unity Asset Store:
+
+Sci-Fi Gun Sounds (2021). Cafofo. Licensed under Unity Asset Store Single Entity license agreement.
+
+Sci-fi Weapons Arsenal (2021). Chiako3D[a.k.a CGi]. Licensed under Unity Asset Store Single Entity license agreement.
+
+Gun & Explosion Sounds (2021). Cafofo. Licensed under Unity Asset Store Single Entity license agreement.
+
+
+
+
+
+
+
+
+
+
+
