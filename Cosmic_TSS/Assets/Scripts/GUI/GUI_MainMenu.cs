@@ -9,10 +9,9 @@ public class GUI_MainMenu : MonoBehaviour
     public GameObject MainMenu;
 
     public GameObject creditsMenu;
-    public List<GameObject> creditsPages;
-
     public GameObject controlsMenu;
     public List<GameObject> controlsPages;
+    public GameObject settingsMenu;
 
     // Object organizing
     public List<GameObject> HideAtStart;
@@ -24,17 +23,18 @@ public class GUI_MainMenu : MonoBehaviour
     }
 
     // Method to open and close pages of the credits menu
-    public void OpenCredits(int page)
+    public void OpenCredits()
     {
         ShowMain(false);
         creditsMenu.SetActive(true);
 
+        /*
         foreach(GameObject i in creditsPages)
         {
             i.SetActive(false);
         }
 
-        creditsPages[page].SetActive(true);
+        creditsPages[page].SetActive(true); */
     }
 
     // Method to open and close pages of the controls menu
@@ -49,6 +49,12 @@ public class GUI_MainMenu : MonoBehaviour
         }
 
         controlsPages[page].SetActive(true);
+    }
+
+    public void OpenSettings(bool open)
+    {
+        ShowMain(false);
+        settingsMenu.SetActive(open);
     }
 
     // Method to show or hide the main menu
