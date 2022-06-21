@@ -6,6 +6,10 @@ using UnityEngine;
 
 public class GM_Audio : MonoBehaviour
 {
+    public static float masterFloat = 1;
+    public static float SFXFloat = 1;
+    public static float musicFloat = 1;
+
     private AudioSource source => GetComponent<AudioSource>();
 
     public void PlaySound(AudioClip clip)

@@ -11,15 +11,19 @@ public class GUI_Menus : MonoBehaviour
     public GameObject Menu_Death;
     public GameObject Screen_Controls;
     public GameObject Menu_Intro;
+    public GameObject Menu_Settings;
+
+    public List<GameObject> HideAtStart;
 
     // Start is called before the first frame update
     void Start()
     {
-        Menu_Pause.SetActive(false);
-        Menu_Win.SetActive(false);
-        Menu_Death.SetActive(false);
-        Screen_Controls.SetActive(false);
         Menu_Intro.SetActive(true);
+
+        foreach(GameObject i in HideAtStart)
+        {
+            i.SetActive(false);
+        }
 
         HideHUD(false);
     }
@@ -78,6 +82,11 @@ public class GUI_Menus : MonoBehaviour
     public void OpenControls(bool active)
     {
         Screen_Controls.SetActive(active);
+    }
+
+    public void OpenSettings(bool active)
+    {
+        Menu_Settings.SetActive(active);
     }
 
     public void CloseIntro()
