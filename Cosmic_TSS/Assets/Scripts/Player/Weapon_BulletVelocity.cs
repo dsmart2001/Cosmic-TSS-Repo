@@ -8,6 +8,7 @@ public class Weapon_BulletVelocity : MonoBehaviour
 {
     Rigidbody RB => GetComponent<Rigidbody>();
 
+    // Bullet characteristics
     public float bulletVelocity = 10f;
     public float damage = 50f;
     public float despawnDropoff = 20f;

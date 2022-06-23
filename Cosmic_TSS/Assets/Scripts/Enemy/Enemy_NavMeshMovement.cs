@@ -10,7 +10,7 @@ using UnityEngine.AI;
 public class Enemy_NavMeshMovement : MonoBehaviour
 {
     // Get Components
-    private NavMeshAgent agent => GetComponent<NavMeshAgent>();
+    public NavMeshAgent agent => GetComponent<NavMeshAgent>();
     private Enemy_Attack Attack => GetComponent<Enemy_Attack>();
     private Rigidbody rigidBody => GetComponent<Rigidbody>();
 
@@ -57,9 +57,10 @@ public class Enemy_NavMeshMovement : MonoBehaviour
             agent.speed = speedUpSpeed;
         }
         // If attacking
-        else if (paused && Time.time! >= pauseTimer)
+        else if (paused && Time.time >= pauseTimer)
         {
-            agent.speed = 1f;
+            agent.speed = setSpeed;
+            paused = false;
         }
         // Reset to standard speed
         else
@@ -71,6 +72,7 @@ public class Enemy_NavMeshMovement : MonoBehaviour
         if (stunned && Time.time >= stunTimer)
         {
             rigidBody.velocity = Vector3.zero;
+            stunned = false;
         }
     }
 
@@ -92,6 +94,8 @@ public class Enemy_NavMeshMovement : MonoBehaviour
     // Call from attack script to pause movement before attacking
     public void PauseMovement(float pauseTime)
     {
+        paused = true;
+        agent.speed = 1f;
         pauseTimer = Time.time + pauseTime;
     }
 }

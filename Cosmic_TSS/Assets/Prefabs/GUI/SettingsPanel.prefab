@@ -2181,7 +2181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Low
+  m_text: High
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8d9562a40088fd34fb70f7ad15fa50e4, type: 2}
   m_sharedMaterial: {fileID: 7800290917310119995, guid: 8d9562a40088fd34fb70f7ad15fa50e4,
@@ -2643,14 +2643,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dae95ac14ce1f845a19a93553d82fb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AudioMasterSlider: {fileID: 822210935719962331}
-  AudioMusicSlider: {fileID: 3417185865686537440}
-  AudioSFXSlider: {fileID: 1127600905710874626}
-  AudioMusicMixer: {fileID: 24100000, guid: 8f299eea733107a41ac503fa232025ae, type: 2}
-  AudioSFXMixer: {fileID: 24100000, guid: 9b84bf801287cdd46a40ae17230863c4, type: 2}
-  DisplayDropdown: {fileID: 0}
-  GraphicsDropdown: {fileID: 0}
-  FullscreenToggle: {fileID: 0}
+  audioMasterSlider: {fileID: 822210935719962331}
+  audioMusicSlider: {fileID: 3417185865686537440}
+  audioSFXSlider: {fileID: 1127600905710874626}
+  audioMusicMixer: {fileID: 24100000, guid: 8f299eea733107a41ac503fa232025ae, type: 2}
+  audioSFXMixer: {fileID: 24100000, guid: 9b84bf801287cdd46a40ae17230863c4, type: 2}
+  displayDropdown: {fileID: 1127600906786320951}
+  graphicsDropdown: {fileID: 1127600906751608332}
+  fullscreenToggle: {fileID: 9044681230519013118}
 --- !u!1 &1127600906318560134
 GameObject:
   m_ObjectHideFlags: 0
@@ -3644,7 +3644,7 @@ MonoBehaviour:
   m_Placeholder: {fileID: 0}
   m_ItemText: {fileID: 1127600905097261793}
   m_ItemImage: {fileID: 0}
-  m_Value: 0
+  m_Value: 2
   m_Options:
     m_Options:
     - m_Text: Low
@@ -3655,7 +3655,19 @@ MonoBehaviour:
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6019520837670769232}
+        m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
+        m_MethodName: GraphicsSetting
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_AlphaFadeSpeed: 0.15
 --- !u!1 &1127600906786320945
 GameObject:
@@ -3783,7 +3795,7 @@ MonoBehaviour:
   m_Placeholder: {fileID: 0}
   m_ItemText: {fileID: 1127600905520481831}
   m_ItemImage: {fileID: 0}
-  m_Value: 0
+  m_Value: 3
   m_Options:
     m_Options:
     - m_Text: 480 x 320
@@ -3802,7 +3814,7 @@ MonoBehaviour:
       - m_Target: {fileID: 6019520837670769232}
         m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
         m_MethodName: DisplaySize
-        m_Mode: 1
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3952,7 +3964,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 480 x 320
+  m_text: 1920 x 1080
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8d9562a40088fd34fb70f7ad15fa50e4, type: 2}
   m_sharedMaterial: {fileID: 7800290917310119995, guid: 8d9562a40088fd34fb70f7ad15fa50e4,

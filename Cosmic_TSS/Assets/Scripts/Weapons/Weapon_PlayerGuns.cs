@@ -5,6 +5,7 @@ using TMPro;
 
 public class Weapon_PlayerGuns : MonoBehaviour
 {
+    // Weapon characteristics
     public string gunName;
     public GameObject projectile;
     public int ammoLimit = 5;
@@ -14,6 +15,7 @@ public class Weapon_PlayerGuns : MonoBehaviour
     private float timer_fireRate;
     private bool canFire = true;
 
+    // Audio variables
     private AudioSource audioSource => GetComponent<AudioSource>();
     public AudioClip SFX_gunshot;
     public AudioClip SFX_empty;

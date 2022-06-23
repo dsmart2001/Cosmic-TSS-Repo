@@ -184,6 +184,8 @@ MonoBehaviour:
   health: 100
   bodyDamage: 10
   dropObject: {fileID: 0}
+  deathRotateSpeed: 4
+  deathSizeSpeed: 3
 --- !u!114 &3910927242902018184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,8 +311,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f46c47c630fa868428a54c0aee4f0a7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFX_voice:
-  - {fileID: 8300000, guid: ac35093658bf0164fba605801569db83, type: 3}
-  - {fileID: 8300000, guid: 10165f1b9e1be654496f2947a1ca823d, type: 3}
+  SFX_growls: []
   SFX_attack: {fileID: 8300000, guid: ab70326e0059dde44aceb27faa957385, type: 3}
   SFX_death: {fileID: 8300000, guid: d4cc166d9e088254e9285b5dc6d24181, type: 3}
