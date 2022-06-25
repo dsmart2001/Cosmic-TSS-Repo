@@ -23,12 +23,12 @@ public class Interactable_Ammo : MonoBehaviour
 
         if (tag == "Player")
         {
-            active = false;
-            StartCoroutine(PickupAmmo());
+            //active = false;
+            //StartCoroutine(PickupAmmo());
         }
     }
 
-    IEnumerator PickupAmmo()
+    public IEnumerator PickupAmmo()
     {
         pickupAudio.Play();
         mesh.enabled = false;

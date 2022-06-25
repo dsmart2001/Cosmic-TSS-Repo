@@ -20,11 +20,13 @@ public class GM_WaveSystem : MonoBehaviour
 
     [Space]
     [Header("Wave condition variables")]
-    public int EndWave = 2;
-    public int RushWave = 6;
+    public int EndWave;
+    public int RushWave;
     private int RushWaveCounter;
-    public int ObjectiveWave = 3;
+    public int ObjectiveWave;
     private int ObjectiveWaveCounter;
+    public int depreciateWave = 10;
+    private int depreciateWaveCounter;
 
     [Space]
     [Header("Wave values and variables")]
@@ -41,6 +43,7 @@ public class GM_WaveSystem : MonoBehaviour
     public float spawnWaitTimer = 1f;
     public float spawnObjectiveWaitTimer = 5f;
     public int spawnObjectiveMax = 20;
+    private int spawnObjectiveAdd = 3;
 
     [Space]
     [Header("Spawnable Objects Prefabs")]
@@ -72,6 +75,7 @@ public class GM_WaveSystem : MonoBehaviour
 
         RushWaveCounter = RushWave;
         ObjectiveWaveCounter = ObjectiveWave;
+        depreciateWaveCounter = depreciateWave;
 
         _EnemyObjects = EnemyObjects;
 
@@ -137,17 +141,46 @@ public class GM_WaveSystem : MonoBehaviour
             ObjectiveWaveCounter += ObjectiveWave;
         }
 
+        // Initiate rush wave
+        if(waveNumber == RushWaveCounter && waveNumber != EndWave)
+        {
+            RushWaveCounter += RushWave;
+
+        }
+        else if ((waveNumber == RushWaveCounter && waveNumber == EndWave))
+        {
+            RushWaveCounter += RushWave;
+        }
+
         // Update total number of enemies in round
         waveEnemyCounter = 0;
 
-        foreach (GM_WaveSystem_Enemy enemy in EnemyObjects)
-        {
-            if (waveNumber >= enemy.IntroWave)
+        /*
+        if(waveNumber != RushWave)
+        { */
+            foreach (GM_WaveSystem_Enemy enemy in EnemyObjects)
             {
-                waveEnemyCounter += enemy.CurrentQuantity + (enemy.AddQuanitity * waveNumber);
-                
+                if (waveNumber >= enemy.IntroWave)
+                {
+                    waveEnemyCounter += enemy.CurrentQuantity + (enemy.AddQuanitity * waveNumber);
+                }
+            }
+        //}
+        /*
+        else
+        {
+            // If rush wave, update enemy counter accordingly
+            int random = Random.Range(0, EnemyObjects.Length);
+
+            foreach (GM_WaveSystem_Enemy enemy in EnemyObjects)
+            {
+                if (waveNumber >= enemy.IntroWave)
+                {
+                    waveEnemyCounter += enemy.CurrentQuantity + (enemy.AddQuanitity * waveNumber);
+                }
             }
         }
+        */
 
         int counter = 0;
 
@@ -255,8 +288,38 @@ public class GM_WaveSystem : MonoBehaviour
                 }
                 break;
         }
-        // Update expected enemy types counter for next wave
-        enemyPrefab.CurrentQuantity += enemyPrefab.AddQuanitity;
+
+
+        // Depreciate enemy add quanitites so that population growth slows down
+        if(waveNumber == depreciateWaveCounter)
+        {
+            /*
+            foreach (GM_WaveSystem_Enemy enemy in EnemyObjects)
+            {
+                if (waveNumber >= enemy.IntroWave && enemy.AddQuanitity > 1)
+                {
+                    enemy.AddQuanitity -= 1;
+                    Debug.Log("Wave System: Depreciated enemy (" + enemy.name + ") add quantity to " + enemy.AddQuanitity);
+                }
+            } */
+                
+            depreciateWaveCounter += depreciateWave;
+            Debug.Log("Wave System: Didn't increase add quantity to " + enemyPrefab.name + " during this wave.");
+        }
+        else
+        {
+            // Update expected enemy types counter for next wave
+            enemyPrefab.CurrentQuantity += enemyPrefab.AddQuanitity;
+            Debug.Log("Wave System: Increased add quantity to " + enemyPrefab.name + " during this wave.");
+
+        }
+
+        // Update max enemy limit for objective modes
+        if (GM_Objectives.objectiveWave)
+        {
+            spawnObjectiveMax += spawnObjectiveAdd;
+            Debug.Log("Wave System: increased max enemy count for objective waves to " + spawnObjectiveMax);
+        }
     }
 
     // Method to remove empty slots in enemy list

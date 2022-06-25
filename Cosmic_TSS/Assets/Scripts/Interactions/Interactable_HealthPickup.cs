@@ -14,12 +14,16 @@ public class Interactable_HealthPickup : MonoBehaviour
     {
         string tag = c.gameObject.tag;
 
-        if(tag == "Player" && Player_Stats.health < 250)
+        if(tag == "Player" && Player_Stats.health < c.gameObject.GetComponent<Player_Stats>().maxHealth)
         {
             Player_Stats.health += addHealth;
             active = false;
-            StartCoroutine(PickupHealth());
 
+            if(Player_Stats.health > c.gameObject.GetComponent<Player_Stats>().maxHealth) 
+            {
+                Player_Stats.health = c.gameObject.GetComponent<Player_Stats>().maxHealth;
+            }
+            StartCoroutine(PickupHealth());
         }
     }
 
