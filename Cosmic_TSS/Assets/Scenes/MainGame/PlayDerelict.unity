@@ -16275,7 +16275,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 501858908}
-  m_LocalRotation: {x: -0, y: -1.7763568e-15, z: 2.6645353e-15, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -30399,7 +30399,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.49200818, y: 0.000000021184515, z: -0.000000011972281, w: 0.87059057}
+  m_LocalRotation: {x: 0.49200818, y: 0.000000021184517, z: -0.000000011972283, w: 0.87059057}
   m_LocalPosition: {x: 44.72, y: 18.082, z: -30.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -41331,8 +41331,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290022552}
-  m_LocalRotation: {x: 0.005388588, y: -0.000000012440069, z: 0.00000002091325, w: 0.9999855}
-  m_LocalPosition: {x: -0.0000000146000625, y: 0.009391367, z: 0.56596017}
+  m_LocalRotation: {x: 0.005388588, y: -0.000000012440068, z: 0.000000020913253, w: 0.9999855}
+  m_LocalPosition: {x: -0.000000014600063, y: 0.009391367, z: 0.56596017}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 605451001}
@@ -43683,8 +43683,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1358401195}
-  m_LocalRotation: {x: 0.005388588, y: -0.000000012440068, z: 0.000000020913253, w: 0.9999855}
-  m_LocalPosition: {x: -0.000000014600063, y: 0.009391367, z: 0.56596017}
+  m_LocalRotation: {x: 0.005388588, y: -0.000000012440069, z: 0.00000002091325, w: 0.9999855}
+  m_LocalPosition: {x: -0.0000000146000625, y: 0.009391367, z: 0.56596017}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 846343676}
@@ -68773,6 +68773,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_MatchWidthOrHeight
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143805907395204593, guid: dadfdd9880cd3974188a0df3e52ac83f,
+        type: 3}
+      propertyPath: IntroWave
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143805908525296755, guid: dadfdd9880cd3974188a0df3e52ac83f,
+        type: 3}
+      propertyPath: IntroWave
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8143805908543147899, guid: dadfdd9880cd3974188a0df3e52ac83f,
         type: 3}
