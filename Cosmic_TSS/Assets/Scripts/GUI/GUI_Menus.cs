@@ -12,6 +12,7 @@ public class GUI_Menus : MonoBehaviour
     public GameObject Screen_Controls;
     public GameObject Menu_Intro;
     public GameObject Menu_Settings;
+    public GameObject Menu_Upgrades;
 
     public List<GameObject> HideAtStart;
 
@@ -87,6 +88,11 @@ public class GUI_Menus : MonoBehaviour
     public void OpenSettings(bool active)
     {
         Menu_Settings.SetActive(active);
+    }
+
+    public void DisplayUpgrades(bool active)
+    {
+        Menu_Upgrades.SetActive(active);
     }
 
     public void CloseIntro()

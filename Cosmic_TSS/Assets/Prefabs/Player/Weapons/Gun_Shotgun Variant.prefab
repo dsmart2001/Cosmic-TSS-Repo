@@ -17,7 +17,10 @@ MonoBehaviour:
     type: 3}
   ammoLimit: 8
   ammo: 0
+  accurracyReduction: 0
   fireRate: 0.75
+  SFX_gunshot: {fileID: 8300000, guid: 5cdad0819a4d43b438e209658c5a36d9, type: 3}
+  SFX_empty: {fileID: 8300000, guid: 4640833d0e6e5044bb566ab6f322237f, type: 3}
 --- !u!1001 &1540150362969902667
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -115,6 +118,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 76f4e75267c78f24e94d1d4567e1184b, type: 2}
+    - target: {fileID: 1385074012056837150, guid: fa5ae404d02d59a4997129c6edfd043c,
+        type: 3}
+      propertyPath: Priority
+      value: 129
+      objectReference: {fileID: 0}
     - target: {fileID: 1385074012056837150, guid: fa5ae404d02d59a4997129c6edfd043c,
         type: 3}
       propertyPath: m_audioClip

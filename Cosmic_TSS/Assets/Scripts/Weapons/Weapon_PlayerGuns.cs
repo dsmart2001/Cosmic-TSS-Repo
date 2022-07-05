@@ -10,10 +10,14 @@ public class Weapon_PlayerGuns : MonoBehaviour
     public GameObject projectile;
     public int ammoLimit = 5;
     public int ammo;
+    public float accurracyReduction = 1;
 
     public float fireRate;
     private float timer_fireRate;
     private bool canFire = true;
+
+    private Player_Stats playerParent;
+    private Transform playerTransform;
 
     // Audio variables
     private AudioSource audioSource => GetComponent<AudioSource>();
@@ -26,6 +30,9 @@ public class Weapon_PlayerGuns : MonoBehaviour
         timer_fireRate = fireRate;
         ammo = ammoLimit;
         audioSource.clip = SFX_gunshot;
+
+        playerParent = FindObjectOfType<Player_Stats>();
+        playerTransform = playerParent.GetComponent<Transform>();
     }
 
     // Update is called once per frame
@@ -42,7 +49,9 @@ public class Weapon_PlayerGuns : MonoBehaviour
     {
         if(canFire)
         {
-            Instantiate(projectile, transform.position, transform.rotation);
+            Quaternion randomAccurracy = new Quaternion(transform.rotation.x, Random.Range(playerTransform.rotation.y - accurracyReduction, playerTransform.rotation.y + accurracyReduction), transform.rotation.z, transform.rotation.w);
+
+            Instantiate(projectile, transform.position, randomAccurracy);
             canFire = false;
             timer_fireRate = Time.time + fireRate;
             ammo--;

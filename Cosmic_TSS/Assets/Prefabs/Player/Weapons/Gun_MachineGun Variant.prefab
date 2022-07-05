@@ -17,7 +17,10 @@ MonoBehaviour:
     type: 3}
   ammoLimit: 50
   ammo: 50
+  accurracyReduction: 0.08
   fireRate: 0.1
+  SFX_gunshot: {fileID: 8300000, guid: 38ff1d6279221014b83a3ad484df06c7, type: 3}
+  SFX_empty: {fileID: 8300000, guid: 4640833d0e6e5044bb566ab6f322237f, type: 3}
 --- !u!1001 &3782020258052127764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -184,6 +187,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pitch
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385074012056837150, guid: fa5ae404d02d59a4997129c6edfd043c,
+        type: 3}
+      propertyPath: Priority
+      value: 129
       objectReference: {fileID: 0}
     - target: {fileID: 1385074012056837150, guid: fa5ae404d02d59a4997129c6edfd043c,
         type: 3}
