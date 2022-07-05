@@ -27,6 +27,8 @@ public class GM_WaveSystem : MonoBehaviour
     private int ObjectiveWaveCounter;
     public int depreciateWave = 10;
     private int depreciateWaveCounter;
+    public int powerUpWave = 5;
+    private int powerUpWaveCounter;
 
     [Space]
     [Header("Wave values and variables")]
@@ -76,6 +78,7 @@ public class GM_WaveSystem : MonoBehaviour
         RushWaveCounter = RushWave;
         ObjectiveWaveCounter = ObjectiveWave;
         depreciateWaveCounter = depreciateWave;
+        powerUpWaveCounter = powerUpWave;
 
         _EnemyObjects = EnemyObjects;
 
