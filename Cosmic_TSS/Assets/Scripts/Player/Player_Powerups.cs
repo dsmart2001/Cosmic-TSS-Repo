@@ -13,6 +13,7 @@ public class Player_Powerups : MonoBehaviour
     {
         stats = FindObjectOfType<Player_Stats>();
         movement = FindObjectOfType<Player_Controls>();
+        weapons = movement.weapons;
     }
 
     // UPGRADE: Boost total ammo capacity of weapons

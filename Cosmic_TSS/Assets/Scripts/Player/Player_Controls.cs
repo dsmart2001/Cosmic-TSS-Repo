@@ -28,7 +28,7 @@ public class Player_Controls : MonoBehaviour
     // Player Weapons
     [Header("Player Weapons")]
 
-    public Weapon_PlayerGuns[] weapons;
+    public List<Weapon_PlayerGuns> weapons;
     public static Weapon_PlayerGuns equippedWeapon;
     public TMP_Text ammoUI;
     private int weaponNum = 0;
@@ -138,7 +138,7 @@ public class Player_Controls : MonoBehaviour
         switch(direction)
         {
             case true:
-                if (weaponNum != weapons.Length - 1)
+                if (weaponNum != weapons.Count - 1)
                 {
                     equippedWeapon.gameObject.SetActive(false);
                     weaponNum++;
@@ -164,7 +164,7 @@ public class Player_Controls : MonoBehaviour
                 else
                 {
                     equippedWeapon.gameObject.SetActive(false);
-                    weaponNum = weapons.Length - 1;
+                    weaponNum = weapons.Count - 1;
                     equippedWeapon = weapons[weaponNum];
                     equippedWeapon.gameObject.SetActive(true);
                 }
