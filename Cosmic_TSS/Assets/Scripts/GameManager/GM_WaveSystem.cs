@@ -57,7 +57,7 @@ public class GM_WaveSystem : MonoBehaviour
     private static int newDebugWave;
 
     [Space]
-    [Header("Spawnable Objects Prefabs")]
+    [Header("Wave type Audio")]
 
     public AudioClip SFX_newWave;
     public AudioClip SFX_objectiveWave;
@@ -229,6 +229,25 @@ public class GM_WaveSystem : MonoBehaviour
         {
             gm_audio.PlaySound(SFX_newWave);
         }
+
+        // Depreciate enemy add quanitites so that population growth slows down
+        if (waveNumber == depreciateWaveCounter)
+        {
+            foreach (GM_WaveSystem_Enemy enemy in EnemyObjects)
+            {
+                if (waveNumber >= enemy.IntroWave && enemy.AddQuanitity > 1)
+                {
+                    enemy.AddQuanitity -= 1;
+                    Debug.Log("Wave System: Depreciated enemy (" + enemy.name + ") add quantity to " + enemy.AddQuanitity);
+                }
+                else
+                {
+                    Debug.Log("Wave System: Didn't increase add quantity to " + enemy.name + " during this wave.");
+                }
+            }
+
+            depreciateWaveCounter += depreciateWave;
+        }
     }
 
     // Check if enemies still present
@@ -292,31 +311,13 @@ public class GM_WaveSystem : MonoBehaviour
                 break;
         }
 
-
-        // Depreciate enemy add quanitites so that population growth slows down
-        if(waveNumber == depreciateWaveCounter)
+        // Update expected enemy types counter for next wave
+        if(waveNumber != depreciateWave)
         {
-            /*
-            foreach (GM_WaveSystem_Enemy enemy in EnemyObjects)
-            {
-                if (waveNumber >= enemy.IntroWave && enemy.AddQuanitity > 1)
-                {
-                    enemy.AddQuanitity -= 1;
-                    Debug.Log("Wave System: Depreciated enemy (" + enemy.name + ") add quantity to " + enemy.AddQuanitity);
-                }
-            } */
-                
-            depreciateWaveCounter += depreciateWave;
-            Debug.Log("Wave System: Didn't increase add quantity to " + enemyPrefab.name + " during this wave.");
-        }
-        else
-        {
-            // Update expected enemy types counter for next wave
             enemyPrefab.CurrentQuantity += enemyPrefab.AddQuanitity;
             Debug.Log("Wave System: Increased add quantity to " + enemyPrefab.name + " during this wave.");
-
         }
-
+       
         // Update max enemy limit for objective modes
         if (GM_Objectives.objectiveWave)
         {

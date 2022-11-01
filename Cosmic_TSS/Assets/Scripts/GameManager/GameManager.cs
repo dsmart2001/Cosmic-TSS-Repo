@@ -10,6 +10,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GUI_Menus menus => FindObjectOfType<GUI_Menus>();
+    private GM_WaveSystem waveSystem => GetComponent <GM_WaveSystem>();
 
     public Camera playerCamera;
     public static Camera _playerCamera;
@@ -36,16 +37,26 @@ public class GameManager : MonoBehaviour
             debugMode = true;
         }
 
-        if(Input.GetKeyDown(KeyCode.Return) && debugMode)
+        if(debugMode)
         {
-            GM_WaveSystem.RestartGame(true, 10);
+            if(Input.GetKeyDown(KeyCode.Alpha5))
+            {
+                GM_WaveSystem.RestartGame(true, waveSystem.depreciateWave);
+            }
+
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                GM_WaveSystem.RestartGame(true, waveSystem.RushWave);
+            }
+
+            if (Input.GetKeyDown(KeyCode.Backspace))
+            {
+                GM_WaveSystem.RestartGame(true, waveSystem.EndWave);
+            }
+
         }
 
-        if (Input.GetKeyDown(KeyCode.Backspace) && debugMode)
-        {
-            GM_WaveSystem.RestartGame(true, 15);
 
-        }
     }
 
     public void WinGame(bool won)
